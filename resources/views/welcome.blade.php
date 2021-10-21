@@ -3,7 +3,7 @@
 
 <!-- Mirrored from pixel-industry.com/html/trucking/index03.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Oct 2021 15:01:06 GMT -->
 <head>
-        <title>Trucking - Transportation and Logistics Website Template Home 03</title>
+        <title>{{config('app.name')}}</title>
         <meta name="description" content="Trucking is transportation and Logistics website template">
         <meta name="author" content="pixel-industry">
         <meta name="keywords" content="transportation, logistics, transportation template, logistics template, cargo, business">
@@ -49,7 +49,7 @@
                                     <div class="navbar-header">
                                         <div class="logo">
                                             <a href="{{url('/')}}/index.html">
-                                                <img src="{{url('/')}}/img/logo.png" alt="Trucking Transportation and Logistics HTML Template"/>
+                                                <img style="height: 50px" src="{{url('/')}}/img/LOGO RAMIZ.png" alt="Trucking Transportation and Logistics HTML Template"/>
                                             </a>
                                         </div><!-- .logo end -->
                                     </div><!-- .navbar-header start -->
@@ -74,98 +74,13 @@
 
                                             <ul class="dl-menu">
                                                 <li>
-                                                    <a href="{{url('/')}}/index.html">Home</a>
-                                                    <ul class="dl-submenu">
-                                                        <li><a href="{{url('/')}}/index.html">Home default</a></li>
-                                                        <li><a href="{{url('/')}}/index02.html">Trucking services overview</a></li>
-                                                        <li><a href="{{url('/')}}/index03.html">Trucking video slider</a></li>
-                                                        <li><a href="{{url('/')}}/index04.html">Trucking home simple</a></li>
-                                                        <li><a href="{{url('/')}}/index05.html">Trucking services slider</a></li>
-                                                        <li><a href="{{url('/')}}/index06.html">Trucking parallax slider</a></li>
-                                                        <li><a href="{{url('/')}}/index07.html">Trucking Vehicle Fleet</a></li>
-                                                        <li><a href="{{url('/')}}/index08.html">Trucking corporate</a></li>
-                                                        <li><a href="{{url('/')}}/index09.html">Trucking simple slider</a></li>
-                                                        <li><a href="{{url('/')}}/index10.html">Fullscreen minimal</a></li>
-                                                    </ul><!-- dl-submenu end -->
+                                                    <a href="{{url('/')}}">Home</a>
                                                 </li>
+                                                <li><a href="{{url('/')}}//">About</a></li>
+                                                <li><a href="{{url('/')}}//">Services</a></li>
+                                                <li><a href="{{url('/')}}//">Media</a></li>
+                                                <li><a href="{{url('/')}}//">Contacts</a></li>
 
-                                                <li>
-                                                    <a href="{{url('/')}}/#">About</a>
-                                                    <ul class="dl-submenu">
-                                                        <li>
-                                                            <a href="{{url('/')}}/#">Header types</a>
-                                                            <ul class="dl-submenu">
-                                                                <li><a href="{{url('/')}}/index.html">Header default</a></li>
-                                                                <li><a href="{{url('/')}}/header-default-top-bar.html">Header default top bar</a></li>
-                                                                <li><a href="{{url('/')}}/index08.html">Header simple light bar</a></li>
-                                                                <li><a href="{{url('/')}}/header-simple-dark-bar.html">Header simple dark bar</a></li>
-                                                                <li><a href="{{url('/')}}/header-simple-dark.html">Header simple dark</a></li>
-                                                                <li><a href="{{url('/')}}/header-menu-bottom.html">Header menu bottom light</a></li>
-                                                                <li><a href="{{url('/')}}/header-menu-bottom-dark.html">Header menu bottom dark</a></li>
-                                                            </ul><!-- .dl-submenu end -->
-                                                        </li>
-                                                        <li><a href="{{url('/')}}/about01.html">About simple</a></li>
-                                                        <li><a href="{{url('/')}}/about02.html">About compact</a></li>
-                                                        <li><a href="{{url('/')}}/about03.html">About with sidebar</a></li>
-                                                        <li><a href="{{url('/')}}/simple-page-title.html">Simple page title</a></li>
-                                                        <li><a href="{{url('/')}}/company-history.html">Company history</a></li>
-                                                        <li><a href="{{url('/')}}/events.html">Company Events</a></li>
-                                                        <li><a href="{{url('/')}}/clients.html">Company Clients</a></li>
-                                                        <li><a href="{{url('/')}}/careers.html">Careers</a></li>
-                                                        <li><a href="{{url('/')}}/driver-application.html">Online driver application</a></li>
-                                                    </ul><!-- dl-submenu end -->
-                                                </li>
-
-                                                <li>
-                                                    <a href="{{url('/')}}/#">Services</a>
-                                                    <ul class="dl-submenu">
-                                                        <li><a href="{{url('/')}}/services01.html">Services overview</a></li>
-                                                        <li>
-                                                            <a href="{{url('/')}}/#">Logistics</a>
-                                                            <ul class="dl-submenu">
-                                                                <li><a href="{{url('/')}}/services02.html">Logistics</a></li>
-                                                                <li><a href="{{url('/')}}/overland-transportation.html">Overland transportation</a></li>
-                                                                <li><a href="{{url('/')}}/air-freight.html">Air freight</a></li>
-                                                                <li><a href="{{url('/')}}/ocean-freight.html">Ocean freight</a></li>
-                                                                <li><a href="{{url('/')}}/large-projects.html">Large projects</a></li>
-                                                                <li><a href="{{url('/')}}/rail-transportation.html">Rail international shipping</a></li>
-                                                                <li><a href="{{url('/')}}/contract-logistics.html">Contract logistics</a></li>
-                                                            </ul><!-- .dl-submenu end -->
-                                                        </li>
-                                                        <li><a href="{{url('/')}}/warehousing.html">Warehousing</a></li>
-                                                        <li><a href="{{url('/')}}/supply-chain-management.html">Supply chain management</a></li>
-                                                        <li><a href="{{url('/')}}/packaging-options.html">Packaging options</a></li>
-                                                        <li><a href="{{url('/')}}/consulting-services.html">Consulting services</a></li>
-                                                    </ul><!-- dl-submenu end -->
-                                                </li>
-
-                                                <li>
-                                                    <a href="{{url('/')}}/#">News</a>
-                                                    <ul class="dl-submenu">
-                                                        <li><a href="{{url('/')}}/news-list.html">News list</a></li>
-                                                        <li><a href="{{url('/')}}/news-masonry.html">News masonry</a></li>
-                                                        <li><a href="{{url('/')}}/news-standard.html">News standard</a></li>
-                                                        <li><a href="{{url('/')}}/news-single.html">News single</a></li>
-                                                    </ul><!-- .dl-submenu end -->
-                                                </li>
-
-                                                <li>
-                                                    <a href="{{url('/')}}/#">Gallery</a>
-                                                    <ul class="dl-submenu">
-                                                        <li><a href="{{url('/')}}/gallery01.html">Vehicle gallery full</a></li>
-                                                        <li><a href="{{url('/')}}/gallery02.html">Vehicle gallery grid</a></li>
-                                                    </ul><!-- .dl-submenu end -->
-                                                </li>
-
-                                                <li><a href="{{url('/')}}/locations.html">Locations</a></li>
-
-                                                <li>
-                                                    <a href="{{url('/')}}/#">Contact</a>
-                                                    <ul class="dl-submenu">
-                                                        <li><a href="{{url('/')}}/contact-simple.html">Contact simple</a></li>
-                                                        <li><a href="{{url('/')}}/contact-locations.html">Contact locations</a></li>
-                                                    </ul><!-- .dl-submenu end -->
-                                                </li>
                                             </ul><!-- .dl-menu end -->
                                         </div><!-- #dl-menu end -->
 
@@ -189,7 +104,7 @@
             <!-- first slide -->
             <div class="ms-slide">
                 <!-- slide background -->
-                <img src="{{url('/')}}/img/slidervideo-bg.html" data-src="{{url('/')}}/img/slider/video-bg.jpg" alt="Video slider"/>
+                <img src="{{url('/')}}/img/truck/truck (3).jpeg" data-src="{{url('/')}}/img/truck/truck (3).jpeg" alt="Video slider"/>
 
                 <video data-autopause="false" data-mute="false" data-loop="true" data-fill-mode="fill" class="ms-slide-bgvideo"
                        muted="muted" style="left: 0; top:0;">
@@ -206,11 +121,11 @@
                     data-hide-effect="fade"
                     data-delay="0"
                     >
-                    EYE CATCHING VIDEO SLIDER
+                    Welcome {{config('app.name')}}
                 </h2>
 
                 <img class="ms-layer" src="{{url('/')}}/masterslider/blank.gif"
-                     data-src="{{url('/')}}/img/slider/slider-line.jpg" alt=""
+                     data-src="{{url('/')}}/img/accordion-closed.png" alt=""
                      style="left: 540px; top: 480px;"
                      data-type="image"
                      data-effect="bottom(short)"
@@ -227,7 +142,7 @@
                    data-hide-effect="fade"
                    data-delay="500"
                    >
-                    Grab your user's attention
+                    Grab your truck
                 </p>
             </div><!-- .ms-slide end -->
 
@@ -235,7 +150,7 @@
             <div class="ms-slide">
                 <!-- slide background -->
                 <img src="{{url('/')}}/masterslider/blank.gif"
-                     data-src="{{url('/')}}/img/pic/slide03.jpg" alt="Worldwide freight services"/>
+                     data-src="{{url('/')}}/img/truck/truck (3).jpeg" alt="Worldwide freight services"/>
 
                 <h2 class="ms-layer pi-caption01"
                     style="left: 258px; top: 420px;"
@@ -248,7 +163,7 @@
                     Freight services
                 </h2>
 
-                <img class="ms-layer" src="{{url('/')}}/masterslider/blank.gif" data-src="{{url('/')}}/img/slider/slider-line.jpg" alt=""
+                <img class="ms-layer" src="{{url('/')}}/masterslider/blank.gif" data-src="{{url('/')}}/img/accordion-closed.png" alt=""
                      style="left: 540px; top: 480px;"
                      data-type="image"
                      data-effect="bottom(short)"
