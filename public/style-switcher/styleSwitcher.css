@@ -1,0 +1,231 @@
+/* 
+    Document   : styleSwitcher
+    Created on : 11.08.2012., 16:41:51
+    Author     : Pixel Industry
+    Description:
+        Stylesheet for StyleSwitcher
+*/
+
+#style-switcher{
+    position: fixed;
+    top: 30px;
+    background: #192026;
+    width: 250px;
+    left: -250px;
+    height: 658px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 9999;
+}
+
+#style-switcher #styles-container{
+    padding: 15px;
+}
+
+#style-switcher #styles-container section{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    position: relative;
+}
+
+#style-switcher h4{
+    font: 14px Arial, sans-serif;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+
+#style-switcher #styles-button{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    right: -50px;
+    background: #117dc2;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 2px 2px 2px #222;
+}
+
+#style-switcher #styles-button #switcher-logo{
+    background: url('img/logo.png') no-repeat center;
+    width: 50px;
+    height: 50px;
+}
+
+#style-switcher .styles-list{
+    overflow: hidden;
+}
+
+#style-switcher .styles-list li{
+    float: left;
+    width: 35px;
+    height: 35px;
+
+    text-indent: -9999px;
+    margin: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+#style-switcher .styles-list li:hover{
+    opacity: 0.9;
+}
+
+/*************************
+    CUSTOM THEME STYLES
+**************************/
+
+
+/*  STYLES   */
+
+#style-switcher .styles-list .color-default,
+#style-switcher .styles-list .color-blueaqua,
+#style-switcher .styles-list .color-bluegreen,
+#style-switcher .styles-list .color-blueorange,
+#style-switcher .styles-list .color-bluered{
+    background: #006db7;
+    position: relative;
+}
+
+#style-switcher .styles-list .color-blue{
+    background: #006db7;
+}
+
+#style-switcher .styles-list .color-aqua{
+    background: #27b9c6;
+}
+
+#style-switcher .styles-list .color-green{
+    background: #a0cc0e;
+}
+
+#style-switcher .styles-list .color-orange{
+    background: #fd9b00;
+}
+
+#style-switcher .styles-list .color-red{
+    background: #d6393a;
+}
+
+
+#style-switcher .styles-list .color-default::after{
+    width: 0;
+    height: 0;
+    border-bottom: 35px solid #fac312; 
+    border-left: 35px solid transparent; 
+    position: absolute;
+    display: block;
+    content: "";
+    right: 0;
+    top: 0;
+
+}
+
+#style-switcher .styles-list .color-blueaqua::after{
+    width: 0;
+    height: 0;
+    border-bottom: 35px solid #27b9c6; 
+    border-left: 35px solid transparent; 
+    position: absolute;
+    display: block;
+    content: "";
+    right: 0;
+    top: 0;
+
+}
+
+#style-switcher .styles-list .color-bluegreen::after{
+    width: 0;
+    height: 0;
+    border-bottom: 35px solid #a0cc0e; 
+    border-left: 35px solid transparent; 
+    position: absolute;
+    display: block;
+    content: "";
+    right: 0;
+    top: 0;
+
+}
+
+#style-switcher .styles-list .color-blueorange::after{
+    width: 0;
+    height: 0;
+    border-bottom: 35px solid #fd9b00; 
+    border-left: 35px solid transparent; 
+    position: absolute;
+    display: block;
+    content: "";
+    right: 0;
+    top: 0;
+
+}
+
+#style-switcher .styles-list .color-bluered::after{
+    width: 0;
+    height: 0;
+    border-bottom: 35px solid #d6393a; 
+    border-left: 35px solid transparent; 
+    position: absolute;
+    display: block;
+    content: "";
+    right: 0;
+    top: 0;
+
+}
+
+
+
+/*  HEADERS */
+.header-list li{
+    list-style: none;
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.header-list li a{
+    padding: 5px 18px;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ccc;
+}
+
+.header-list li a:hover{
+    color: #333;
+    background-color: #fff;
+}
+
+.header-list li.active a{
+    background-color: #fff;
+    color: #333;
+}
+
+.header-list li img{
+    display: none;
+    position: absolute;
+    right: -235px;
+    top: 35px;
+    border: 10px solid #192026;
+}
+
+.header-list li:hover img{
+    display: block;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+    #style-switcher{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    #style-switcher{
+        display: none;
+    }
+}
