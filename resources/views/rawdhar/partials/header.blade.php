@@ -28,9 +28,9 @@
                                             </li><!-- .dropdown end -->
 
                                             <li><a href="{{route('about')}}/">About</a></li>
-                                            <li><a href="{{url('/')}}//">Services</a></li>
-                                            <li><a href="{{url('/')}}//">Media</a></li>
-                                            <li><a href="{{url('/')}}//">Contacts</a></li>
+                                            <li><a href="{{route('services')}}">Services</a></li>
+                                            <li><a href="{{route('media')}}">Media</a></li>>
+                                            <li><a href="{{route('contact')}}">Contacts</a></li>
 
                                         </ul><!-- .nav.navbar-nav end -->
 
@@ -42,10 +42,10 @@
                                                 <li>
                                                     <a href="{{url('/')}}">Home</a>
                                                 </li>
-                                                <li><a href="{{url('/')}}//">About</a></li>
-                                                <li><a href="{{url('/')}}//">Services</a></li>
-                                                <li><a href="{{url('/')}}//">Media</a></li>
-                                                <li><a href="{{url('/')}}//">Contacts</a></li>
+                                                <li><a href="{{route('about')}}/">About</a></li>
+                                                <li><a href="{{route('services')}}">Services</a></li>
+                                                <li><a href="{{route('media')}}">Media</a></li>
+                                                <li><a href="{{route('contact')}}//">Contacts</a></li>
 
                                             </ul><!-- .dl-menu end -->
                                         </div><!-- #dl-menu end -->

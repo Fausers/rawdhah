@@ -13,14 +13,13 @@
 
                         <div class="breadcrumb-container">
                             <ul class="breadcrumb clearfix">
-                                <li>You are here:</li>
 
                                 <li>
-                                    <a href="index.html">Home</a>
+                                    <a href="{{url('/')}}">Home</a>
                                 </li>
 
                                 <li>
-                                    <a href="about01.html">About us </a>
+                                    <a href="{{route('about')}}/">About us </a>
                                 </li>
                             </ul><!-- .breadcrumb end -->
                         </div><!-- .breadcrumb-container end -->
