@@ -12,10 +12,10 @@
                             <ul class="breadcrumb clearfix">
                                 <li>You are here:</li>
                                 <li>
-                                    <a href="#">Media</a>
+                                <a href="{{url('/')}}">Home</a>
                                 </li>
                                 <li>
-                                    <a href="#">Vehicle gallery full</a>
+                                <li><a href="{{route('media')}}">Media</a></li>
                                 </li>
                             </ul><!-- .breadcrumb end -->
                         </div><!-- .breadcrumb-container end -->

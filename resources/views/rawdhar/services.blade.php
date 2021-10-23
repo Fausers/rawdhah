@@ -12,10 +12,10 @@
                             <ul class="breadcrumb clearfix">
                                 <li>You are here:</li>
                                 <li>
-                                    <a href="index.html">Home</a>
+                                <a href="{{url('/')}}">Home</a>
                                 </li>
                                 <li>
-                                    <a href="#">Services Version 02</a>
+                                <a href="{{route('services')}}">Services</a>
                                 </li>
                             </ul><!-- .breadcrumb end -->
                         </div><!-- .breadcrumb-container end -->
@@ -280,5 +280,4 @@
         </script>
  
 
-<!-- Mirrored from pixel-industry.com/html/trucking/services02.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Oct 2021 15:02:04 GMT -->
 @endsection
