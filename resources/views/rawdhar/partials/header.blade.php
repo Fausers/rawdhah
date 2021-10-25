@@ -14,7 +14,7 @@
                                     <!-- .navbar-header start -->
                                     <div class="navbar-header">
                                         <div class="logo">
-                                            <a href="{{url('/')}}/index.html">
+                                            <a href="{{url('/')}}//">
                                                 <img style="height: 50px" src="{{url('/')}}/img/LOGO RAMIZ.png" alt="Trucking Transportation and Logistics HTML Template"/>
                                             </a>
                                         </div><!-- .logo end -->

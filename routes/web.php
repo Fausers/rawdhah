@@ -28,3 +28,9 @@ Route::get('/contact', [WebsiteController::class,'contact'])->name('contact');
 Route::get('/driver-application/', [WebsiteController::class,'driver'])->name('driver');
 Route::get('/media', [WebsiteController::class,'media'])->name('media');
 Route::get('/services', [WebsiteController::class,'services'])->name('services');
+
+//services routes
+Route::get('/ground-shipping', [WebsiteController::class,'ground'])->name('ground');
+Route::get('/large_projects', [WebsiteController::class,'large_project'])->name('large_projects');
+Route::get('/contract_logistics', [WebsiteController::class,'contract_logistics'])->name('contract_logistics');
+Route::get('/warehousing', [WebsiteController::class,'warehousing'])->name('warehousing');

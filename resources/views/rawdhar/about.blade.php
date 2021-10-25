@@ -64,7 +64,7 @@
                     </div><!-- .col-md-6 end -->
 
                     <div class="col-md-6 animated triggerAnimation" data-animate="zoomIn">
-                        <img src="img/pics/img25.jpg" alt=""/>
+                        <img src="img/pics/img23.jpg" alt=""/>
                     </div><!-- .col-md-6 end -->
                 </div><!-- .row end -->
             </div><!-- .container end -->
@@ -266,7 +266,7 @@
                                 and apply today!
                             </p>
 
-                            <a href="driver-application.html" class="btn btn-medium btn-yellow">
+                            <a href="{{route('driver')}}" class="btn btn-medium btn-yellow">
                                 <span>apply now</span>
                             </a>
                         </div><!-- .promo-box end -->

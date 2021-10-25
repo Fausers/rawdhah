@@ -31,5 +31,27 @@ class WebsiteController extends Controller
         return view('rawdhar.services');
     }
 
+    //services controllers
+    public function ground()
+    {
+        return view('rawdhar.services.ground-shipping');
+    }
+
+     public function large_project()
+    {
+        return view('rawdhar.services.large-projects');
+    }
+
+     public function warehousing()
+    {
+        return view('rawdhar.services.warehousing');
+    }
+
+    public function contract_logistics()
+    {
+        return view('rawdhar.services.contract-logistics');
+    }
+
+
 }
 

@@ -63,7 +63,7 @@
                                     <li><a href="{{route('about')}}">About us</a></li>
                                     <li><a href="{{url('/')}}/company-history.html">Company history</a></li>
                                     <li><a href="{{url('/')}}/events.html">Company Events</a></li>
-                                    <li><a href="{{url('/')}}/warehousing.html">Warehousing</a></li>
+                                    <li><a href="{{route('warehousing')}}">Warehousing</a></li>
                                     <li><a href="{{url('/')}}/news-standard.html">Company news</a></li>
                                     <li><a href="{{route('driver')}}">Online driver application</a></li>
                                 </ul>
@@ -78,9 +78,9 @@
                                 </div>
 
                                 <ul>
-                                    <li><a href="{{url('/')}}/overland-transportation.html">Overland transportation</a></li>
-                                    <li><a href="{{url('/')}}/large-projects.html">Large projects</a></li>
-                                    <li><a href="{{url('/')}}/contract-logistics.html">Contract logistics</a></li>
+                                    <li><a href="{{route('ground')}}">Overland transportation</a></li>
+                                    <li><a href="{{ route('large_projects')}}">Large projects</a></li>
+                                    <li><a href="{{route('contract_logistics')}}/contract-logistics.html">Contract logistics</a></li>
                                     <li><a href="{{url('/')}}/packaging-options.html">Packaging options</a></li>
                                 </ul>
                             </li><!-- .widget-pages end -->

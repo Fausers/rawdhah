@@ -242,10 +242,11 @@
                             <div class="service-media">
                                 <img src="img/pics/img01.jpg" alt="Trucking"/>
 
-                                <a href="overland-transportation.html" class="read-more02">
+                                <a href="{{route('ground')}}" class="read-more02">
                                     <span>
-                                        Read more
+                                         Read more
                                         <i class="fa fa-chevron-right"></i>
+
                                     </span>
                                 </a>
                             </div><!-- .service-media end -->
@@ -270,7 +271,7 @@
                             <div class="service-media">
                                 <img src="img/pics/img02.jpg" alt="Trucking"/>
 
-                                <a href="large-projects.html" class="read-more02">
+                                <a href="{{route('large_projects')}}" class="read-more02">
                                     <span>
                                         Read more
                                         <i class="fa fa-chevron-right"></i>
@@ -328,7 +329,7 @@
                             <div class="service-media">
                                 <img src="img/pics/img13.jpg" alt="Trucking"/>
 
-                                <a href="contract-logistics.html" class="read-more02">
+                                <a href="{{route('contract_logistics')}}" class="read-more02">
                                     <span>
                                         Read more
                                         <i class="fa fa-chevron-right"></i>
@@ -356,7 +357,7 @@
                             <div class="service-media">
                                 <img src="img/pics/img14.jpg" alt="Trucking"/>
 
-                                <a href="warehousing.html" class="read-more02">
+                                <a href="{{route('warehousing')}}" class="read-more02">
                                     <span>
                                         Read more
                                         <i class="fa fa-chevron-right"></i>
