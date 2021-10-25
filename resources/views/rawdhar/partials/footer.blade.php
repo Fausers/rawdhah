@@ -60,13 +60,12 @@
                                 </div>
 
                                 <ul>
-                                    <li><a href="{{url('/')}}/about01.html">About us</a></li>
+                                    <li><a href="{{route('about')}}">About us</a></li>
                                     <li><a href="{{url('/')}}/company-history.html">Company history</a></li>
                                     <li><a href="{{url('/')}}/events.html">Company Events</a></li>
-                                    <li><a href="{{url('/')}}/supply-chain-management.html">Supply chain management</a></li>
                                     <li><a href="{{url('/')}}/warehousing.html">Warehousing</a></li>
                                     <li><a href="{{url('/')}}/news-standard.html">Company news</a></li>
-                                    <li><a href="{{url('/')}}/driver-application.html">Online driver application</a></li>
+                                    <li><a href="{{route('driver')}}">Online driver application</a></li>
                                 </ul>
                             </li><!-- .widget-pages end -->
                         </ul><!-- .col-md-3.footer-widget-container end -->
@@ -80,10 +79,7 @@
 
                                 <ul>
                                     <li><a href="{{url('/')}}/overland-transportation.html">Overland transportation</a></li>
-                                    <li><a href="{{url('/')}}/air-freight.html">Air freight</a></li>
-                                    <li><a href="{{url('/')}}/ocean-freight.html">Ocean freight</a></li>
                                     <li><a href="{{url('/')}}/large-projects.html">Large projects</a></li>
-                                    <li><a href="{{url('/')}}/rail-transportation.html">Rail international shipping</a></li>
                                     <li><a href="{{url('/')}}/contract-logistics.html">Contract logistics</a></li>
                                     <li><a href="{{url('/')}}/packaging-options.html">Packaging options</a></li>
                                 </ul>

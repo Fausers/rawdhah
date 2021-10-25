@@ -11,6 +11,11 @@ class WebsiteController extends Controller
         return view('rawdhar.about');
     }
 
+     public function driver()
+    {
+        return view('rawdhar.driver-application');
+    }
+
     public function contact()
     {
         return view('rawdhar.contact');
@@ -25,6 +30,6 @@ class WebsiteController extends Controller
     {
         return view('rawdhar.services');
     }
-    
+
 }
 

@@ -25,5 +25,6 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
 Route::get('/about_us', [WebsiteController::class,'about'])->name('about');
 Route::get('/contact', [WebsiteController::class,'contact'])->name('contact');
+Route::get('/driver-application/', [WebsiteController::class,'driver'])->name('driver');
 Route::get('/media', [WebsiteController::class,'media'])->name('media');
 Route::get('/services', [WebsiteController::class,'services'])->name('services');

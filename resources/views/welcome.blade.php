@@ -186,6 +186,11 @@
                             </fieldset>
 
                             <fieldset>
+                                <label>Sector:</label>
+                                <input type="text" id="tracking-weight" class="wpcf7-text">
+                            </fieldset>
+
+                            <fieldset>
                                 <label>Total weight:</label>
                                 <input type="text" id="tracking-weight" class="wpcf7-text">
                             </fieldset>
@@ -490,15 +495,15 @@
                                 and apply today!
                             </p>
 
-                            <a href="{{url('/')}}/driver-application.html" class="btn btn-medium btn-yellow">
+                            <a href="{{route('driver')}}" class="btn btn-medium btn-yellow">
                                 <span>apply now</span>
                             </a>
                         </div><!-- .promo-box end -->
                     </div><!-- .col-md-3 end -->
                 </div><!-- .row end -->
-            </div><!-- .contaienr end -->
+            </div><!-- .container end -->
         </div><!-- .page-content end -->
 
-        
+
 
         @endsection
