@@ -101,7 +101,7 @@
                         <ul class="fa-ul">
                             <li>
                                 <i class="fa fa-li fa-long-arrow-right"></i>
-                                <a href="#">Healtcare</a>
+                                <a href="#">Health care</a>
                             </li>
 
                             <li>

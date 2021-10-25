@@ -18,7 +18,7 @@
                                 </li>
 
                                 <li>
-                                    <a href="{{route('large-projects')}}">Large Projects</a>
+                                    <a href="{{route('large_projects')}}">Large Projects</a>
                                 </li>
 
 
@@ -170,6 +170,105 @@
                             </div><!-- .col-md-12 end -->
                         </div><!-- .row end -->
                     </div><!-- .col-md-9 end -->
+                </div><!-- .row end -->
+            </div><!-- .container end -->
+        </div><!-- .page-content end -->
+
+    <div class="page-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="custom-heading02">
+                            <h2>Other services</h2>
+                            <p>tailored logistics services</p>
+                        </div>
+                    </div><!-- .col-md-12 end -->
+                </div><!-- .row end -->
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-4">
+                        <div class="service-feature-box">
+                            <div class="service-media">
+                                <img src="img/pics/img14.jpg" alt="Trucking"/>
+
+                                <a href="{{route('warehousing')}}" class="read-more02">
+                                    <span>
+                                        Read more
+                                        <i class="fa fa-chevron-right"></i>
+                                    </span>
+                                </a>
+                            </div><!-- .service-media end -->
+
+                            <div class="service-body">
+                                <div class="custom-heading">
+                                    <h4>WAREHOUSING</h4>
+                                </div><!-- .custom-heading end -->
+
+                                <p>
+                                    We have a wide experience in overland
+                                    industry specific logistic solutions like
+                                    pharmaceutical logistics, retail and
+                                    automotive logistics by train or road.
+                                </p>
+                            </div><!-- .service-body end -->
+                        </div><!-- .service-feature-box-end -->
+                    </div><!-- .col-md-4 end -->
+
+                    <div class="col-md-4 col-sm-4">
+                        <div class="service-feature-box">
+                            <div class="service-media">
+                                <img src="img/pics/img01.jpg" alt="Trucking"/>
+
+                                <a href="{{route('ground')}}" class="read-more02">
+                                    <span>
+                                        Read more
+                                        <i class="fa fa-chevron-right"></i>
+                                    </span>
+                                </a>
+                            </div><!-- .service-media end -->
+
+                            <div class="service-body">
+                                <div class="custom-heading">
+                                    <h4> GROUND SHIPPING</h4>
+                                </div><!-- .custom-heading end -->
+
+                                <p>
+                                    We bring your goods safely to worldwide
+                                    destinations with our great sea fright
+                                    services. We offer LLC and FLC shipments
+                                    that are fast and effective with no delays.
+                                </p>
+                            </div><!-- .service-body end -->
+                        </div><!-- .service-feature-box-end -->
+                    </div><!-- .col-md-4 end -->
+
+                    <div class="col-md-4 col-sm-4">
+                        <div class="service-feature-box">
+                            <div class="service-media">
+                                <img src="img/pics/img13.jpg" alt="Trucking"/>
+
+                                <a href="{{route('contract_logistics')}}" class="read-more02">
+                                    <span>
+                                        Read more
+                                        <i class="fa fa-chevron-right"></i>
+                                    </span>
+                                </a>
+                            </div><!-- .service-media end -->
+
+                            <div class="service-body">
+                                <div class="custom-heading">
+                                    <h4>CONTRACT LOGISTICS</h4>
+                                </div><!-- .custom-heading end -->
+
+                                <p>
+                                    We provide full supply chain management
+                                    package including cost effective and fast
+                                    sea freight. You can also combine this
+                                    package with other means of transportation.
+                                </p>
+                            </div><!-- .service-body end -->
+                        </div><!-- .service-feature-box-end -->
+                    </div><!-- .col-md-4 end -->
                 </div><!-- .row end -->
             </div><!-- .container end -->
         </div><!-- .page-content end -->

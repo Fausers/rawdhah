@@ -7,11 +7,7 @@
 
                                 <ul class="menu">
                                     <li class="menu-item">
-                                        <a href="services02.html">Logistics</a>
-                                    </li>
-
-                                    <li class="menu-item">
-                                        <a href="overland-transportation.html">Overland transportation</a>
+                                        <a href="{{route('ground')}}">Overland transportation</a>
                                     </li>
 
 
@@ -29,11 +25,11 @@
 
 
                                     <li class="menu-item">
-                                        <a href="packaging-options.html">Packaging options</a>
+                                        <a href="{{route('packaging')}}">Packaging options</a>
                                     </li>
 
                                     <li class="menu-item">
-                                        <a href="consulting-services.html">Consulting services</a>
+                                        <a href="{{route('consulting')}}">Consulting services</a>
                                     </li>
                                 </ul><!-- .menu end -->
                             </li><!-- .widget.widget_nav_menu end -->

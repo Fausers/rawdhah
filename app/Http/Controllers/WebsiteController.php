@@ -6,10 +6,7 @@ use Illuminate\Http\Request;
 
 class WebsiteController extends Controller
 {
-    public function about()
-    {
-        return view('rawdhar.about');
-    }
+
 
      public function driver()
     {
@@ -19,6 +16,7 @@ class WebsiteController extends Controller
     public function contact()
     {
         return view('rawdhar.contact');
+
     }
 
     public function media()
@@ -26,13 +24,44 @@ class WebsiteController extends Controller
         return view('rawdhar.media');
     }
 
+
+
+    //about company controllers
+
+    public function about()
+    {
+        return view('rawdhar.about');
+    }
+
+     public function clients()
+    {
+        return view('rawdhar.clients');
+    }
+
+     public function events()
+    {
+        return view('rawdhar.events');
+    }
+
+
+    public function history()
+    {
+        return view('rawdhar.history');
+    }
+
+    //services controllers
+
     public function services()
     {
         return view('rawdhar.services');
     }
 
-    //services controllers
-    public function ground()
+    public function consulting()
+    {
+        return view('rawdhar.services.consulting');
+    }
+
+     public function ground()
     {
         return view('rawdhar.services.ground-shipping');
     }
@@ -40,6 +69,11 @@ class WebsiteController extends Controller
      public function large_project()
     {
         return view('rawdhar.services.large-projects');
+    }
+
+      public function packaging()
+    {
+        return view('rawdhar.packaging');
     }
 
      public function warehousing()

@@ -385,7 +385,7 @@
                             <div class="service-media">
                                 <img src="img/pics/img15.jpg" alt="Trucking"/>
 
-                                <a href="consulting-services.html" class="read-more02">
+                                <a href="{{route('consulting')}}" class="read-more02">
                                     <span>
                                         Read more
                                         <i class="fa fa-chevron-right"></i>
