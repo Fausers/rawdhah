@@ -3,13 +3,11 @@
 
     <body>
 
-
-
         <div id="masterslider" class="master-slider ms-skin-default">
             <!-- first slide -->
             <div class="ms-slide">
                 <!-- slide background -->
-                <img src="{{url('/')}}/img/truck/truck (3).jpeg" data-src="{{url('/')}}/img/truck/truck (3).jpeg" alt="Video slider"/>
+                <img src="{{url('/')}}/img/truck/truck01.jpeg" data-src="{{url('/')}}/img/truck/truck01.jpeg" alt="Video slider"/>
 
                 <video data-autopause="false" data-mute="false" data-loop="true" data-fill-mode="fill" class="ms-slide-bgvideo"
                        muted="muted" style="left: 0; top:0;">
@@ -19,7 +17,7 @@
                 </video>
 
                 <h2 class="ms-layer pi-caption01"
-                    style="left: 58px; top: 420px;"
+                    style="left: 58px; top: 420px; color:yellow;"
                     data-type="text"
                     data-effect="top(short)"
                     data-duration="300"
@@ -40,7 +38,7 @@
                      />
 
                 <p class="ms-layer pi-text"
-                   style="left: 395px; top: 500px;"
+                   style="left: 395px; top: 500px; color:yellow;"
                    data-type="text"
                    data-effect="top(short)"
                    data-duration="300"
@@ -55,10 +53,10 @@
             <div class="ms-slide">
                 <!-- slide background -->
                 <img src="{{url('/')}}/masterslider/blank.gif"
-                     data-src="{{url('/')}}/img/truck/truck (3).jpeg" alt="Worldwide freight services"/>
+                     data-src="{{url('/')}}/img/truck/truck01.jpeg" alt="Worldwide freight services"/>
 
                 <h2 class="ms-layer pi-caption01"
-                    style="left: 258px; top: 420px;"
+                    style="left: 258px; top: 420px; color:yellow;"
                     data-type="text"
                     data-effect="top(short)"
                     data-duration="300"
@@ -78,14 +76,14 @@
                      />
 
                 <p class="ms-layer pi-text"
-                   style="left: 278px; top: 500px;"
+                   style="left: 278px; top: 500px; color: yellow;"
                    data-type="text"
                    data-effect="top(short)"
                    data-duration="300"
                    data-hide-effect="fade"
                    data-delay="300"
                    >
-                    Road, air, train or overseas. We got it covered!
+                    We got it covered!
                 </p>
             </div><!-- .ms-slide end -->
         </div><!-- #masterslider end -->
@@ -99,6 +97,11 @@
                         </div><!-- .custom-heading end -->
 
                         <ul class="fa-ul">
+                             <li>
+                                <i class="fa fa-li fa-long-arrow-right"></i>
+                                <a href="#">Retail</a>
+                            </li>
+
                             <li>
                                 <i class="fa fa-li fa-long-arrow-right"></i>
                                 <a href="#">Health care</a>
@@ -109,15 +112,20 @@
                                 <a href="#">Automotive</a>
                             </li>
 
+
+
                             <li>
                                 <i class="fa fa-li fa-long-arrow-right"></i>
-                                <a href="#">Food and beverage</a>
+                                <a href="#">Chemicals</a>
                             </li>
+
 
                             <li>
                                 <i class="fa fa-li fa-long-arrow-right"></i>
                                 <a href="#">Electronics</a>
                             </li>
+
+
 
                             <li>
                                 <i class="fa fa-li fa-long-arrow-right"></i>
@@ -129,10 +137,7 @@
                                 <a href="#">Building Materials</a>
                             </li>
 
-                            <li>
-                                <i class="fa fa-li fa-long-arrow-right"></i>
-                                <a href="#">Retail</a>
-                            </li>
+
 
                             <li>
                                 <i class="fa fa-li fa-long-arrow-right"></i>
@@ -141,7 +146,12 @@
 
                             <li>
                                 <i class="fa fa-li fa-long-arrow-right"></i>
-                                <a href="#">Chemicals</a>
+                                <a href="#">Food and beverage</a>
+                            </li>
+
+                             <li>
+                                <i class="fa fa-li fa-long-arrow-right"></i>
+                                <a href="#">Industrial Equipment</a>
                             </li>
                         </ul><!-- .fa-ul end -->
                     </div><!-- .col-md-4 end -->
@@ -176,7 +186,7 @@
 
                         <form class="wpcf7 shipping-quote clearfix">
                             <fieldset>
-                                <label>Origin ZIP:</label>
+                                <label>Loading point:</label>
                                 <input type="text" id="tracking-origin" class="wpcf7-text">
                             </fieldset>
 
@@ -223,7 +233,7 @@
                                 </div>
 
                                 <div class="li-content">
-                                    <h3>Fast Worldwide delivery</h3>
+                                    <h3>Local and transit</h3>
 
                                     <p>
                                         From Europe to Asutralia, by air or sea?
@@ -273,7 +283,7 @@
                     </div><!-- .col-md-5 end -->
 
                     <div class="col-md-7 triggerAnimation animated" data-animate="fadeInRight">
-                        <img src="img/pics/img34.jpg" alt="trucking"/>
+                        <img src="img/pics/img34.jpg" alt="Trucking"/>
                     </div><!-- .col-md-7 end -->
                 </div><!-- .row end -->
 
@@ -302,10 +312,10 @@
                         <div class="service-icon-center-boxed">
                             <div class="service-title">
                                 <div class="icon-container">
-                                    <img src="img/svg/pi-globe-5.svg" alt=""/>
+                                    <img src="img/svg/pi-truck-8.svg" alt=""/>
                                 </div><!-- .icon-container end -->
 
-                                <h4>Worldwide freight</h4>
+                                <h4>Land Transportation</h4>
                             </div><!-- .service-title end -->
 
                             <p>
@@ -324,7 +334,7 @@
                                     <img src="img/svg/pi-forklift-truck-4.svg" alt=""/>
                                 </div><!-- .icon-container end -->
 
-                                <h4>Warehousing</h4>
+                                <h4>Large Projects</h4>
                             </div><!-- .service-title end -->
 
                             <p>
@@ -346,7 +356,7 @@
                     <div class="custom-heading02">
                         <h2>Our services</h2>
                         <p>
-                            More than just a trucking template
+                            More than just a trucking
                         </p>
                     </div><!-- .custom-heading02 end -->
                 </div><!-- .row end -->
@@ -438,49 +448,6 @@
         <div class="page-content">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-9">
-                        <div class="custom-heading">
-                            <h2>board of directors</h2>
-                        </div><!-- .custom-heading end -->
-
-                        <div class="row">
-                            <div class="col-md-4 col-sm-4">
-                                <div class="team-member">
-                                    <img src="{{url('/')}}/img/pics/team01.jpg" alt=""/>
-                                    <div class="team-details">
-                                        <h5>martha parker</h5>
-                                        <p class="position">
-                                            Company founder
-                                        </p>
-                                    </div><!-- .team-details end -->
-                                </div><!-- .member end -->
-                            </div><!-- .col-md-4 end -->
-
-                            <div class="col-md-4 col-sm-4">
-                                <div class="team-member">
-                                    <img src="{{url('/')}}/img/pics/team02.jpg" alt=""/>
-                                    <div class="team-details">
-                                        <h5>jonathan blum</h5>
-                                        <p class="position">
-                                            Chief Technical Officer
-                                        </p>
-                                    </div><!-- .team-details end -->
-                                </div><!-- .member end -->
-                            </div><!-- .col-md-4 end -->
-
-                            <div class="col-md-4 col-sm-4">
-                                <div class="team-member">
-                                    <img src="{{url('/')}}/img/pics/team03.jpg" alt=""/>
-                                    <div class="team-details">
-                                        <h5>tom beck</h5>
-                                        <p class="position">
-                                            Chief Operations Officer
-                                        </p>
-                                    </div><!-- .team-details end -->
-                                </div><!-- .member end -->
-                            </div><!-- .col-md-4 end -->
-                        </div><!-- .row end -->
-                    </div><!-- .col-md-9 end -->
 
                     <div class="col-md-3">
                         <div class="custom-heading">
@@ -503,6 +470,8 @@
                 </div><!-- .row end -->
             </div><!-- .container end -->
         </div><!-- .page-content end -->
+
+    @include('rawdhar.partials.ourclients')
 
 
 

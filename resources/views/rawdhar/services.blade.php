@@ -1,21 +1,23 @@
 @extends('layouts.rawdhar')
 @section('content')
 
+
         <!-- .page-title start -->
         <div class="page-title-style01 page-title-negative-top pt-bkg03">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Trucking - Specialized Transportation Services</h1>
+                        <h1  style="color: yellow">Trucking - Specialized Transportation Services</h1>
 
                         <div class="breadcrumb-container">
                             <ul class="breadcrumb clearfix">
-                                <li>You are here:</li>
+
+                                <li  style="color: yellow" >You are here:</li>
                                 <li>
-                                <a href="{{url('/')}}">Home</a>
+                                <a href="{{url('/')}}" style="color: yellow">Home</a>
                                 </li>
                                 <li>
-                                <a href="{{route('services')}}">Services</a>
+                                <a href="{{route('services')}}" style="color: yellow">Services</a>
                                 </li>
                             </ul><!-- .breadcrumb end -->
                         </div><!-- .breadcrumb-container end -->
@@ -237,13 +239,13 @@
                 </div><!-- .row end -->
 
                 <div class="row">
-                    <div class="col-md-4 col-sm-4">
+                    <div class="col-md-6 col-sm-6 ">
                         <div class="service-feature-box">
                             <div class="service-media">
                                 <img src="img/pics/img01.jpg" alt="Trucking"/>
 
                                 <a href="{{route('ground')}}" class="read-more02">
-                                    <span>
+                                    <span style="color: yellow">
                                          Read more
                                         <i class="fa fa-chevron-right"></i>
 
@@ -253,7 +255,7 @@
 
                             <div class="service-body">
                                 <div class="custom-heading">
-                                    <h4>GROUND SHIPPING</h4>
+                                    <h4>LAND TRANSPORTATION</h4>
                                 </div><!-- .custom-heading end -->
 
                                 <p>
@@ -266,13 +268,13 @@
                         </div><!-- .service-feature-box-end -->
                     </div><!-- .col-md-4 end -->
 
-                    <div class="col-md-4 col-sm-4">
+                    <div class="col-md-6 col-sm-6">
                         <div class="service-feature-box">
                             <div class="service-media">
                                 <img src="img/pics/img02.jpg" alt="Trucking"/>
 
                                 <a href="{{route('large_projects')}}" class="read-more02">
-                                    <span>
+                                    <span style="color: yellow">
                                         Read more
                                         <i class="fa fa-chevron-right"></i>
                                     </span>
@@ -294,43 +296,17 @@
                         </div><!-- .service-feature-box-end -->
                     </div><!-- .col-md-4 end -->
 
-                    <div class="col-md-4 col-sm-4">
-                        <div class="service-feature-box">
-                            <div class="service-media">
-                                <img src="img/pics/img03.jpg" alt="Trucking"/>
 
-                                <a href="air-freight.html" class="read-more02">
-                                    <span>
-                                        Read more
-                                        <i class="fa fa-chevron-right"></i>
-                                    </span>
-                                </a>
-                            </div><!-- .service-media end -->
-
-                            <div class="service-body">
-                                <div class="custom-heading">
-                                    <h4>INTERNATIONAL AIR FREIGHT</h4>
-                                </div><!-- .custom-heading end -->
-
-                                <p>
-                                    We provide full supply chain management
-                                    package including cost effective and fast
-                                    sea freight. You can also combine this
-                                    package with other means of transportation.
-                                </p>
-                            </div><!-- .service-body end -->
-                        </div><!-- .service-feature-box-end -->
-                    </div><!-- .col-md-4 end -->
                 </div><!-- .row end -->
 
                 <div class="row">
-                    <div class="col-md-4 col-sm-4">
+                    <div class="col-md-6 col-sm-6">
                         <div class="service-feature-box">
                             <div class="service-media">
                                 <img src="img/pics/img13.jpg" alt="Trucking"/>
 
                                 <a href="{{route('contract_logistics')}}" class="read-more02">
-                                    <span>
+                                    <span style="color: yellow">
                                         Read more
                                         <i class="fa fa-chevron-right"></i>
                                     </span>
@@ -352,41 +328,15 @@
                         </div><!-- .service-feature-box-end -->
                     </div><!-- .col-md-4 end -->
 
-                    <div class="col-md-4 col-sm-4">
-                        <div class="service-feature-box">
-                            <div class="service-media">
-                                <img src="img/pics/img14.jpg" alt="Trucking"/>
 
-                                <a href="{{route('warehousing')}}" class="read-more02">
-                                    <span>
-                                        Read more
-                                        <i class="fa fa-chevron-right"></i>
-                                    </span>
-                                </a>
-                            </div><!-- .service-media end -->
 
-                            <div class="service-body">
-                                <div class="custom-heading">
-                                    <h4>WAREHOUSING</h4>
-                                </div><!-- .custom-heading end -->
-
-                                <p>
-                                    We provide full supply chain management
-                                    package including cost effective and fast
-                                    sea freight. You can also combine this
-                                    package with other means of transportation.
-                                </p>
-                            </div><!-- .service-body end -->
-                        </div><!-- .service-feature-box-end -->
-                    </div><!-- .col-md-4 end -->
-
-                    <div class="col-md-4 col-sm-4">
+                    <div class="col-md-6 col-sm-6">
                         <div class="service-feature-box">
                             <div class="service-media">
                                 <img src="img/pics/img15.jpg" alt="Trucking"/>
 
                                 <a href="{{route('consulting')}}" class="read-more02">
-                                    <span>
+                                    <span style="color: yellow">
                                         Read more
                                         <i class="fa fa-chevron-right"></i>
                                     </span>
@@ -411,7 +361,7 @@
             </div><!-- .container end -->
         </div><!-- .page-content end -->
 
-
+        @include('rawdhar.partials.ourclients')
 
         <script>
             /* <![CDATA[ */

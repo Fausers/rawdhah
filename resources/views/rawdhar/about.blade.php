@@ -73,7 +73,7 @@
         <div class="page-content custom-bkg bkg-light-blue mb-70">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-12 ">
                         <div class="custom-heading">
                             <h2>our mission</h2>
                         </div><!-- .custom-heading end -->
@@ -92,43 +92,7 @@
                         </p>
                     </div><!-- .col-md-6 end -->
 
-                    <div class="col-md-6">
-                        <div class="custom-heading">
-                            <h2>our promise</h2>
-                        </div><!-- .custom-heading end -->
 
-                        <ul class="fa-ul">
-                            <li>
-                                <i class="fa fa-li fa-long-arrow-right"></i>
-                                Providing high quality transportation services to all of our clients
-                            </li>
-
-                            <li>
-                                <i class="fa fa-li fa-long-arrow-right"></i>
-                                Invest in our employees to provide better service and company growth
-                            </li>
-
-                            <li>
-                                <i class="fa fa-li fa-long-arrow-right"></i>
-                                Worry about enviroment according to latest industry standards
-                            </li>
-
-                            <li>
-                                <i class="fa fa-li fa-long-arrow-right"></i>
-                                Safety as top priority in assuring safe work procedures
-                            </li>
-
-                            <li>
-                                <i class="fa fa-li fa-long-arrow-right"></i>
-                                Investing in technology to provide fast, acurate and cost-effective service
-                            </li>
-
-                            <li>
-                                <i class="fa fa-li fa-long-arrow-right"></i>
-                                Living up to highest industry standards
-                            </li>
-                        </ul><!-- .fa-ul end -->
-                    </div><!-- .col-md-6 end -->
                 </div><!-- .row end -->
             </div><!-- .container end -->
         </div><!-- .page-content.custom-bkg end -->

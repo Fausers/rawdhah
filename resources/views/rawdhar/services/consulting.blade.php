@@ -5,20 +5,20 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Services - Ocean freight</h1>
+                        <h1 style="color: yellow">Services - Ocean freight</h1>
 
                         <div class="breadcrumb-container">
                             <ul class="breadcrumb clearfix">
-                                <li>You are here:</li>
+                                <li style="color: yellow">You are here:</li>
                                 <li>
-                                    <a href="{{url('/')}}//">Home</a>
+                                    <a href="{{url('/')}}" style="color: yellow">Home</a>
                                 </li>
                                 <li>
-                                    <a href="services02.html">Services</a>
+                                    <a href="services02.html" style="color: yellow">Services</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">Consulting services</a>
+                                    <a href="{{route('consulting')}}" style="color: yellow">Consulting</a>
                                 </li>
                             </ul><!-- .breadcrumb end -->
                         </div><!-- .breadcrumb-container end -->
@@ -161,103 +161,108 @@
                                 </ul><!-- .fa-ul end -->
                             </div><!-- .col-md-6 end -->
                         </div><!-- .row end -->
-
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="custom-heading">
-                                    <h3>other services</h3>
-                                </div><!-- .custom-heading end -->
-                            </div><!-- .col-md-12 end -->
-                        </div><!-- .row end -->
-
-                        <div class="row">
-                            <div class="col-md-4 col-sm-4">
-                                <div class="service-feature-box">
-                                    <div class="service-media">
-                                        <img src="img/pics/img01.jpg" alt="Trucking"/>
-
-                                        <a href="{{route('ground')}}" class="read-more02">
-                                            <span>
-                                                Read more
-                                                <i class="fa fa-chevron-right"></i>
-                                            </span>
-                                        </a>
-                                    </div><!-- .service-media end -->
-
-                                    <div class="service-body">
-                                        <div class="custom-heading">
-                                            <h4>GROUND SHIPPING</h4>
-                                        </div><!-- .custom-heading end -->
-
-                                        <p>
-                                            We have a wide experience in overland
-                                            industry specific logistic solutions like
-                                            pharmaceutical logistics, retail and
-                                            automotive logistics by train or road.
-                                        </p>
-                                    </div><!-- .service-body end -->
-                                </div><!-- .service-feature-box-end -->
-                            </div><!-- .col-md-4 end -->
-
-                            <div class="col-md-4 col-sm-4">
-                                <div class="service-feature-box">
-                                    <div class="service-media">
-                                        <img src="img/pics/img02.jpg" alt="Trucking"/>
-
-                                        <a href="{{route('large_projects')}}" class="read-more02">
-                                            <span>
-                                                Read more
-                                                <i class="fa fa-chevron-right"></i>
-                                            </span>
-                                        </a>
-                                    </div><!-- .service-media end -->
-
-                                    <div class="service-body">
-                                        <div class="custom-heading">
-                                            <h4>LARGE PROJECTS</h4>
-                                        </div><!-- .custom-heading end -->
-
-                                        <p>
-                                            We bring your goods safely to worldwide
-                                            destinations with our great sea fright
-                                            services. We offer LLC and FLC shipments
-                                            that are fast and effective with no delays.
-                                        </p>
-                                    </div><!-- .service-body end -->
-                                </div><!-- .service-feature-box-end -->
-                            </div><!-- .col-md-4 end -->
-
-                            <div class="col-md-4 col-sm-4">
-                                <div class="service-feature-box">
-                                    <div class="service-media">
-                                        <img src="img/pics/img14.jpg" alt="Trucking"/>
-
-                                        <a href="{{route('warehousing')}}" class="read-more02">
-                                            <span>
-                                                Read more
-                                                <i class="fa fa-chevron-right"></i>
-                                            </span>
-                                        </a>
-                                    </div><!-- .service-media end -->
-
-                                    <div class="service-body">
-                                        <div class="custom-heading">
-                                            <h4>WAREHOUSING</h4>
-                                        </div><!-- .custom-heading end -->
-
-                                        <p>
-                                            We provide full supply chain management
-                                            package including cost effective and fast
-                                            sea freight. You can also combine this
-                                            package with other means of transportation.
-                                        </p>
-                                    </div><!-- .service-body end -->
-                                </div><!-- .service-feature-box-end -->
-                            </div><!-- .col-md-4 end -->
-                        </div><!-- .row end -->
-                    </div><!-- .col-md-9 end -->
                 </div><!-- .row end -->
             </div><!-- .container end -->
         </div><!-- .page-content end -->
+
+            <div class="page-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="custom-heading02">
+                            <h2>Other services</h2>
+                            <p>tailored logistics services</p>
+                        </div>
+                    </div><!-- .col-md-12 end -->
+                </div><!-- .row end -->
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-4">
+                        <div class="service-feature-box">
+                            <div class="service-media">
+                                <img src="img/pics/img01.jpg" alt="Trucking"/>
+
+                                <a href="{{route('ground')}}" class="read-more02">
+                                    <span style="color: yellow">
+                                        Read more
+                                        <i class="fa fa-chevron-right"></i>
+                                    </span>
+                                </a>
+                            </div><!-- .service-media end -->
+
+                            <div class="service-body">
+                                <div class="custom-heading">
+                                    <h4>LAND TRANSPORTATION</h4>
+                                </div><!-- .custom-heading end -->
+
+                                <p>
+                                    We have a wide experience in overland
+                                    industry specific logistic solutions like
+                                    pharmaceutical logistics, retail and
+                                    automotive logistics by train or road.
+                                </p>
+                            </div><!-- .service-body end -->
+                        </div><!-- .service-feature-box-end -->
+                    </div><!-- .col-md-4 end -->
+
+                    <div class="col-md-4 col-sm-4">
+                        <div class="service-feature-box">
+                            <div class="service-media">
+                                <img src="img/pics/img02.jpg" alt="Trucking"/>
+
+                                <a href="{{route('large_projects')}}" class="read-more02">
+                                    <span style="color: yellow">
+                                        Read more
+                                        <i class="fa fa-chevron-right"></i>
+                                    </span>
+                                </a>
+                            </div><!-- .service-media end -->
+
+                            <div class="service-body">
+                                <div class="custom-heading">
+                                    <h4>LARGE PROJECTS</h4>
+                                </div><!-- .custom-heading end -->
+
+                                <p>
+                                    We bring your goods safely to worldwide
+                                    destinations with our great sea fright
+                                    services. We offer LLC and FLC shipments
+                                    that are fast and effective with no delays.
+                                </p>
+                            </div><!-- .service-body end -->
+                        </div><!-- .service-feature-box-end -->
+                    </div><!-- .col-md-4 end -->
+
+                    <div class="col-md-4 col-sm-4">
+                        <div class="service-feature-box">
+                            <div class="service-media">
+                                <img src="img/pics/img13.jpg" alt="Trucking"/>
+
+                                <a href="{{route('contract_logistics')}}" class="read-more02">
+                                    <span style="color: yellow">
+                                        Read more
+                                        <i class="fa fa-chevron-right"></i>
+                                    </span>
+                                </a>
+                            </div><!-- .service-media end -->
+
+                            <div class="service-body">
+                                <div class="custom-heading">
+                                    <h4>CONTRACT LOGISTICS</h4>
+                                </div><!-- .custom-heading end -->
+
+                                <p>
+                                    We provide full supply chain management
+                                    package including cost effective and fast
+                                    sea freight. You can also combine this
+                                    package with other means of transportation.
+                                </p>
+                            </div><!-- .service-body end -->
+                        </div><!-- .service-feature-box-end -->
+                    </div><!-- .col-md-4 end -->
+                </div><!-- .row end -->
+            </div><!-- .container end -->
+        </div><!-- .page-content end -->
+    @include('rawdhar.partials.ourclients')
 
 @endsection

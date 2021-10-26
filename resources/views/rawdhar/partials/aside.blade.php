@@ -12,14 +12,6 @@
                                     </li>
 
                                     <li class="menu-item">
-                                        <a href="{{route('history')}}">Company history</a>
-                                    </li>
-
-                                    <li class="menu-item">
-                                        <a href="{{route('events')}}">Company Events</a>
-                                    </li>
-
-                                    <li class="menu-item">
                                         <a href="{{route('clients')}}">Company clients</a>
                                     </li>
 

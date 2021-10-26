@@ -6,20 +6,20 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Services - Contract Logistics</h1>
+                        <h1 style="color: yellow">Services - Contract Logistics</h1>
 
                         <div class="breadcrumb-container">
                             <ul class="breadcrumb clearfix">
-                                <li>You are here:</li>
+                                <li style="color: yellow">You are here:</li>
                                 <li>
-                                    <a href="{{url('/')}}//">Home</a>
+                                    <a href="{{url('/')}}" style="color: yellow">Home</a>
                                 </li>
                                 <li>
-                                    <a href="{{route('services')}}">Services</a>
+                                    <a href="{{route('services')}}" style="color: yellow">Services</a>
                                 </li>
 
                                 <li>
-                                    <a href="{{route('contract_logistics')}}">Contract logistics</a>
+                                    <a href="{{route('contract_logistics')}}" style="color: yellow">Contract logistics</a>
                                 </li>
                             </ul><!-- .breadcrumb end -->
                         </div><!-- .breadcrumb-container end -->
@@ -185,10 +185,10 @@
                     <div class="col-md-4 col-sm-4">
                         <div class="service-feature-box">
                             <div class="service-media">
-                                <img src="img/pics/img14.jpg" alt="Trucking"/>
+                                <img src="img/pics/img01.jpg" alt="Trucking"/>
 
-                                <a href="{{route('warehousing')}}" class="read-more02">
-                                    <span>
+                                <a href="{{route('ground')}}" class="read-more02">
+                                    <span style="color: yellow">
                                         Read more
                                         <i class="fa fa-chevron-right"></i>
                                     </span>
@@ -197,7 +197,7 @@
 
                             <div class="service-body">
                                 <div class="custom-heading">
-                                    <h4>WAREHOUSING</h4>
+                                    <h4>LAND TRANSPORTATION</h4>
                                 </div><!-- .custom-heading end -->
 
                                 <p>
@@ -213,10 +213,10 @@
                     <div class="col-md-4 col-sm-4">
                         <div class="service-feature-box">
                             <div class="service-media">
-                                <img src="img/pics/img15.jpg" alt="Trucking"/>
+                                <img src="img/pics/img02.jpg" alt="Trucking"/>
 
-                                <a href="{{route('consulting')}}" class="read-more02">
-                                    <span>
+                                <a href="{{route('large_projects')}}" class="read-more02">
+                                    <span style="color: yellow">
                                         Read more
                                         <i class="fa fa-chevron-right"></i>
                                     </span>
@@ -225,7 +225,7 @@
 
                             <div class="service-body">
                                 <div class="custom-heading">
-                                    <h4>CONSULTING</h4>
+                                    <h4>LARGE PROJECTS</h4>
                                 </div><!-- .custom-heading end -->
 
                                 <p>
@@ -241,10 +241,10 @@
                     <div class="col-md-4 col-sm-4">
                         <div class="service-feature-box">
                             <div class="service-media">
-                                <img src="img/pics/img01.jpg" alt="Trucking"/>
+                                <img src="img/pics/img13.jpg" alt="Trucking"/>
 
-                                <a href="{{route('ground')}}" class="read-more02">
-                                    <span>
+                                <a href="{{route('consulting')}}" class="read-more02">
+                                    <span style="color: yellow">
                                         Read more
                                         <i class="fa fa-chevron-right"></i>
                                     </span>
@@ -253,7 +253,7 @@
 
                             <div class="service-body">
                                 <div class="custom-heading">
-                                    <h4>GROUND SHIPPING</h4>
+                                    <h4>CONSULTING</h4>
                                 </div><!-- .custom-heading end -->
 
                                 <p>
@@ -268,5 +268,6 @@
                 </div><!-- .row end -->
             </div><!-- .container end -->
         </div><!-- .page-content end -->
+    @include('rawdhar.partials.ourclients')
 
 @endsection

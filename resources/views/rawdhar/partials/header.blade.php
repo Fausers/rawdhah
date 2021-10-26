@@ -1,5 +1,11 @@
 <!-- Mirrored from pixel-industry.com/html/trucking/index03.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Oct 2021 15:01:06 GMT -->
 <div class="header-wrapper header-transparent">
+
+ <style>
+        #myHeader{
+            color:yellow;
+    }
+ </style>
             <!-- .header.header-style01 start -->
             <header id="header"  class="header-style01">
                 <!-- .container start -->
@@ -14,7 +20,7 @@
                                     <!-- .navbar-header start -->
                                     <div class="navbar-header">
                                         <div class="logo">
-                                            <a href="{{url('/')}}//">
+                                            <a href="{{url('/')}}">
                                                 <img style="height: 50px" src="{{url('/')}}/img/LOGO RAMIZ.png" alt="Trucking Transportation and Logistics HTML Template"/>
                                             </a>
                                         </div><!-- .logo end -->
@@ -24,7 +30,7 @@
                                     <div class="collapse navbar-collapse">
                                         <ul class="nav navbar-nav">
                                             <li class="dropdown current-menu-item">
-                                                <a href="{{url('/')}}//" class="dropdown-toggle">Home</a>
+                                                <a href="{{url('/')}}" class="dropdown-toggle">Home</a>
                                             </li><!-- .dropdown end -->
 
                                             <li><a href="{{route('about')}}/">About</a></li>

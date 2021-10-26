@@ -34,28 +34,7 @@
                                 </ul><!-- .menu end -->
                             </li><!-- .widget.widget_nav_menu end -->
 
-                            <li class="widget widget-text">
-                                <div class="title">
-                                    <h3>brochure download</h3>
-                                </div>
 
-                                <img src="img/pics/brochure02.jpg" alt="Trucking brochure"/>
-                                <br />
-
-                                <a href="trucking_brochure.pdf" target="_blank" class="download-link">
-                                    <span>
-                                        <i class="fa fa-file-pdf-o"></i>
-                                        Annual brochure_EN.pdf
-                                    </span>
-                                </a>
-
-                                <a href="trucking_brochure.pdf" target="_blank" class="download-link">
-                                    <span>
-                                        <i class="fa fa-file-pdf-o"></i>
-                                        Annual brochure_FR.pdf
-                                    </span>
-                                </a>
-                            </li><!-- .widget.widget-text end -->
 
                             <!-- .widget.widget-text start -->
                             <li class="widget widget-text">
