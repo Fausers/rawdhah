@@ -284,6 +284,7 @@
                 $(window).resize(equalHeight);
 
 
+
         </script>
     </body>
 
