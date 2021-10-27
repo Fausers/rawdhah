@@ -9,18 +9,18 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Trucking - Global Logistics Solutions</h1>
+                        <h1 style="color: yellow">Trucking - Global Logistics Solutions</h1>
 
                         <div class="breadcrumb-container">
                             <ul class="breadcrumb clearfix">
-                                <li>You are here:</li>
+                                <li style="color: yellow">You are here:</li>
 
                                 <li>
-                                    <a href="{{url('/')}}">Home</a>
+                                    <a href="{{url('/')}}" style="color: yellow">Home</a>
                                 </li>
 
                                 <li>
-                                    <a href="{{route('about')}}">About</a>
+                                    <a href="{{route('about')}}" style="color: yellow">About</a>
                                 </li>
 
                             </ul><!-- .breadcrumb end -->
@@ -64,21 +64,22 @@
                     </div><!-- .col-md-6 end -->
 
                     <div class="col-md-6 animated triggerAnimation" data-animate="zoomIn">
-                        <img src="img/pics/img23.jpg" alt=""/>
+                        <img src="img/pics/img1.jpg" alt=""/>
                     </div><!-- .col-md-6 end -->
                 </div><!-- .row end -->
             </div><!-- .container end -->
         </div><!-- .page-content end -->
 
-        <div class="page-content custom-bkg bkg-light-blue mb-70">
+        <div class="page-content custom-bkg text-light bkg-dark-blue mb-70">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12 ">
-                        <div class="custom-heading">
-                            <h2>our mission</h2>
-                        </div><!-- .custom-heading end -->
+                <div class="row center">
 
-                        <p>
+                    <div class="col-md-12">
+                        <div class="custom-heading centered">
+                          <h2 style="color: yellow">our mission</h2>
+                        </div><!-- .custom-heading end -->
+                        <div class="col-md-push-12 text-center">
+                            <p>
                             A wonderful serenity has taken possession of my
                             entire soul, like these sweet mornings of spring
                             which I enjoy with my whole heart. I am alone, and
@@ -90,6 +91,8 @@
                             stroke at the present moment; and yet I feel that I
                             never was a greater artist than now.
                         </p>
+                        </div>
+
                     </div><!-- .col-md-6 end -->
 
 
@@ -113,7 +116,7 @@
                                 <i class="fa fa-graduation-cap"></i>
                             </div>
 
-                            <h4>Always learning</h4>
+                            <h4>Fast Movement</h4>
 
                             <p>
                                 Cozy sphinx waves quart jug of bad milk. A
@@ -172,70 +175,7 @@
                     </div><!-- .col-md-3 end -->
                 </div><!-- .row end -->
 
-                <div class="row">
-                    <div class="col-md-9">
-                        <div class="custom-heading">
-                            <h2>board of directors</h2>
-                        </div><!-- .custom-heading end -->
 
-                        <div class="row">
-                            <div class="col-md-4 col-sm-4">
-                                <div class="team-member">
-                                    <img src="img/pics/team01.jpg" alt=""/>
-                                    <div class="team-details">
-                                        <h5>martha parker</h5>
-                                        <p class="position">
-                                            Company founder
-                                        </p>
-                                    </div><!-- .team-details end -->
-                                </div><!-- .member end -->
-                            </div><!-- .col-md-4 end -->
-
-                            <div class="col-md-4 col-sm-4">
-                                <div class="team-member">
-                                    <img src="img/pics/team02.jpg" alt=""/>
-                                    <div class="team-details">
-                                        <h5>jonathan blum</h5>
-                                        <p class="position">
-                                            Chief Technical Officer
-                                        </p>
-                                    </div><!-- .team-details end -->
-                                </div><!-- .member end -->
-                            </div><!-- .col-md-4 end -->
-
-                            <div class="col-md-4 col-sm-4">
-                                <div class="team-member">
-                                    <img src="img/pics/team03.jpg" alt=""/>
-                                    <div class="team-details">
-                                        <h5>tom beck</h5>
-                                        <p class="position">
-                                            Chief Operations Officer
-                                        </p>
-                                    </div><!-- .team-details end -->
-                                </div><!-- .member end -->
-                            </div><!-- .col-md-4 end -->
-                        </div><!-- .row end -->
-                    </div><!-- .col-md-9 end -->
-
-                    <div class="col-md-3">
-                        <div class="custom-heading">
-                            <h2>join our team</h2>
-                        </div><!-- .custom-heading end -->
-
-                        <div class="promo-box promo-bkg01">
-                            <h4>Drivers needed</h4>
-                            <p>
-                                We are hiring drivers and have 2 opened
-                                positions. See what we offer and what we need
-                                and apply today!
-                            </p>
-
-                            <a href="{{route('driver')}}" class="btn btn-medium btn-yellow">
-                                <span>apply now</span>
-                            </a>
-                        </div><!-- .promo-box end -->
-                    </div><!-- .col-md-3 end -->
-                </div><!-- .row end -->
             </div><!-- .container end -->
         </div><!-- .page-content end -->
 
@@ -256,7 +196,7 @@
                                 </p>
                             </div><!-- .text end -->
 
-                            <a href="#" class="btn btn-big">
+                            <a href="{{url('/')}}" class="btn btn-big">
                                 <span>get a quote</span>
                             </a>
                         </div><!-- .call-to-action end -->
@@ -267,7 +207,7 @@
 
 
 
-
+    @include('rawdhar.partials.ourclients')
         <script>
             /* <![CDATA[ */
             jQuery(document).ready(function ($) {

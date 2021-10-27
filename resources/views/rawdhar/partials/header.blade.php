@@ -1,11 +1,6 @@
 <!-- Mirrored from pixel-industry.com/html/trucking/index03.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Oct 2021 15:01:06 GMT -->
 <div class="header-wrapper header-transparent">
 
- <style>
-        #myHeader{
-            color:yellow;
-    }
- </style>
             <!-- .header.header-style01 start -->
             <header id="header"  class="header-style01">
                 <!-- .container start -->
@@ -27,13 +22,13 @@
                                     </div><!-- .navbar-header start -->
 
                                     <!-- MAIN NAVIGATION -->
-                                    <div class="collapse navbar-collapse">
-                                        <ul class="nav navbar-nav">
+                                    <div class="collapse navbar-collapse" id="myDIV">
+                                        <ul class="nav navbar-nav" onclick="myFunction(event)" id="navList">
                                             <li class="dropdown current-menu-item">
                                                 <a href="{{url('/')}}" class="dropdown-toggle">Home</a>
-                                            </li><!-- .dropdown end -->
+                                            </li>
 
-                                            <li><a href="{{route('about')}}/">About</a></li>
+                                            <li><a href="{{route('about')}}">About</a></li>
                                             <li><a href="{{route('services')}}">Services</a></li>
                                             <li><a href="{{route('media')}}">Media</a></li>>
                                             <li><a href="{{route('contact')}}">Contacts</a></li>
@@ -51,7 +46,7 @@
                                                 <li><a href="{{route('about')}}/">About</a></li>
                                                 <li><a href="{{route('services')}}">Services</a></li>
                                                 <li><a href="{{route('media')}}">Media</a></li>
-                                                <li><a href="{{route('contact')}}//">Contacts</a></li>
+                                                <li><a href="{{route('contact')}}">Contacts</a></li>
 
                                             </ul><!-- .dl-menu end -->
                                         </div><!-- #dl-menu end -->
@@ -71,3 +66,14 @@
                 </div><!-- .container end -->
             </header><!-- .header.header-style01 -->
         </div><!-- .header-wrapper.header-transparent end -->
+
+<script>function myFunction(e) {
+    if (document.querySelector('#navList a.active') !== null) {
+    document.querySelector('#navList a.active').classList.remove('active');
+  }
+  e.target.className = "active";
+    }
+
+
+</script>
+

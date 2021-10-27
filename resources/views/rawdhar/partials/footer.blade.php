@@ -74,7 +74,7 @@
                                 </span>
                                 <br />
 
-                                <a href="{{url('/')}}/mailto:">rawdharhaulages@gmail.com</a>
+                                <a href="mailto:rawdharhaulages@gmail.com">rawdharhaulages@gmail.com</a>
                                 <br />
                                 <ul class="footer-social-icons">
                                     <li><a href="{{url('/')}}/#" class="fa fa-facebook"></a></li>

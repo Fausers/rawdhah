@@ -1,16 +1,16 @@
-/* 
+/*
     Author     : Pixel Industry
     Website    : www.pixel-industry.com
 */
 
-/* 
+/*
     TABLE OF CONTENTS
     ========================================================================= */
 /*      1. CSS RESET
         2. DOCUMENT STYLES
-        3. TYPOGRAPHY 
-        4. HEADER 
-        5. PAGE TITLES 
+        3. TYPOGRAPHY
+        4. HEADER
+        5. PAGE TITLES
         6. CUSTOM SECTION BACKGROUNDS
         7. ELEMENTS
             7.1. ACCORDION
@@ -35,15 +35,15 @@
             7.20. SERVICES GALLERY
             7.21. SERVICE ICON CENTER
             7.22. SERVICE ICON CENTER BOXED
-            7.23. SERVICES ICON LEFT 
+            7.23. SERVICES ICON LEFT
             7.24. SERVICES ICON LEFT BOXED
             7.25. SERVICE LIST - small icons and text
-            7.26. SERVICES LIST BIG ICONS 
+            7.26. SERVICES LIST BIG ICONS
             7.27. SERVICES LIST BIG ICONS + DETAILS (text)
             7.28. SHIPPING QUOTE FORM
             7.29. SLIDER - MASTER SLIDER
             7.30. STATEMENT ELEMENT
-            7.31. TABLE 
+            7.31. TABLE
             7.32. TABS
             7.33. TEAM MEMBERS
             7.34. TEAM MEMBERS LIST
@@ -58,8 +58,8 @@
         13. FOOTER
 */
 
-/* 
-    1. CEE RESET 
+/*
+    1. CEE RESET
 ----------------------------------------------------------------------------- */
 a,
 abbr,
@@ -211,7 +211,7 @@ body {
 
 
 /* ==========================================================================
-    3. TYPOGRAPHY 
+    3. TYPOGRAPHY
     ========================================================================= */
 p,
 a,
@@ -330,7 +330,7 @@ a.read-more{
 
 a.read-more span{
     text-transform: uppercase;
-    font-weight: 700;  
+    font-weight: 700;
     display: block;
 
     -webkit-transition: all 0.2s ease 0s;
@@ -360,7 +360,7 @@ a.read-more i{
 }
 
 a.read-more:hover i{
-    opacity: 1;   
+    opacity: 1;
 }
 
 a.download-link{
@@ -401,7 +401,7 @@ a.download-link span i{
 
 
 /* ==========================================================================
-    4. HEADER 
+    4. HEADER
     ========================================================================= */
 .header-wrapper {
     width: 100%;
@@ -504,11 +504,12 @@ a.download-link span i{
     display: none;
 }
 
-/* 
-    MAIN NAVIGATION 
+/*
+    MAIN NAVIGATION
 */
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
     background-color: transparent;
+
 }
 
 .main-nav .row{
@@ -562,7 +563,7 @@ a.download-link span i{
 }
 
 .navbar-default .navbar-nav>li>a{
-    color: #333;    
+    color: #333;
     border-bottom: 3px solid transparent;
 }
 
@@ -736,7 +737,7 @@ a.download-link span i{
     padding: 8px 6px 8px 10px;
     border: 1px solid #ddd;
     border-radius: 3px;
-    background-color: #fff;
+    background-color: #ccc;
 }
 
 .wpml-languages a.active i{
@@ -788,7 +789,7 @@ a.download-link span i{
     background: none;
 }
 
-.header-style02 .navbar-default .navbar-nav>li>a:hover, 
+.header-style02 .navbar-default .navbar-nav>li>a:hover,
 .header-style02 .nav > li.current-menu-item > a{
     border: none;
     border-bottom: none;
@@ -969,7 +970,7 @@ a.download-link span i{
 
 
 /* ==========================================================================
-    5. PAGE TITLES 
+    5. PAGE TITLES
     ========================================================================= */
 .page-title-style01{
     padding-top: 70px;
@@ -1304,7 +1305,7 @@ a.download-link span i{
     font-family: 'FontAwesome';
     font-size: 15px;
     position: absolute;
-    display: block;  
+    display: block;
 }
 
 .accordion .title.active::before{
@@ -1320,7 +1321,7 @@ a.download-link span i{
 }
 
 .accordion.careers .title{
-    padding: 15px 62px 15px 20px;    
+    padding: 15px 62px 15px 20px;
 }
 
 .accordion.careers .title a{
@@ -1374,7 +1375,7 @@ a.download-link span i{
 .accordion.careers .title:hover::after{
     background-image: url('../img/accordion-opened.png');
     background-repeat: no-repeat;
-    background-position: center;    
+    background-position: center;
 }
 
 .accordion .content {
@@ -2128,7 +2129,7 @@ blockquote{
 }
 
 .service-feature-box .service-media span{
-    color: #fff;    
+    color: #fff;
     padding-left: 20px;
     font-weight: 600;
 }
@@ -2228,7 +2229,7 @@ blockquote{
     content: "";
     display: block;
     width: 40px;
-    height: 3px;  
+    height: 3px;
     left: 50%;
     bottom: 0;
     margin-left: -20px;
@@ -2369,7 +2370,7 @@ blockquote{
 
 
 /*
-    7.23. SERVICES ICON LEFT 
+    7.23. SERVICES ICON LEFT
     ------------------------------------------------------------------------- */
 .service-icon-left{
     width: 100%;
@@ -2508,7 +2509,7 @@ blockquote{
 }
 
 
-/*  7.26. SERVICES LIST BIG ICONS 
+/*  7.26. SERVICES LIST BIG ICONS
     ------------------------------------------------------------------------- */
 .col-md-9 .service-list-big-icons li{
     width: 33.3%;
@@ -2810,7 +2811,7 @@ blockquote{
 
 
 /*
-    7.31. TABLE 
+    7.31. TABLE
     ------------------------------------------------------------------------- */
 .table{
     width: 100%;
@@ -2829,7 +2830,7 @@ blockquote{
     background-color: #f6f6f6;
 }
 
-.table thead tr th{ 
+.table thead tr th{
     padding: 10px;
     font-weight: 700;
     color: #333;
@@ -3119,7 +3120,7 @@ blockquote{
     content: "";
     display: block;
     width: 40px;
-    height: 3px;  
+    height: 3px;
     left: 50%;
     bottom: 0;
     margin-left: -20px;
@@ -3309,7 +3310,7 @@ blockquote{
     text-align: center;
 }
 
-.post-list .blog-post .post-body, 
+.post-list .blog-post .post-body,
 .post-single .blog-post .post-body{
     padding-left: 130px;
 }
@@ -3404,7 +3405,7 @@ blockquote{
     background-color: #565f66;
     padding: 7px 15px;
     position: absolute;
-    right: 0;  
+    right: 0;
 }
 
 .blog-post.isotope-item .post-body{
@@ -3639,7 +3640,7 @@ blockquote{
     padding-bottom: 10px;
 }
 
-.wpcf7-text, 
+.wpcf7-text,
 .wpcf7-select,
 .wpcf7-textarea{
     background: #fff;
@@ -3716,7 +3717,7 @@ blockquote{
     display: block;
 }
 
-/* 
+/*
    ASIDE SEARCH WIDGET
    -------------------------------------------------------------------------- */
 .widget_search form {
