@@ -384,11 +384,11 @@
                     <div class="col-md-6">
                         <div class="service-icon-left">
                             <div class="icon-container triggerAnimation animated" data-animate="zoomIn">
-                                <img src="{{url('/')}}/img/svg/pi-globe-5.svg" alt="globe icon">
+                                <img src="img/svg/pi-truck-8.svg" alt="globe icon">
                             </div><!-- .icon-container end -->
 
                             <div class="service-details">
-                                <h3>Overland, Ocean and Air Freight</h3>
+                                <h3>Land Transportation</h3>
 
                                 <p>
                                     trucking company offers the best logistics
@@ -409,7 +409,7 @@
                             </div><!-- .icon-container end -->
 
                             <div class="service-details">
-                                <h3>Warehousing and Storage</h3>
+                                <h3>Large Projects</h3>
 
                                 <p>
                                     Trucking offers intelligent warehouse

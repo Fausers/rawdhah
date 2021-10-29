@@ -30,7 +30,7 @@
 
                                             <li><a href="{{route('about')}}">About</a></li>
                                             <li><a href="{{route('services')}}">Services</a></li>
-                                            <li><a href="{{route('media')}}">Media</a></li>>
+                                            <li><a href="{{route('media')}}">Media</a></li>
                                             <li><a href="{{route('contact')}}">Contacts</a></li>
 
                                         </ul><!-- .nav.navbar-nav end -->

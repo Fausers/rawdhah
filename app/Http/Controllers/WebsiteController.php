@@ -2,15 +2,50 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Driver;
 use Illuminate\Http\Request;
+use Illuminate\Validation\ValidationException;
 
 class WebsiteController extends Controller
 {
 
 
-     public function driver()
+    /**
+     * @throws ValidationException
+     */
+    public function driverapplication(Request $request)
     {
-        return view('rawdhar.driver-application');
+       /* print('hellen');
+       $this->validate($request,[
+            'fname'=>'required',
+            'mname'=> 'required',
+            'lname'=> 'required',
+            'dob'=> 'required',
+            'licence_date'=> 'required',
+            'licence_type'=> 'required',
+            'phone'=> 'required',
+            'experience'=> 'required',
+        ]);
+
+         $drive = new Driver();
+        $drive->fname=$request['fname'];
+        $drive->mname=$request['mname'];
+        $drive['lname']=$request->get('lname');
+        $drive['dob']=$request->get('dob');
+        $drive['license_date']=$request->get('licence_data');
+        $drive['licence_type']=$request->get('licence_type');
+        $drive['phone_number']=$request->get('phone');
+        $drive['year_experience']=$request->get('experience'); */
+
+        $drive = Driver::create($request->all());
+
+        return $drive;
+
+    }
+
+    public function driver()
+    {
+          return view('rawdhar.driver-application');
     }
 
     public function contact()
