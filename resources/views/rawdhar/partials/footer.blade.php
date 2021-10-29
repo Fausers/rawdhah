@@ -95,7 +95,7 @@
                         </div><!-- .col-md-6 end -->
 
                         <div class="col-md-6">
-                            <p class="align-right">DESIGNED AND DEVELOPED BY <a href="{{url('/')}}/www.luxtechtz.com">LuxTechTz.</a> ELITE AUTHOR.</p>
+                            <p class="align-right">DESIGNED AND DEVELOPED BY <a href="{{url('/')}}/www.luxtechtz.com">LuxTechTz.</a></p>
                         </div><!-- .col-md-6 end -->
                     </div><!-- .row end -->
                 </div><!-- .container end -->
