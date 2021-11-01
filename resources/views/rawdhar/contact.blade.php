@@ -47,7 +47,9 @@
                         <br />
 
                         <!-- .contact form start -->
-                        <form class="wpcf7 clearfix">
+                        <form class="wpcf7 clearfix" method="post" action="{{route('contactinfo')}}">
+                            @method('post')
+                            @csrf
                             <fieldset>
                                 <label>
                                     <span class="required">*</span> Your request:
@@ -66,7 +68,7 @@
                                     <span class="required">*</span> First Name:
                                 </label>
 
-                                <input type="text" class="wpcf7-text" id="contact-name">
+                                <input type="text" class="wpcf7-text" id="contact-name" name="first_name">
                             </fieldset>
 
                             <fieldset>
@@ -74,7 +76,7 @@
                                     <span class="required">*</span> Last Name:
                                 </label>
 
-                                <input type="text" class="wpcf7-text" id="contact-last-name">
+                                <input type="text" class="wpcf7-text" id="contact-last-name" name="last_name">
                             </fieldset>
 
                             <fieldset>
@@ -82,7 +84,7 @@
                                     <span class="required">*</span> Email:
                                 </label>
 
-                                <input type="url" class="wpcf7-text" id="contact-email">
+                                <input type="text" class="wpcf7-text" id="contact-email" name="email">
                             </fieldset>
 
                             <fieldset>
@@ -90,7 +92,7 @@
                                     <span class="required">*</span> Message:
                                 </label>
 
-                                <textarea rows="8" class="wpcf7-textarea" id="contact-message"></textarea>
+                                <textarea rows="8" class="wpcf7-textarea" id="contact-message" name="message"></textarea>
                             </fieldset>
 
                             <input type="submit" class="wpcf7-submit" value="send" />
