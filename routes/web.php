@@ -29,6 +29,7 @@ Route::get('/contact', [WebsiteController::class,'contact'])->name('contact');
 Route::post('/contactinfo', [WebsiteController::class,'contactinfo'])->name('contactinfo');
 Route::get('/driver-application/', [WebsiteController::class,'driver'])->name('driver');
 Route::post('/driver-applications/', [WebsiteController::class,'driverapplication'])->name('driverapplication');
+Route::post('/quoteinfo', [WebsiteController::class,'quoteinfo'])->name('quoteinfo');
 
 
 //about company views

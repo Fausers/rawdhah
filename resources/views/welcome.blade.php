@@ -184,35 +184,37 @@
                             <h3>quick quote</h3>
                         </div><!-- .custom-heading end -->
 
-                        <form class="wpcf7 shipping-quote clearfix">
+                        <form class="wpcf7 shipping-quote clearfix" method="post" action="{{route('quoteinfo')}}">
+                            @method('post')
+                            @csrf
                             <fieldset>
                                 <label>Loading point:</label>
-                                <input type="text" id="tracking-origin" class="wpcf7-text">
+                                <input type="text" id="tracking-origin" class="wpcf7-text" name="loading_point">
                             </fieldset>
 
                             <fieldset>
                                 <label>Destination ZIP:</label>
-                                <input type="text" id="tracking-destination" class="wpcf7-text">
+                                <input type="text" id="tracking-destination" class="wpcf7-text" name="destination_zip">
                             </fieldset>
 
                             <fieldset>
                                 <label>Sector:</label>
-                                <input type="text" id="tracking-weight" class="wpcf7-text">
+                                <input type="text" id="tracking-weight" class="wpcf7-text" name="sector">
                             </fieldset>
 
                             <fieldset>
                                 <label>Total weight:</label>
-                                <input type="text" id="tracking-weight" class="wpcf7-text">
+                                <input type="text" id="tracking-weight" class="wpcf7-text" name="total_weight">
                             </fieldset>
 
                             <fieldset>
                                 <label>No. of packages:</label>
-                                <input type="text" id="tracking-packages" class="wpcf7-text">
+                                <input type="text" id="tracking-packages" class="wpcf7-text" name="number_packages">
                             </fieldset>
 
                             <fieldset>
                                 <label>Your email:</label>
-                                <input type="email" id="tracking-email" class="wpcf7-text">
+                                <input type="email" id="tracking-email" class="wpcf7-text" name="email">
                             </fieldset>
 
                             <input type="submit" value="get rate quote" class="submit">

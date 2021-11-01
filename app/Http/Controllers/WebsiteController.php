@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Driver;
 use App\Models\Contact;
+use App\Models\Quote;
 use Illuminate\Http\Request;
 use Illuminate\Validation\ValidationException;
 
@@ -48,7 +49,12 @@ class WebsiteController extends Controller
         return view('rawdhar.media');
     }
 
+    public function quoteinfo(Request $request)
+    {
+        $quote_info = Quote::create($request->all());
 
+        return $quote_info;
+    }
 
     //about company controllers
 
