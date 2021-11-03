@@ -46,12 +46,12 @@
                         <li class="col-md-3">
                             <figure class="gallery-item-container">                               
                                 <div class="gallery-item">
-                                    <img src="img/pics/img04.jpg" alt=""/>
+                                    <img src="img/pics/truckimg01.jpg" alt=""/>
 
                                     <div class="hover-mask-container">
                                         <div class="hover-mask"></div>
                                         <div class="hover-zoom">
-                                            <a href="img/pics/img04.jpg" class="triggerZoom fa fa-search"></a>
+                                            <a href="img/pics/truckimg01.jpg" class="triggerZoom fa fa-search"></a>
                                         </div><!-- .hover-details end -->
                                     </div><!-- .hover-mask-container end -->
                                 </div><!-- .service-item end -->
@@ -65,12 +65,12 @@
                         <li class="col-md-3">
                             <figure class="gallery-item-container">                               
                                 <div class="gallery-item">
-                                    <img src="img/pics/img16.jpg" alt=""/>
+                                    <img src="img/pics/truckimg162.jpg" alt=""/>
 
                                     <div class="hover-mask-container">
                                         <div class="hover-mask"></div>
                                         <div class="hover-zoom">
-                                            <a href="img/pics/img16.jpg" class="triggerZoom fa fa-search"></a>
+                                            <a href="img/pics/truckimg162.jpg" class="triggerZoom fa fa-search"></a>
                                         </div><!-- .hover-details end -->
                                     </div><!-- .hover-mask-container end -->
                                 </div><!-- .service-item end -->
@@ -236,12 +236,12 @@
                         <li class="col-md-3">
                             <figure class="gallery-item-container">                               
                                 <div class="gallery-item">
-                                    <img src="img/pics/img43.jpg" alt=""/>
+                                    <img src="img/pics/truckimg43.jpg" alt=""/>
 
                                     <div class="hover-mask-container">
                                         <div class="hover-mask"></div>
                                         <div class="hover-zoom">
-                                            <a href="img/pics/img43.jpg" class="triggerZoom fa fa-search"></a>
+                                            <a href="img/pics/truckimg43.jpg" class="triggerZoom fa fa-search"></a>
                                         </div><!-- .hover-details end -->
                                     </div><!-- .hover-mask-container end -->
                                 </div><!-- .service-item end -->
@@ -255,12 +255,12 @@
                         <li class="col-md-3">
                             <figure class="gallery-item-container">                               
                                 <div class="gallery-item">
-                                    <img src="img/pics/img44.jpg" alt=""/>
+                                    <img src="img/pics/truckimg44.jpg" alt=""/>
 
                                     <div class="hover-mask-container">
                                         <div class="hover-mask"></div>
                                         <div class="hover-zoom">
-                                            <a href="img/pics/img44.jpg" class="triggerZoom fa fa-search"></a>
+                                            <a href="img/pics/truckimg44.jpg" class="triggerZoom fa fa-search"></a>
                                         </div><!-- .hover-details end -->
                                     </div><!-- .hover-mask-container end -->
                                 </div><!-- .service-item end -->

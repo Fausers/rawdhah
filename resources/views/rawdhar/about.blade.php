@@ -35,31 +35,24 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="custom-heading">
-                            <h2>company profile</h2>
+                            <h2>About Us</h2>
                         </div><!-- .custom-heading end -->
 
                         <p>
-                            A wonderful serenity has taken possession of my
-                            entire soul, like these sweet mornings of spring
-                            which I enjoy with my whole heart. I am alone, and
-                            feel the charm of existence in this spot, which was
-                            created for the bliss of souls like mine. I am so
-                            happy, my dear friend, so absorbed in the exquisite
-                            sense of mere tranquil existence, that I neglect my
-                            talents. I should be incapable of drawing a single
-                            stroke at the present moment; and yet I feel that I
-                            never was a greater artist than now.
+                        Rawdhar Haulages Limited is a recognized internationally as one
+                        of the best freight logistics companies in Tanzania. We provide
+                        multitude of services which meet several demands of your
+                        business in Logistics department.
                         </p>
 
                         <p>
-                            I throw myself down among the tall grass by the
-                            trickling stream; and, as I lie close to the earth,
-                            a thousand unknown plants are noticed by me: when
-                            I hear the buzz of the little world among the
-                            stalks, and grow familiar with the countless
-                            indescribable forms of the insects and flies, then
-                            I feel the presence of the Almighty, who formed
-                            us in his own image, and the breath.
+                        Out of all the Tanzania logistics companies, being in the business
+                        for about ten years has given an extra edge to Freights. We have
+                        an extensive client base in more than five countries across the
+                        world. We perfectly understand every unique logistic need of
+                        different clients and make sure that perfect service is delivered to
+                        you.
+                            
                         </p>
                     </div><!-- .col-md-6 end -->
 
@@ -70,7 +63,8 @@
             </div><!-- .container end -->
         </div><!-- .page-content end -->
 
-        <div class="page-content custom-bkg text-light bkg-dark-blue mb-70">
+        <div class="page-content parallax parallax04 dark mb-70">
+            <!-- the parallax04 will be replaced with the actual photo of rawdhar haulage car -->
             <div class="container">
                 <div class="row center">
 
@@ -80,16 +74,12 @@
                         </div><!-- .custom-heading end -->
                         <div class="col-md-push-12 text-center">
                             <p>
-                            A wonderful serenity has taken possession of my
-                            entire soul, like these sweet mornings of spring
-                            which I enjoy with my whole heart. I am alone, and
-                            feel the charm of existence in this spot, which was
-                            created for the bliss of souls like mine. I am so
-                            happy, my dear friend, so absorbed in the exquisite
-                            sense of mere tranquil existence, that I neglect my
-                            talents. I should be incapable of drawing a single
-                            stroke at the present moment; and yet I feel that I
-                            never was a greater artist than now.
+                            At Rawdhar Haulages Limited we deliver a positive, reliable
+                            experience to our clients while offering exceptional value in the
+                            marketplace and setting the standard for professionalism in the
+                            logistic solutions we provide. In addition to operating our
+                            business profitably, we strive to operate it responsibly both for
+                            our clients and our employees.
                         </p>
                         </div>
 
@@ -119,9 +109,7 @@
                             <h4>Fast Movement</h4>
 
                             <p>
-                                Cozy sphinx waves quart jug of bad milk. A
-                                very bad quack might jinx zippy fowls. Few
-                                quips galvanized the mock jury box.
+                                Cargo deliver at time with insured safety and security. 
                             </p>
                         </div><!-- .service-icon-center end -->
                     </div><!-- .col-md-3 end -->
@@ -135,9 +123,7 @@
                             <h4>Latest Technology</h4>
 
                             <p>
-                                Cozy sphinx waves quart jug of bad milk. A
-                                very bad quack might jinx zippy fowls. Few
-                                quips galvanized the mock jury box.
+                                You can keep track of your Cargo location at any time if you shp with us.
                             </p>
                         </div><!-- .service-icon-center end -->
                     </div><!-- .col-md-3 end -->
@@ -151,9 +137,8 @@
                             <h4>Safety & Quality</h4>
 
                             <p>
-                                Cozy sphinx waves quart jug of bad milk. A
-                                very bad quack might jinx zippy fowls. Few
-                                quips galvanized the mock jury box.
+                            We ensure safety to your Cargo through use of quality equipments and 
+                                with skilled drivers.
                             </p>
                         </div><!-- .service-icon-center end -->
                     </div><!-- .col-md-3 end -->
@@ -167,9 +152,7 @@
                             <h4>Care for Environment</h4>
 
                             <p>
-                                Cozy sphinx waves quart jug of bad milk. A
-                                very bad quack might jinx zippy fowls. Few
-                                quips galvanized the mock jury box.
+                          We care the enviroment through choosing routes that improve our eficiency.
                             </p>
                         </div><!-- .service-icon-center end -->
                     </div><!-- .col-md-3 end -->
@@ -185,7 +168,7 @@
                     <div class="col-md-12">
                         <div class="call-to-action clearfix">
                             <div class="text">
-                                <h2>Providing first class logistics services worldwide.</h2>
+                                <h2>Providing first class logistics services in East and Southern Africa.</h2>
                                 <p>
                                     This is Trucking, powerful niche template
                                     dedicated to logistics and trucking
@@ -201,6 +184,7 @@
                             </a>
                         </div><!-- .call-to-action end -->
                     </div><!-- .col-md-12 end -->
+                    
                 </div><!-- .row end -->
             </div><!-- .container end -->
         </div><!-- .page-content.parallax end -->

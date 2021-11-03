@@ -5,16 +5,16 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 style="color: yellow">Become a part of our team</h1>
+                        <h1 style="color: rgb(248,233,16)">Become a part of our team</h1>
 
                         <div class="breadcrumb-container">
                             <ul class="breadcrumb clearfix">
-                                <li style="color: yellow">You are here:</li>
+                                <li style="color: rgb(248,233,16)">You are here:</li>
                                 <li>
-                                    <a href="{{url('/')}}" style="color: yellow">Home</a>
+                                    <a href="{{url('/')}}" style="color: rgb(248,233,16)">Home</a>
                                 </li>
                                 <li>
-                                    <a href="{{route('driver')}}" style="color: yellow">Online driver application</a>
+                                    <a href="{{route('driver')}}" style="color: rgb(248,233,16)">Online driver application</a>
                                 </li>
                             </ul><!-- .breadcrumb end -->
                         </div><!-- .breadcrumb-container end -->
@@ -35,21 +35,19 @@
 
                         <img class="float-right" src="img/pics/img25.jpg" width="360" alt=""/>
 
-                        <p>
-                            I throw myself down among the tall grass by the
-                            trickling stream; and, as I lie close to the earth,
-                            a thousand unknown plants are noticed by me: when I
-                            hear the buzz of the little world among the stalks,
-                            and grow familiar with the countless indescribable
-                            forms of the insects and flies, then I feel the
-                            presence of the Almighty, who formed us in his own
-                            image, and the breath.
-                            On the other hand, we denounce with righteous
-                            indignation and dislike men who are so beguiled and
-                            demoralized by the charms of pleasure of the moment,
-                            so blinded by desire, that they cannot foresee the
-                            pain and trouble that are bound to ensue; and equal
-                            blame belongs to those who fail in their duty.
+                        <p style="text-align: justify">
+                            From the people who work in administrative staff,
+                            to our expert drivers, we make it our mission to provide our employees with 
+                            the best training possible.<br>
+
+                            This benefits our employees’ career development,
+                            our ability to provide the highest standard in trucking, and your business goals.<br>
+
+                            At Rawdhar Haulages, we have some of the best and most experienced drivers in the industry. 
+                            They have the knowledge, skill, and support they need to ensure that they get the job done right
+                            every time.
+
+                            Want to work with us apply now.
                         </p>
 
                         <br />
@@ -81,7 +79,7 @@
 
 
                             <fieldset>
-                                <label><span class="required">*</span> Your phone number:</label>
+                                <label><span class="required mb-5">*</span> Your phone number:</label>
 
                                 <input class="wpcf7-text" id="driver-phone" name="phone_number" required>
                             </fieldset>
@@ -98,11 +96,29 @@
                                 <input class="wpcf7-text" id="driver-experience" placeholder="Minimum 3..." name="year_experience" required>
                             </fieldset>
 
+                            <fieldset>
+                                <label><span class="required">*</span> Passport:</label>
+
+                                <input type="file" class="wpcf7-text" id="driver-date-birth" placeholder="mm/dd/yy" name="passport" required>
+                            </fieldset> 
+                            <fieldset>
+                                <label><span class="required">*</span> NIDA:</label>
+
+                                <input type="file" class="wpcf7-text" id="driver-date-birth" placeholder="mm/dd/yy" name="nida" required>
+                            </fieldset> 
+                            <fieldset>
+                                <label><span class="required">*</span> Driver licence:</label>
+
+                                <input type="file" class="wpcf7-text" id="driver-date-birth" placeholder="mm/dd/yy" name="licence" required>
+                            </fieldset>
+
+
                              <fieldset>
                                 <label><span class="required">*</span> Driver date of birth:</label>
 
                                 <input type="date" class="wpcf7-text" id="driver-date-birth" placeholder="mm/dd/yy" name="dob" required>
                             </fieldset>
+                            
 
                       <!--      <fieldset>
                                 <label><span class="required">*</span> You are:</label>
@@ -121,7 +137,7 @@
 
                             <fieldset>
                                 <label><span class="required">*</span> Type of driver's licence:</label>
-                              <input type="text" list="classes" class="wpcf7-text" id="driver-licence-type" name="licence_type" required>
+                              <input type="text" list="classes" class="wpcf7-text" id="driver-licence-type" pattern="[A-Za-z]{3}" title="Three letter country" name="licence_type" required>
 
                                 <datalist id="classes" name="licence_type">
                                     <option value="A">
@@ -141,9 +157,8 @@
 
 
                             </fieldset>
-
-
-                            <input type="submit" class="wpcf7-submit" value="apply now">
+                            
+                            <input type="submit" class="wpcf7-submit" value="apply now" style="background-color: rgb(248,233,16)">
                         </form><!-- .wpcf7 end -->
                     </div><!-- .col-md-9 end -->
                 </div><!-- .row end -->

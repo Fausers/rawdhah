@@ -22,6 +22,7 @@ class CreateContactsTable extends Migration
             $table->text('last_name');
             $table->text('email');
             $table->longtext('message');
+           
 
         });
     }

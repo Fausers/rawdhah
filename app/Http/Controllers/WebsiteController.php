@@ -20,6 +20,36 @@ class WebsiteController extends Controller
     
         $drive = Driver::create($request->all());
 
+        if($request->hasFile('passport')){
+            $destination_path = 'public/images/passpots';
+            $image =$request->file('passport');
+            $image_name =$image->getClientOriginalName();
+            $path = $request->file('passport')->storeAs($destination_path,$image_name);
+
+            $input['passport']=$image_name;
+        }
+
+        if($request->hasFile('nida')){
+            $destination_path = 'public/images/nida_photos';
+            $image =$request->file('nida');
+            $image_name =$image->getClientOriginalName();
+            $path = $request->file('nida')->storeAs($destination_path,$image_name);
+
+            $input['nida']=$image_name;
+        }
+
+
+        if($request->hasFile('licence')){
+            $destination_path = 'public/images/licences';
+            $image =$request->file('licence');
+            $image_name =$image->getClientOriginalName();
+            $path = $request->file('licence')->storeAs($destination_path,$image_name);
+
+            $input['licence']=$image_name;
+        }
+
+        
+
         return $drive;
 
     }
@@ -35,7 +65,6 @@ class WebsiteController extends Controller
 
         return $contact_info;
        
-
     }
 
     public function contact()

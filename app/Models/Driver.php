@@ -22,6 +22,9 @@ class Driver extends Model
         'phone_number',
         'e_address',
         'year_experience',
+        'passport',
+        'nida',
+        'licence',
         ];
 
 

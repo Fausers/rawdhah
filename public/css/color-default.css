@@ -32,7 +32,7 @@
 .tracking .submit,
 .pi-latest-posts02 .post-date .month,
 .shipping-quote .submit{  
-  background-color: #006db7;
+  background-color: #F8E910;
 }
 
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus,
@@ -64,17 +64,17 @@ a.download-link:hover span,
 .custom-bkg.dark a:hover,
 .custom-bkg.dark a:hover span,
 .custom-bkg.dark a:hover i{
-    color: #006db7;
+    color: #F8E910;
 }
 
 .header-style01 .navbar-default .navbar-nav>li>a:hover,
 .header-style01 .nav > li.current-menu-item > a{
-    border-color: #006db7;
+    border-color: #F8E910;
 }
 
 .dropdown .dropdown-menu .dropdown-submenu > a:hover:after,
 blockquote{
-    border-left-color: #006db7;
+    border-left-color: #F8E910;
 }
 
 /* Lighter base 01 */
@@ -86,7 +86,7 @@ blockquote{
 .btn:hover,
 .tracking .submit:hover,
 .shipping-quote .submit:hover{
-    background-color: #0275c4;
+    background-color: #F8E910;
 }
 
 /* 
@@ -112,7 +112,7 @@ blockquote{
 .master-slider .pi-button:hover,
 .master-slider .tooltip h6::after,
 .ms-skin-default .ms-tooltip-point .ms-point-center{
-    background-color: #fac312;
+    background-color: #F8E910;
 }
 
 .blog-post.isotope-item .post-date i,
@@ -123,16 +123,16 @@ blockquote{
 .accordion .title::before,
 .pi-latest-posts03 li .post-media i,
 .news-carousel-container .icon-title i{
-    color: #fac312;
+    color: #F8E910;
 }
 
 .hover-mask-container .hover-details span,
 .hover-mask-container .hover-zoom,
 .master-slider .pi-button{
-    border-color: #fac312;
+    border-color: #F8E910;
 }
 
 .icon-container .st1{
-    fill: #fac312;
+    fill: #F8E910;
 }
 

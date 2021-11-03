@@ -1,4 +1,4 @@
-  @extends('layouts.rawdhar')
+@extends('layouts.rawdhar')
 @section('content')
 
 <!-- .page-title start -->

@@ -7,7 +7,8 @@
             <!-- first slide -->
             <div class="ms-slide">
                 <!-- slide background -->
-                <img src="{{url('/')}}/img/truck/truck01.jpeg" data-src="{{url('/')}}/img/truck/truck01.jpeg" alt="Video slider"/>
+                <img src="{{url('/')}}/img/truck/imgtruck.jpeg" data-src="{{url('/')}}/img/truck/imgtruck.jpeg" alt="Video slider"/>
+                
 
                 <video data-autopause="false" data-mute="false" data-loop="true" data-fill-mode="fill" class="ms-slide-bgvideo"
                        muted="muted" style="left: 0; top:0;">
@@ -53,7 +54,7 @@
             <div class="ms-slide">
                 <!-- slide background -->
                 <img src="{{url('/')}}/masterslider/blank.gif"
-                     data-src="{{url('/')}}/img/truck/truck01.jpeg" alt="Worldwide freight services"/>
+                     data-src="{{url('/')}}/img/truck/imgtruck.jpeg" alt="Worldwide freight services"/>
 
                 <h2 class="ms-layer pi-caption01"
                     style="left: 258px; top: 420px; color:yellow;"
@@ -166,9 +167,7 @@
                         <br />
 
                         <p>
-                            Trucking Co. covers over 150 locations all over the
-                            globe plus numerous logistic partner companies from
-                            different areas of supply chain.
+                            Rawdhar Haulages,covers East and Southeastern Africa countries.
                         </p>
 
                         <a class="read-more" href="locations.html">
@@ -199,7 +198,22 @@
 
                             <fieldset>
                                 <label>Sector:</label>
-                                <input type="text" id="tracking-weight" class="wpcf7-text" name="sector">
+                                <input type="text" list="classes" id="tracking-weight" class="wpcf7-text" name="sector">
+
+                                <datalist id="classes" name="sector">
+                                    <option value="Automotive">
+                                    <option value="Building materials">
+                                    <option value="Chemicals">
+                                    <option value="Consumer goods">
+                                    <option value="Electronics">
+                                    <option value="Food and beverage">
+                                    <option value="Health care">
+                                    <option value="Industrial Equipment">
+                                    <option value="Metals & Coal">
+                                    <option value="Retail">
+
+
+                                </datalist>
                             </fieldset>
 
                             <fieldset>
@@ -235,13 +249,13 @@
                                 </div>
 
                                 <div class="li-content">
-                                    <h3>Local and transit</h3>
+                                    <h3>Quality transportation</h3>
 
                                     <p>
-                                        From Europe to Asutralia, by air or sea?
-                                        We offer fast, reliable and accurate
-                                        worldwide delivery directly to your doors,
-                                        factory and warehouses.
+                                        The moving freight proces can be delicate for your Cargo.
+                                        We have quality equipments operators and skilled drivers
+                                        to ensure your Cargo reach the destination in time with the same standard.
+
                                     </p>
                                 </div><!-- .li-content end -->
                             </li>
@@ -255,11 +269,11 @@
                                     <h3>End-to-end solution available</h3>
 
                                     <p>
-                                        From 2015 Trucking offers new service -
-                                        we are now offering end-to-end solutions
-                                        using multiple transportation means and
-                                        covering all supply chain from the origin
-                                        to the destination.
+                                    
+                                        We are now offering end-to-end solutions
+                                        using ground transportation means from the loading point 
+                                        to the destination point through trusted routes.
+                    
                                     </p>
                                 </div><!-- .li-content end -->
                             </li>
@@ -302,9 +316,8 @@
 
                             <p>
                                 Need custom logistic service? We got it covered.
-                                From overland, air, rail and sea transportation.
-                                Fast, safe and accurate shipment provided all
-                                over the globe.
+                    
+                                Fast, safe and accurate shipment provided across East and Southeastern Africa
                             </p>
                         </div><!-- .service-icon-center-boxed end -->
 
@@ -321,9 +334,9 @@
                             </div><!-- .service-title end -->
 
                             <p>
-                                trucking company offers the best logistics
-                                services using all mens of supply chain. Use our
-                                overland, ocean and air freight solutions for
+                                Trucking company offers the best logistics
+                                services using quality trucks. Use our
+                                overland freight solution for
                                 shipment of your goods.
                             </p>
                         </div><!-- .service-icon-center-boxed end -->
@@ -375,9 +388,8 @@
 
                                 <p>
                                     Need custom logistic service? We got it
-                                    covered. From overland, air, rail and sea
-                                    transportation. Fast, safe and accurate
-                                    shipment provided all over the globe.
+                                    covered. Fast, safe and accurate
+                                    shipment provided in East and Southeastern Africa.
                                 </p>
                             </div><!-- .service-details end -->
                         </div><!-- .service-icon-left end -->
@@ -393,10 +405,10 @@
                                 <h3>Land Transportation</h3>
 
                                 <p>
-                                    trucking company offers the best logistics
-                                    services using all mens of supply chain.
-                                    Use our overland, ocean and air freight
-                                    solutions for shipment of your goods.
+                                Trucking company offers the best logistics
+                                services using quality trucks. Use our
+                                overland freight solution for
+                                shipment of your goods.
                                 </p>
                             </div><!-- .service-details end -->
                         </div><!-- .service-icon-left end -->
@@ -435,8 +447,7 @@
 
                                 <p>
                                     Don't know what mean of transportation
-                                    would be right for you, or you need someone
-                                    for full supply chain management? Please
+                                    would be right for you? Please
                                     contact us. Our team of professionals will
                                     be happy to help.
                                 </p>
@@ -447,31 +458,7 @@
             </div><!-- .container end -->
         </div><!-- .page-content.parallax end -->
 
-        <div class="page-content">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-md-3">
-                        <div class="custom-heading">
-                            <h2>join our team</h2>
-                        </div><!-- .custom-heading end -->
-
-                        <div class="promo-box promo-bkg01">
-                            <h4>Drivers needed</h4>
-                            <p>
-                                We are hiring drivers and have 2 opened
-                                positions. See what we offer and what we need
-                                and apply today!
-                            </p>
-
-                            <a href="{{route('driver')}}" class="btn btn-medium btn-yellow">
-                                <span>apply now</span>
-                            </a>
-                        </div><!-- .promo-box end -->
-                    </div><!-- .col-md-3 end -->
-                </div><!-- .row end -->
-            </div><!-- .container end -->
-        </div><!-- .page-content end -->
+        
 
     @include('rawdhar.partials.ourclients')
 

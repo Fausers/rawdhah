@@ -18,16 +18,18 @@ class CreateDriversTable extends Migration
             $table->timestamps();
 
             //code added from here
-            $table->text('fname')->unsigned()->nullable();
-            $table->text('mname')->unsigned()->nullable();
-            $table->text('lname')->unsigned()->nullable();
-            $table->date('dob')->unsigned()->nullable();
-            $table->date('license_date')->unsigned()->nullable();
-            $table->text('licence_type')->unsigned()->nullable();
-            $table->integer('phone_number')->unsigned()->nullable();
-            $table->text('e_address')->unsigned()->nullable();
-            $table->text('year_experience')->unsigned()->nullable();
-
+            $table->text('fname');
+            $table->text('mname');
+            $table->text('lname');
+            $table->date('dob');
+            $table->date('license_date');
+            $table->text('licence_type');
+            $table->integer('phone_number');
+            $table->text('e_address');
+            $table->text('year_experience');
+            $table->string('passport');
+            $table->string('nida');
+            $table->string('licence');
         });
     }
 

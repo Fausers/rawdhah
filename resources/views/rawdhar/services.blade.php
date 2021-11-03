@@ -242,7 +242,7 @@
                     <div class="col-md-6 col-sm-6 ">
                         <div class="service-feature-box">
                             <div class="service-media">
-                                <img src="img/pics/img01.jpg" alt="Trucking"/>
+                                <img src="img/pics/truckimg01.jpg" alt="Trucking"/>
 
                                 <a href="{{route('ground')}}" class="read-more02">
                                     <span style="color: yellow">
