@@ -2,7 +2,49 @@
 @extends('layouts.rawdhar')
 @section('content')
 
+<style>
+    .counter
+{
+    background-color: transparent;
+    text-align: center;
+}
+.employees,.customer,.design,.order
+{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.counter-count
+{
+    -webkit-text-size-adjust: 100%;
+    font-family: "Raleway";
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.5em;
+    color: #000000;
+    font-size: 25px;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: relative;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100%;
+    max-width: 100% !important;
+}
 
+.employee-p,.customer-p,.order-p,.design-p
+{
+    font-size: 24px;
+    color: #000000;
+    line-height: 34px;
+}
+
+
+</style>
 
         <!-- .page-title start -->
            <div class="page-title-style01 page-title-negative-top pt-bkg02">
@@ -163,36 +205,58 @@
         </div><!-- .page-content end -->
 
         <div class="page-content parallax parallax01 dark">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
+            <div class="counter">
+                <div class="container">
+                    <div class="row">
                         <div class="call-to-action clearfix">
-                            <div class="text">
-                                <h2>Providing first class logistics services in East and Southern Africa.</h2>
-                                <p>
-                                    This is Trucking, powerful niche template
-                                    dedicated to logistics and trucking
-                                    companies. This is layout with Layered
-                                    slider. As you can see there are a lot of
-                                    design options. Simply choose the one that
-                                    suits your needs.
-                                </p>
-                            </div><!-- .text end -->
-
-                            <a href="{{url('/')}}" class="btn btn-big">
-                                <span>get a quote</span>
-                            </a>
-                        </div><!-- .call-to-action end -->
-                    </div><!-- .col-md-12 end -->
-                    
-                </div><!-- .row end -->
-            </div><!-- .container end -->
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="employees">
+                                    <i class='fas fa-globe-africa' style='font-size:48px;color:#F8E910'></i>
+                                    <p class="counter-count">14</p>
+                                    <p class="employee-p">OFFICES</p>
+                                </div>
+                            </div>
+                
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="customer">
+                                    <i class='fas fa-truck-loading' style='font-size:48px;color:#F8E910'></i>                                    <p class="counter-count">954</p>
+                                    <p class="customer-p">TONS OF CARGO PER YEAR</p>
+                                </div>
+                            </div>
+                
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="design">
+                                    <i class='fas fa-map-marked-alt' style='font-size:48px;color:#F8E910'></i>
+                                    <p class="counter-count">7</p>
+                                    <p class="design-p">COUNTRIES</p>
+                                </div>
+                            </div>
+                
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
         </div><!-- .page-content.parallax end -->
 
 
 
     @include('rawdhar.partials.ourclients')
         <script>
+
+            $('.counter-count').each(function () {
+                    $(this).prop('Counter',0).animate({
+                        Counter: $(this).text()
+                    }, {
+                        duration: 5000,
+                        easing: 'swing',
+                        step: function (now) {
+                            $(this).text(Math.ceil(now));
+                        }
+                    });
+                });
+
             /* <![CDATA[ */
             jQuery(document).ready(function ($) {
                 'use strict';
@@ -206,6 +270,7 @@
 
                 $(document).ready(equalHeight);
                 $(window).resize(equalHeight);
+            });
 
 
 

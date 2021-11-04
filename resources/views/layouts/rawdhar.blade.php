@@ -20,6 +20,9 @@
         <link rel="stylesheet" href="{{url('/')}}/css/retina.css"/><!-- retina ready styles -->
         <link rel="stylesheet" href="{{url('/')}}/css/responsive.css"/><!-- responsive styles -->
 
+       <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
         <!-- Google Web fonts -->
         <link href='{{url('/')}}/http://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800' rel='stylesheet' type='text/css'>
         <link href='{{url('/')}}/http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,800,700,600' rel='stylesheet' type='text/css'>

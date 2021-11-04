@@ -7,17 +7,17 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1  style="color: yellow">Trucking - Specialized Transportation Services</h1>
+                        <h1  style="color: #F8E910">Trucking - Specialized Transportation Services</h1>
 
                         <div class="breadcrumb-container">
                             <ul class="breadcrumb clearfix">
 
-                                <li  style="color: yellow" >You are here:</li>
+                                <li  style="color: #F8E910" >You are here:</li>
                                 <li>
-                                <a href="{{url('/')}}" style="color: yellow">Home</a>
+                                <a href="{{url('/')}}" style="color: #F8E910">Home</a>
                                 </li>
                                 <li>
-                                <a href="{{route('services')}}" style="color: yellow">Services</a>
+                                <a href="{{route('services')}}" style="color: #F8E910">Services</a>
                                 </li>
                             </ul><!-- .breadcrumb end -->
                         </div><!-- .breadcrumb-container end -->
@@ -123,110 +123,9 @@
             </div><!-- .container end -->
         </div><!-- .page-content end -->
 
-        <div class="page-content custom-bkg bkg-light-blue mb-70">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-full-img">
-                        <img src="img/pics/img33.jpg" alt="trucking"/>
-                    </div><!-- .col-md-6 end -->
+        
 
-                    <div class="col-md-6">
-                        <div class="custom-heading">
-                            <h2>TRUCKING - YOUR LOGISTICS PARTNER</h2>
-                        </div><!-- .custom-heading end -->
-
-                        <p class="text-big">
-                            Welcome, we are Trucking, experienced logistics
-                            company operating in over 150 countries across the
-                            world.
-                        </p>
-
-                        <p>
-                            This is one more option for a homepage. As you can
-                            see there are different styles for each company
-                            size and requirement. You can choose from eight
-                            homepage styles or create your own, the choices
-                            are unlimited. We have investigated this industry
-                            and tried to provide you everything you need in a
-                            website design for a logistics company.
-                        </p>
-                    </div><!-- .col-md-6.custom-col-padding end -->
-                </div><!-- .row end -->
-            </div><!-- .container end -->
-        </div><!-- .page-content end -->
-
-        <div class="page-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-5">
-                        <div class="custom-heading">
-                            <h2>WHY CHOOSE TRUCKING</h2>
-                        </div><!-- .custom-heading end -->
-
-                        <ul class="fa-ul large-icons">
-                            <li>
-                                <div class="icon-container animated triggerAnimation" data-animate="zoomIn">
-                                    <i class="fa fa-check-circle"></i>
-                                </div>
-
-                                <div class="li-content">
-                                    <h3>Fast Worldwide delivery</h3>
-
-                                    <p>
-                                        Quick brown dogs jump over the lazy fox.
-                                        The jay, pig, fox, zebra, and my wolves
-                                        quack! Blowzy red vixens fight for a
-                                        quick jump. Joaquin Phoenix was gazed
-                                        by MTV for luck.
-                                    </p>
-                                </div><!-- .li-content end -->
-                            </li>
-
-                            <li>
-                                <div class="icon-container animated triggerAnimation" data-animate="zoomIn">
-                                    <i class="fa fa-check-circle"></i>
-                                </div>
-
-                                <div class="li-content">
-                                    <h3>End-to-end solution available</h3>
-
-                                    <p>
-                                        Quick brown dogs jump over the lazy fox.
-                                        The jay, pig, fox, zebra, and my wolves
-                                        quack! Blowzy red vixens fight for a
-                                        quick jump. Joaquin Phoenix was gazed
-                                        by MTV for luck.
-                                    </p>
-                                </div><!-- .li-content end -->
-                            </li>
-
-                            <li>
-                                <div class="icon-container animated triggerAnimation" data-animate="zoomIn">
-                                    <i class="fa fa-check-circle"></i>
-                                </div>
-
-                                <div class="li-content">
-                                    <h3>Safety & Compliance</h3>
-
-                                    <p>
-                                        Quick brown dogs jump over the lazy fox.
-                                        The jay, pig, fox, zebra, and my wolves
-                                        quack! Blowzy red vixens fight for a
-                                        quick jump. Joaquin Phoenix was gazed
-                                        by MTV for luck.
-                                    </p>
-                                </div><!-- .li-content end -->
-                            </li>
-                        </ul><!-- .fa-ul .fa-ul-large end -->
-                    </div><!-- .col-md-5 end -->
-
-                    <div class="col-md-7 triggerAnimation animated" data-animate="fadeInRight">
-                        <img src="img/pics/img34.jpg" alt="trucking"/>
-                    </div><!-- .col-md-7 end -->
-                </div><!-- .row end -->
-            </div><!-- .container end -->
-        </div><!-- .page-content end -->
-
+        
        <div class="page-content custom-bkg bkg-grey">
             <div class="container">
                 <div class="row">
@@ -245,7 +144,7 @@
                                 <img src="img/pics/truckimg01.jpg" alt="Trucking"/>
 
                                 <a href="{{route('ground')}}" class="read-more02">
-                                    <span style="color: yellow">
+                                    <span style="color: F8E910">
                                          Read more
                                         <i class="fa fa-chevron-right"></i>
 
@@ -274,7 +173,7 @@
                                 <img src="img/pics/img02.jpg" alt="Trucking"/>
 
                                 <a href="{{route('large_projects')}}" class="read-more02">
-                                    <span style="color: yellow">
+                                    <span style="color: #F8E910">
                                         Read more
                                         <i class="fa fa-chevron-right"></i>
                                     </span>
@@ -306,7 +205,7 @@
                                 <img src="img/pics/img13.jpg" alt="Trucking"/>
 
                                 <a href="{{route('contract_logistics')}}" class="read-more02">
-                                    <span style="color: yellow">
+                                    <span style="color: #F8E910">
                                         Read more
                                         <i class="fa fa-chevron-right"></i>
                                     </span>
@@ -336,7 +235,7 @@
                                 <img src="img/pics/img15.jpg" alt="Trucking"/>
 
                                 <a href="{{route('consulting')}}" class="read-more02">
-                                    <span style="color: yellow">
+                                    <span style="color: #F8E910">
                                         Read more
                                         <i class="fa fa-chevron-right"></i>
                                     </span>

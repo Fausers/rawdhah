@@ -1,7 +1,8 @@
 <x-guest-layout>
     <x-jet-authentication-card>
         <x-slot name="logo">
-            <x-jet-authentication-card-logo />
+            <img style="height: 50px" src="{{url('/')}}/img/LOGO RAMIZ.png" alt="Trucking Transportation and Logistics HTML Template" width="350px"/>
+            <!-- <x-jet-authentication-card-logo /> -->
         </x-slot>
 
         <x-jet-validation-errors class="mb-4" />
