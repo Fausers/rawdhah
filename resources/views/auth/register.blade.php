@@ -1,5 +1,15 @@
-<x-guest-layout>
-    <x-jet-authentication-card>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div style="background-image: url('img/truck/registertruck.jpeg')">
+   
+        
         <x-slot name="logo">
             <x-jet-authentication-card-logo />
         </x-slot>
@@ -9,7 +19,7 @@
         <form method="POST" action="{{ route('register') }}">
             @csrf
 
-            <div>
+            <div >
                 <x-jet-label for="name" value="{{ __('Name') }}" />
                 <x-jet-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" />
             </div>
@@ -56,5 +66,10 @@
                 </x-jet-button>
             </div>
         </form>
-    </x-jet-authentication-card>
-</x-guest-layout>
+        
+   
+    </div>
+
+</body>
+</html>
+    

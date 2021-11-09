@@ -32,16 +32,11 @@
                         </div><!-- .custom-heading.left end -->
 
                         <p>
-                            Cozy sphinx waves quart jug of bad milk. A very bad 
-                            quack might jinx zippy fowls. Few quips galvanized 
-                            the mock jury box. Quick brown dogs jump over the 
-                            lazy fox. The jay, pig, fox, zebra, and my wolves 
-                            quack! Blowzy red vixens fight for a quick jump. 
-                            Joaquin Phoenix was gazed by MTV for luck. A 
-                            wizard’s job is to vex chumps quickly in fog. Watch 
-                            "Jeopardy!", Alex Trebek's fun TV quiz game. 
-                            Woven silk pyjamas exchanged for blue quartz. 
-                            Brawny gods just.
+                            Do you want to improve your overland transport operations? Contact us and we will find the perfect solutions to your overland transport needs!
+                            Want t work with us and know the price of our services. 
+                            Please fill the form below for more information.
+                            We work 24/7 in a week.
+
                         </p>
 
                         <br />

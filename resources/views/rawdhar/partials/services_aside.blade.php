@@ -59,4 +59,4 @@
                                 </a>
                             </li><!-- .widget-text end -->
                         </ul><!-- .aside-widgets end -->
-                    </aside><!-- .aside.aside-left end -->
+</aside><!-- .aside.aside-left end --> 

@@ -137,7 +137,7 @@
 
                             <fieldset>
                                 <label><span class="required">*</span> Type of driver's licence:</label>
-                              <input type="text" list="classes" class="wpcf7-text" id="driver-licence-type" pattern="[A-Za-z]{3}" title="Three letter country" name="licence_type" required>
+                              <input type="text" list="classes" class="wpcf7-text" id="driver-licence-type" name="licence_type" required>
 
                                 <datalist id="classes" name="licence_type">
                                     <option value="A">

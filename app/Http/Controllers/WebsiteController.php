@@ -2,10 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use Image;
+use File;
 use App\Models\Driver;
 use App\Models\Contact;
 use App\Models\Quote;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Validation\ValidationException;
 
 class WebsiteController extends Controller
@@ -18,35 +21,53 @@ class WebsiteController extends Controller
     public function driverapplication(Request $request)
     {
     
-        $drive = Driver::create($request->all());
-
+       
         if($request->hasFile('passport')){
-            $destination_path = 'public/images/passpots';
+            $destination_path = 'public/images/passport';
             $image =$request->file('passport');
             $image_name =$image->getClientOriginalName();
-            $path = $request->file('passport')->storeAs($destination_path,$image_name);
+            $passport_path = $request->file('passport')->storeAs($destination_path,$image_name);
 
             $input['passport']=$image_name;
         }
 
+
+       
         if($request->hasFile('nida')){
-            $destination_path = 'public/images/nida_photos';
+            $destination_path = 'public/images/nida';
             $image =$request->file('nida');
             $image_name =$image->getClientOriginalName();
-            $path = $request->file('nida')->storeAs($destination_path,$image_name);
+            $nida_path = $request->file('nida')->storeAs($destination_path,$image_name);
 
             $input['nida']=$image_name;
         }
+
 
 
         if($request->hasFile('licence')){
             $destination_path = 'public/images/licences';
             $image =$request->file('licence');
             $image_name =$image->getClientOriginalName();
-            $path = $request->file('licence')->storeAs($destination_path,$image_name);
+            $licence_path = $request->file('licence')->storeAs($destination_path,$image_name);
 
             $input['licence']=$image_name;
         }
+
+       // $drive = Driver::create($request->all());
+        $drive =new Driver();
+        $drive->fname = $request->fname;
+        $drive->mname = $request->mname;
+        $drive->lname = $request->lname;
+        $drive->dob = $request->dob;
+        $drive->license_date = $request->license_date;
+        $drive->licence_type= $request->licence_type;
+        $drive->phone_number= $request->phone_number;
+        $drive->e_address = $request->e_address;
+        $drive->year_experience = $request->year_experience;
+        $drive->passport = $passport_path;
+        $drive->nida = $nida_path;
+        $drive->licence = $licence_path;
+        $drive->save();
 
         
 

@@ -31,7 +31,7 @@
        <div class="page-content">
             <div class="container">
                 <div class="row">
-                    @include('rawdhar.partials.services_aside')
+                   
 
                     <div class="col-md-9">
                         <img src="img/pics/img27.jpg" alt=""/>
@@ -43,26 +43,13 @@
                         </div>
 
                         <p>
-                            On the other hand, we denounce with righteous
-                            indignation and dislike men who are so beguiled and
-                            demoralized by the charms of pleasure of the moment,
-                            so blinded by desire, that they cannot foresee the
-                            pain and trouble that are bound to ensue; and equal
-                            blame belongs to those who fail in their duty
-                            through weakness of will, which is the same as
-                            saying through shrinking from toil and pain. These
-                            cases are perfectly simple and easy to distinguish.
-                            In a free hour, when our power of choice is
-                            untrammelled and when nothing prevents our being
-                            able to do what we like best, every pleasure is to
-                            be welcomed and every pain avoided. But in certain
-                            circumstances and owing to the claims of duty or the
-                            obligations of business it will frequently occur
-                            that pleasures have to be repudiated and annoyances
-                            accepted. The wise man therefore always holds in
-                            these matters to this principle of selection: he
-                            rejects pleasures to secure other greater pleasures,
-                            or else he endures pains to avoid worse pains.
+                            Radhwar Haulages Company serves the needs of the Eastern,
+                            Central and Southern of Africa in the field of distribution logistics,
+                            we always find the most cost-efficient solution for you. 
+                            Both your individual requirements of goods and freight distribution,
+                            with efficiency drive contribute by selecting a right means of transport
+                            and the speed of distribution. With our tracking system and modern IT tools,
+                            our customers have a good overview of the freight is at any moment. 
                         </p>
 
                         <br />
@@ -71,15 +58,7 @@
 
                         <h3>Your benefits</h3>
 
-                        <p>
-                            A wonderful serenity has taken possession of my
-                            entire soul, like these sweet mornings of spring
-                            which I enjoy with my whole heart. I am alone,
-                            and feel the charm ofexistence in this spot, which
-                            was created for the bliss of souls like mine.
-                        </p>
-
-                        <br />
+                     
 
                         <img class="float-right" width="360" src="img/pics/img1.jpg" alt=""/>
 
