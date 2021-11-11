@@ -50,7 +50,7 @@
                                     <span class="required">*</span> Your request:
                                 </label>
 
-                                <select class="wpcf7-form-control-wrap wpcf7-select" id="contact-inquiry">
+                                <select class="wpcf7-form-control-wrap wpcf7-select" id="contact-inquiry" name="inquiry">
                                     <option value="I need an offer for contract logistics">I need an offer for contract logistics</option>
                                     <option value="I need an offer for air freight">I need an offer for air freight</option>
                                     <option value="I want to become your partner">I want to become your partner</option>

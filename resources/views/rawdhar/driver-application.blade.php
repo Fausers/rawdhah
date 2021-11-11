@@ -5,16 +5,16 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 style="color: rgb(248,233,16)">Become a part of our team</h1>
+                        <h1 style="color: rgb(184,172,8)">Become a part of our team</h1>
 
                         <div class="breadcrumb-container">
                             <ul class="breadcrumb clearfix">
-                                <li style="color: rgb(248,233,16)">You are here:</li>
+                                <li style="color: rgb(184,172,8)">You are here:</li>
                                 <li>
-                                    <a href="{{url('/')}}" style="color: rgb(248,233,16)">Home</a>
+                                    <a href="{{url('/')}}" style="color: rgb(184,172,8)">Home</a>
                                 </li>
                                 <li>
-                                    <a href="{{route('driver')}}" style="color: rgb(248,233,16)">Online driver application</a>
+                                    <a href="{{route('driver')}}" style="color: rgb(184,172,8)">Online driver application</a>
                                 </li>
                             </ul><!-- .breadcrumb end -->
                         </div><!-- .breadcrumb-container end -->
@@ -28,7 +28,7 @@
                 <div class="row">
                    @include('rawdhar.partials.aside')
 
-                    <div class="col-md-9">
+                    <div class="col-md-10">
                         <div class="custom-heading">
                             <h2>want to become our driver?</h2>
                         </div>
@@ -98,18 +98,18 @@
 
                             <fieldset>
                                 <label><span class="required">*</span> Passport:</label>
-
-                                <input type="file" class="wpcf7-text" id="driver-date-birth" placeholder="mm/dd/yy" name="passport" required>
+                                <input type="file" accept=".pdf" class="wpcf7-text" id="fileId" 
+                                placeholder="mm/dd/yy" name="passport" required>
                             </fieldset> 
                             <fieldset>
                                 <label><span class="required">*</span> NIDA:</label>
 
-                                <input type="file" class="wpcf7-text" id="driver-date-birth" placeholder="mm/dd/yy" name="nida" required>
+                                <input type="file" accept=".pdf" class="wpcf7-text" id="fileId" placeholder="mm/dd/yy" name="nida" required>
                             </fieldset> 
                             <fieldset>
                                 <label><span class="required">*</span> Driver licence:</label>
 
-                                <input type="file" class="wpcf7-text" id="driver-date-birth" placeholder="mm/dd/yy" name="licence" required>
+                                <input type="file" accept=".pdf" class="wpcf7-text" id="fileId" placeholder="mm/dd/yy" name="licence" required>
                             </fieldset>
 
 
@@ -158,12 +158,30 @@
 
                             </fieldset>
                             
-                            <input type="submit" class="wpcf7-submit" value="apply now" style="background-color: rgb(248,233,16)">
+                            <input type="submit" class="wpcf7-submit" value="apply now" style="background-color: #B8AC08">
                         </form><!-- .wpcf7 end -->
                     </div><!-- .col-md-9 end -->
                 </div><!-- .row end -->
 
             </div><!-- .container end -->
         </div><!-- .page-content end -->
+
+        <script>
+            var file = document.getElementById('fileId');
+
+            file.onchange = function(e) {
+            var ext = this.value.match(/\.([^\.]+)$/)[1];
+            switch (ext) {
+               
+                case 'pdf':
+           
+                break;
+                default:
+                alert('Not allowed');
+                this.value = '';
+            }
+            };
+        </script>
+
 
 @endsection

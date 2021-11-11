@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class Driver extends Model
 {
     use HasFactory;
-   // use SoftDeletes;
+    //use SoftDeletes;
 
     protected $fillable =
       [

@@ -1,4 +1,4 @@
- <aside class="col-md-3 aside aside-left">
+ <aside class="col-md-2 aside aside-left">
                         <ul class="aside-widgets">
                             <li class="widget widget_nav_menu clearfix">
                                 <div class="title">

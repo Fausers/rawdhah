@@ -24,14 +24,14 @@
                                     <!-- MAIN NAVIGATION -->
                                     <div class="collapse navbar-collapse" id="myDIV">
                                         <ul class="nav navbar-nav" onclick="myFunction(event)" id="navList">
-                                            <li class="dropdown current-menu-item">
-                                                <a href="{{url('/')}}" class="dropdown-toggle">Home</a>
+                                            <li class="{{Route::is('welcome') ? 'current-menu-item' : null}}">
+                                                <a href="{{url('/')}}">Home</a>
                                             </li>
 
-                                            <li><a href="{{route('about')}}">About</a></li>
-                                            <li><a href="{{route('services')}}">Services</a></li>
-                                            <li><a href="{{route('media')}}">Media</a></li>
-                                            <li><a href="{{route('contact')}}">Contacts</a></li>
+                                            <li class="{{Route::is('about') ? 'current-menu-item' : null}}"><a href="{{route('about')}}">About</a></li>
+                                            <li class="{{Route::is('services') ? 'current-menu-item' : null}}"><a href="{{route('services')}}">Services</a></li>
+                                            <li class="{{Route::is('media') ? 'current-menu-item' : null}}"><a href="{{route('media')}}">Media</a></li>
+                                            <li class="{{Route::is('contact') ? 'current-menu-item' : null}}"><a href="{{route('contact')}}">Contacts</a></li>
 
                                         </ul><!-- .nav.navbar-nav end -->
 
@@ -40,13 +40,13 @@
                                             <button class="dl-trigger">Open Menu</button>
 
                                             <ul class="dl-menu">
-                                                <li>
+                                                <li class="{{Route::is('welcome') ? 'current-menu-item' : null}}">
                                                     <a href="{{url('/')}}">Home</a>
                                                 </li>
-                                                <li><a href="{{route('about')}}/">About</a></li>
-                                                <li><a href="{{route('services')}}">Services</a></li>
-                                                <li><a href="{{route('media')}}">Media</a></li>
-                                                <li><a href="{{route('contact')}}">Contacts</a></li>
+                                                <li class="{{Route::is('about') ? 'current-menu-item' : null}}"><a href="{{route('about')}}/">About</a></li>
+                                                <li class="{{Route::is('services') ? 'current-menu-item' : null}}"><a href="{{route('services')}}">Services</a></li>
+                                                <li class="{{Route::is('media') ? 'current-menu-item' : null}}"><a href="{{route('media')}}">Media</a></li>
+                                                <li class="{{Route::is('contact') ? 'current-menu-item' : null}}"><a href="{{route('contact')}}">Contacts</a></li>
 
                                             </ul><!-- .dl-menu end -->
                                         </div><!-- #dl-menu end -->

@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\WebsiteController;
+use App\Http\Controllers\DashCantroller;
 use Illuminate\Support\Facades\Route;
 use App\Models\Driver;
 
@@ -17,7 +18,7 @@ use App\Models\Driver;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('welcome');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
@@ -25,6 +26,8 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     
     return view('dashboard',compact("drivers"));
 })->name('dashboard');
+
+
 
 
 Route::get('/media', [WebsiteController::class,'media'])->name('media');
@@ -52,3 +55,14 @@ Route::get('/packaging_options', [WebsiteController::class,'packaging'])->name('
 Route::get('/large_projects', [WebsiteController::class,'large_project'])->name('large_projects');
 Route::get('/contract_logistics', [WebsiteController::class,'contract_logistics'])->name('contract_logistics');
 
+
+// Registered and Activated User Routes
+Route::group(['middleware' => ['auth']], function () {
+
+    Route::get('/dash', [DashCantroller::class,'dash'])->name('dash');
+    Route::get('/drivers', [DashCantroller::class,'drivers'])->name('drivers');
+    Route::get('/quotes', [DashCantroller::class,'quotes'])->name('quotes');
+    Route::get('/inquiry', [DashCantroller::class,'inquiry'])->name('inquiry');
+    Route::get('/detail{id}', [DashCantroller::class,'view'])->name('view_driver');
+    
+});
