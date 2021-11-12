@@ -198,7 +198,7 @@
                         </ul><!-- .fa-ul end -->
                     </div><!-- .col-md-4 end -->
 
-                    <div class="col-md-4 col-sm-6 clearfix">
+                   <div class="col-md-4 col-sm-6 clearfix">
                         <div class="custom-heading">
                             <h3>our locations</h3>
                         </div><!-- .custom-heading end -->
@@ -217,7 +217,7 @@
                                 <i class="fa fa-map-marker"></i>
                             </span>
                         </a>
-                    </div><!-- .col-md-4 end -->
+                    </div><!-- .col-md-4 end --> 
 
                     <div class="col-md-4 col-sm-12">
                         <div class="custom-heading">

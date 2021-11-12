@@ -6,15 +6,15 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Contact us</h1>
+                        <h1 style="color: rgb(184,172,8);">Contact us</h1>
 
                         <div class="breadcrumb-container">
                             <ul class="breadcrumb clearfix">
                                 <li>
-                                    <a href="{{url('/')}}//">Home</a>
+                                    <a href="{{url('/')}}//" style="color: rgb(184,172,8);">Home</a>
                                 </li>
                                 <li>
-                                <a href="{{route('contact')}}//">Contacts</a>
+                                <a href="{{route('contact')}}//" style="color: rgb(184,172,8);">Contacts</a>
                                 </li>
                             </ul><!-- .breadcrumb end -->
                         </div><!-- .breadcrumb-container end -->
