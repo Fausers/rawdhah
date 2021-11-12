@@ -34,8 +34,7 @@
     </head>
 
         <div id="main_content">
-
-
+        
         <!--=========================-->
         <!--=        Navbar         =-->
         <!--=========================-->
@@ -59,6 +58,8 @@
         <script src="{{url('/')}}/js/jquery.dlmenu.min.js"></script><!-- for responsive menu -->
         <script src="{{url('/')}}/style-switcher/styleSwitcher.js"></script><!-- styleswitcher script -->
         <script src="{{url('/')}}/js/include.js"></script><!-- custom js functions -->
+
+        
 
         <script>
             /* <![CDATA[ */

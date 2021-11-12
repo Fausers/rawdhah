@@ -163,6 +163,7 @@ section {
 }
 body {
     line-height: 1;
+    font-size: medium;
 }
 blockquote,
 q {
@@ -194,7 +195,7 @@ a:active {
     ========================================================================= */
 body {
     font-family: 'Open Sans', Arial, sans-serif;
-    font-size: 24px;
+    font-size: 74px;
     line-height: 22px;
     color: #777;
     background-color: #fff;
@@ -244,7 +245,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h1{
-    font-size: 40px;
+    font-size: 80px;
     line-height: 30px;
 }
 

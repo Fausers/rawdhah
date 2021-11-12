@@ -123,6 +123,16 @@
             </div><!-- .container end -->
         </div><!-- .page-content end -->
 
+        <script src="{{url('/')}}/js/jquery-2.1.4.min.js"></script><!-- jQuery library -->
+        <script src="{{url('/')}}/js/bootstrap.min.js"></script><!-- .bootstrap script -->
+        <script src="{{url('/')}}/js/jquery.srcipts.min.js"></script><!-- modernizr, retina, stellar for parallax -->  
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script> <!-- google maps -->
+        <script src="{{url('/')}}/js/jquery.ui.map.full.min.js"></script><!-- google maps -->
+        <script src="{{url('/')}}/js/jquery.dlmenu.min.js"></script><!-- for responsive menu -->
+        <script src="{{url('/')}}/style-switcher/styleSwitcher.js"></script><!-- styleswitcher script -->
+        <script src="{{url('/')}}/js/include.js"></script><!-- custom js functions -->
+
+
         <script>
             /* <![CDATA[ */
             jQuery(document).ready(function ($) {
@@ -133,7 +143,7 @@
                 function initialize() {
                     var map;
 
-                    var nottingham = new google.maps.LatLng(52.934658, -1.131450);
+                    var nottingham = new google.maps.LatLng(-6.808338, 39.27533);
 
                     var style = [
                         {"featureType": "road",
