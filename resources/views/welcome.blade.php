@@ -3,11 +3,12 @@
 
     <body>
 
-        <div id="masterslider" class="master-slider ms-skin-default">
+        <div id="masterslider" class="master-slider ms-skin-default" style="height:100%">
             <!-- first slide -->
             <div class="ms-slide">
                 <!-- slide background -->
-                <img src="{{url('/')}}/img/truck/imgtruck.jpeg" data-src="{{url('/')}}/img/truck/imgtruck.jpeg" alt="Video slider"/>
+                <img src="{{url('/')}}/img/truck/imgtruck.jpeg" data-src="{{url('/')}}/img/truck/fronttruck1.jpeg" alt="Video slider"/>
+                
                 
 
                 <video data-autopause="false" data-mute="false" data-loop="true" data-fill-mode="fill" class="ms-slide-bgvideo"
@@ -18,7 +19,7 @@
                 </video>
 
                 <h2 class="ms-layer pi-caption01"
-                    style="left: 58px; top: 420px; color:yellow;"
+                    style="left: 58px; top: 420px; color:rgb(184,172,8);"
                     data-type="text"
                     data-effect="top(short)"
                     data-duration="300"
@@ -39,7 +40,7 @@
                      />
 
                 <p class="ms-layer pi-text"
-                   style="left: 395px; top: 500px; color:yellow;"
+                   style="left: 395px; top: 500px; color:rgb(184,172,8);"
                    data-type="text"
                    data-effect="top(short)"
                    data-duration="300"
@@ -54,10 +55,11 @@
             <div class="ms-slide">
                 <!-- slide background -->
                 <img src="{{url('/')}}/masterslider/blank.gif"
-                     data-src="{{url('/')}}/img/truck/imgtruck.jpeg" alt="Worldwide freight services"/>
+                     data-src="{{url('/')}}/img/truck/fronttruck1.jpeg" alt="Worldwide freight services" style="height: 100%"/>
 
+                     
                 <h2 class="ms-layer pi-caption01"
-                    style="left: 258px; top: 420px; color:yellow;"
+                    style="left: 258px; top: 420px; color:rgb(184,172,8);"
                     data-type="text"
                     data-effect="top(short)"
                     data-duration="300"
@@ -77,7 +79,46 @@
                      />
 
                 <p class="ms-layer pi-text"
-                   style="left: 278px; top: 500px; color: yellow;"
+                   style="left: 278px; top: 500px; color: rgb(184,172,8);"
+                   data-type="text"
+                   data-effect="top(short)"
+                   data-duration="300"
+                   data-hide-effect="fade"
+                   data-delay="300"
+                   >
+                    We got it covered!
+                </p>
+            </div><!-- .ms-slide end -->
+
+             <!-- slide start -->
+             <div class="ms-slide">
+                <!-- slide background -->
+                <img src="{{url('/')}}/masterslider/blank.gif"
+                     data-src="{{url('/')}}/img/truck/fronttruck2.jpeg" alt="Worldwide freight services" style="height: 100%"/>
+
+                     
+                <h2 class="ms-layer pi-caption01"
+                    style="left: 258px; top: 420px; color:rgb(184,172,8);"
+                    data-type="text"
+                    data-effect="top(short)"
+                    data-duration="300"
+                    data-hide-effect="fade"
+                    data-delay="0"
+                    >
+                    Freight services
+                </h2>
+
+                <img class="ms-layer" src="{{url('/')}}/masterslider/blank.gif" data-src="{{url('/')}}/img/accordion-closed.png" alt=""
+                     style="left: 540px; top: 480px;"
+                     data-type="image"
+                     data-effect="bottom(short)"
+                     data-duration="300"
+                     data-hide-effect="fade"
+                     data-delay="100"
+                     />
+
+                <p class="ms-layer pi-text"
+                   style="left: 278px; top: 500px; color: rgb(184,172,8);"
                    data-type="text"
                    data-effect="top(short)"
                    data-duration="300"
@@ -211,8 +252,6 @@
                                     <option value="Industrial Equipment">
                                     <option value="Metals & Coal">
                                     <option value="Retail">
-
-
                                 </datalist>
                             </fieldset>
 
@@ -303,69 +342,12 @@
                     </div><!-- .col-md-7 end -->
                 </div><!-- .row end -->
 
-                <div class="row">
-                    <div class="col-md-4 col-sm-4">
-                        <div class="service-icon-center-boxed">
-                            <div class="service-title">
-                                <div class="icon-container">
-                                    <img src="img/svg/pi-checklist-2.svg" alt=""/>
-                                </div><!-- .icon-container end -->
-
-                                <h4>Contract logistics</h4>
-                            </div><!-- .service-title end -->
-
-                            <p>
-                                Need custom logistic service? We got it covered.
-                    
-                                Fast, safe and accurate shipment provided across East and Southeastern Africa
-                            </p>
-                        </div><!-- .service-icon-center-boxed end -->
-
-                    </div><!-- .col-md-4 end -->
-
-                    <div class="col-md-4 col-sm-4">
-                        <div class="service-icon-center-boxed">
-                            <div class="service-title">
-                                <div class="icon-container">
-                                    <img src="img/svg/pi-truck-8.svg" alt=""/>
-                                </div><!-- .icon-container end -->
-
-                                <h4>Land Transportation</h4>
-                            </div><!-- .service-title end -->
-
-                            <p>
-                                Trucking company offers the best logistics
-                                services using quality trucks. Use our
-                                overland freight solution for
-                                shipment of your goods.
-                            </p>
-                        </div><!-- .service-icon-center-boxed end -->
-                    </div><!-- .col-md-4 end -->
-
-                    <div class="col-md-4 col-sm-4">
-                        <div class="service-icon-center-boxed">
-                            <div class="service-title">
-                                <div class="icon-container">
-                                    <img src="img/svg/pi-forklift-truck-4.svg" alt=""/>
-                                </div><!-- .icon-container end -->
-
-                                <h4>Large Projects</h4>
-                            </div><!-- .service-title end -->
-
-                            <p>
-                                Trucking offers intelligent warehouse solution.
-                                Lower your storage and good maintenance by using
-                                our modern and intelligent warehouses. You can
-                                see all locations on location page.
-                            </p>
-                        </div><!-- .service-icon-center-boxed end -->
-                    </div><!-- .col-md-4 end -->
-                </div><!-- .row end -->
+                
             </div><!-- .container end -->
         </div><!-- .page-content end -->
 
 
-        <div class="page-content parallax parallax01 dark mb-70">
+        <div class="page-content parallax parallax02 dark mb-70">
             <div class="container">
                 <div class="row">
                     <div class="custom-heading02">
@@ -457,11 +439,12 @@
                 </div><!-- .row end -->
             </div><!-- .container end -->
         </div><!-- .page-content.parallax end -->
+        @include('rawdhar.partials.ourclients')
 
         
 
-    @include('rawdhar.partials.ourclients')
+   
+    </body>
 
 
-
-        @endsection
+@endsection
