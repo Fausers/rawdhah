@@ -7,17 +7,17 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1  style="color: #F8E910">Trucking - Specialized Transportation Services</h1>
+                        <h1  style="color: rgb(184,172,8)">Trucking - Specialized Transportation Services</h1>
 
                         <div class="breadcrumb-container">
                             <ul class="breadcrumb clearfix">
 
-                                <li  style="color: #F8E910" >You are here:</li>
+                                <li  style="color: rgb(184,172,8)" >You are here:</li>
                                 <li>
-                                <a href="{{url('/')}}" style="color: #F8E910">Home</a>
+                                <a href="{{url('/')}}" style="color: rgb(184,172,8)">Home</a>
                                 </li>
                                 <li>
-                                <a href="{{route('services')}}" style="color: #F8E910">Services</a>
+                                <a href="{{route('services')}}" style="color: rgb(184,172,8)">Services</a>
                                 </li>
                             </ul><!-- .breadcrumb end -->
                         </div><!-- .breadcrumb-container end -->
