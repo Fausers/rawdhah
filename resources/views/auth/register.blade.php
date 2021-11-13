@@ -1,17 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <div style="background-image: url('img/truck/registertruck.jpeg')">
-   
-        
+<script>
+    window.location.replace("/login");
+</script>
+
+<x-guest-layout>
+    <x-jet-authentication-card>
         <x-slot name="logo">
-            <x-jet-authentication-card-logo />
+            <img style="height: 50px" src="{{url('/')}}/img/LOGO RAMIZ.png" alt="Trucking Transportation and Logistics HTML Template" width="350px"/>
         </x-slot>
 
         <x-jet-validation-errors class="mb-4" />
@@ -66,10 +60,6 @@
                 </x-jet-button>
             </div>
         </form>
-        
-   
-    </div>
+    </x-jet-authentication-card>
+    </x-guest-layout>
 
-</body>
-</html>
-    

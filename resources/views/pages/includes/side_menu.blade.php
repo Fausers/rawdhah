@@ -3,8 +3,8 @@
     <div id="kt_aside_menu" class="aside-menu my-4" data-menu-vertical="1" data-menu-scroll="1" data-menu-dropdown-timeout="500">
         <!--begin::Menu Nav-->
         <ul class="menu-nav">
-            <li class="menu-item {{Request::is('home') ? 'menu-item-active' : null}} " aria-haspopup="true">
-                <a href="{{url('/home')}}" class="menu-link">
+            <li class="menu-item {{Request::is('dash') ? 'menu-item-active' : null}} " aria-haspopup="true">
+                <a href="{{url('/dash')}}" class="menu-link">
                     <span class="svg-icon menu-icon">
                         <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Design/Layers.svg-->
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
