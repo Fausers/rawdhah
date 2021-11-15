@@ -78,6 +78,7 @@
                                 <br />
                                 <ul class="footer-social-icons">
                                     <li><a href="{{url('/')}}/#" class="fa fa-facebook"></a></li>
+                                    <li><a href="#" class="fa fa-instagram"></a></li>
                                     <li><a href="{{url('/')}}/#" class="fa fa-twitter"></a></li>
                                     <li><a href="{{url('/')}}/#" class="fa fa-google-plus"></a></li>
                                 </ul><!-- .footer-social-icons end -->
@@ -95,7 +96,7 @@
                         </div><!-- .col-md-6 end -->
 
                         <div class="col-md-6">
-                            <p class="align-right">DESIGNED AND DEVELOPED BY <a href="{{url('/')}}/www.luxtechtz.com">LuxTechTz.</a></p>
+                            <p class="align-right">DESIGNED AND DEVELOPED BY <a href="https://luxtechtz.com">LuxTechTz.</a></p>
                         </div><!-- .col-md-6 end -->
                     </div><!-- .row end -->
                 </div><!-- .container end -->
