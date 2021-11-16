@@ -78,7 +78,7 @@
                                 <br />
                                 <ul class="footer-social-icons">
                                     <li><a href="{{url('/')}}/#" class="fa fa-facebook"></a></li>
-                                    <li><a href="#" class="fa fa-instagram"></a></li>
+                                    <li><a href="https://www.instagram.com/mourajerry/" class="fa fa-instagram"></a></li>
                                     <li><a href="{{url('/')}}/#" class="fa fa-twitter"></a></li>
                                     <li><a href="{{url('/')}}/#" class="fa fa-google-plus"></a></li>
                                 </ul><!-- .footer-social-icons end -->

@@ -25,6 +25,7 @@ class Driver extends Model
         'passport',
         'nida',
         'licence',
+        'employment_letter'
         ];
 
 

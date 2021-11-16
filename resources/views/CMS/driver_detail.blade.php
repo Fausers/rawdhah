@@ -135,49 +135,49 @@
                         <div class="row justify-content-center py-8 px-8 py-md-10 px-md-0">
                             <div class="col-md-10">
                                 <div class="border-bottom w-100"></div>
-                                <div class="d-flex justify-content-between pt-6">
-                                
-                                    <div class="d-flex flex-column flex-root">
-                                        <span class="font-weight-bolder mb-2">LICENSE ISSUED</span>
-                                        <span class="opacity-70">{{date('d M Y',strtotime($driver->license_date))}}</span>
+                                    <div class="d-flex justify-content-between pt-6">
+                                    
+                                        <div class="d-flex flex-column flex-root">
+                                            <span class="font-weight-bolder mb-2">LICENSE ISSUED</span>
+                                            <span class="opacity-70">{{date('d M Y',strtotime($driver->license_date))}}</span>
+                                                </span>
+                                        </div>
+                                        <div class="d-flex flex-column flex-root">
+                                            <span class="font-weight-bolder mb-2">LICENSE TYPE</span>
+                                                <span class="opacity-70">{{$driver->licence_type}}</span>
                                             </span>
-                                    </div>
-                                    <div class="d-flex flex-column flex-root">
-                                        <span class="font-weight-bolder mb-2">LICENSE TYPE</span>
-                                            <span class="opacity-70">{{$driver->licence_type}}</span>
-                                        </span>
-                                    </div>
-                                    <div class="d-flex flex-column flex-root">
-                                        <span class="font-weight-bolder mb-2">EXPERIENCE YEARS</span>
-                                        <span class="opacity-70">{{$driver->year_experience}}</span>
-                                        </span>
-                                    </div>
-
-                                    <div class="d-flex flex-column flex-root">
-                                        <span class="font-weight-bolder mb-2">PHONE NUMBER</span>
-                                        <span class="opacity-70">{{$driver->phone_number}}</span>
+                                        </div>
+                                        <div class="d-flex flex-column flex-root">
+                                            <span class="font-weight-bolder mb-2">EXPERIENCE YEARS</span>
+                                            <span class="opacity-70">{{$driver->year_experience}}</span>
                                             </span>
-                                    </div>
+                                        </div>
 
-                                    <div class="d-flex flex-column flex-root">
-                                        <span class="font-weight-bolder mb-2">EMAIL</span>
-                                        <span class="opacity-70">{{$driver->e_address}}</span>
-                                            </span>
-                                    </div>
+                                        <div class="d-flex flex-column flex-root">
+                                            <span class="font-weight-bolder mb-2">PHONE NUMBER</span>
+                                            <span class="opacity-70">{{$driver->phone_number}}</span>
+                                                </span>
+                                        </div>
 
+                                        <div class="d-flex flex-column flex-root">
+                                            <span class="font-weight-bolder mb-2">EMAIL</span>
+                                            <span class="opacity-70">{{$driver->e_address}}</span>
+                                                </span>
+                                        </div>
+                                    </div>
                                 </div>
                         </div>
 
 
 
 
-                        <div class="row  py-8 px-8 py-md-10 px-md-0">
-                            <div class="col-md-10">
+                        <div class="row justify-content-center py-8 px-8 py-md-10 px-md-0 centre">
+                            <div class="col-md-9">
                                 <div class="border-bottom w-100"></div>
                                 <div class="d-flex justify-content-between pt-6">
                                     <div class="d-flex flex-column flex-root">
-                                        <span class="font-weight-bolder mb-2">DRIVER's NIDA</span>
-                                        <iframe src="{{url(Storage::url($driver->licence))}}" frameborder="0" height="440"></iframe>
+                                        <span class="font-weight-bolder mb-2">DRIVER's PASSPORT</span>
+                                        <iframe src="{{url(Storage::url($driver->passport))}}" frameborder="0" height="440"></iframe>
                                        
                                        <!--  Modal --> 
                                        <div id="myModal" class="modal">
@@ -189,21 +189,31 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-10">
+                            <div class="col-md-9">
                                 <div class="border-bottom w-100"></div>
                                 <div class="d-flex justify-content-between pt-6">
                                     <div class="d-flex flex-column flex-root">
                                         <span class="font-weight-bolder mb-2">DRIVER's NIDA</span>
-                                        <iframe src="{{url(Storage::url($driver->licence))}}" frameborder="0" height="440"></iframe>
+                                        <iframe src="{{url(Storage::url($driver->nida))}}" frameborder="0" height="440"></iframe>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-10">
+                            <div class="col-md-9">
                                 <div class="border-bottom w-100"></div>
                                 <div class="d-flex justify-content-between pt-6">
                                     <div class="d-flex flex-column flex-root">
-                                        <span class="font-weight-bolder mb-2">DRIVER's NIDA</span>
+                                        <span class="font-weight-bolder mb-2">DRIVER's LICENCE</span>
                                        <iframe src="{{url(Storage::url($driver->licence))}}" frameborder="0" height="440"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-9">
+                                <div class="border-bottom w-100"></div>
+                                <div class="d-flex justify-content-between pt-6">
+                                    <div class="d-flex flex-column flex-root">
+                                        <span class="font-weight-bolder mb-2">DRIVER's LAST EMPLOYMENT LETTER</span>
+                                       <iframe src="{{url(Storage::url($driver->employment_letter))}}" frameborder="0" height="440"></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -217,8 +227,7 @@
                             <div class="col-md-10">
                                 <div class="d-flex justify-content-between">
                                     <a href="mailto:{{$driver->e_address}}" type="button" class="btn btn-primary font-weight-bold" >Accept Driver</a>
-                                    <button type="button" class="btn btn-success font-weight-bold" onclick="window.print();">Confirm Delivery</button>
-                                    <a href="" type="button" class="btn btn-light-primary font-weight-bold">Complete Order</a>
+                                    <a href="" type="button" class="btn btn-light-primary font-weight-bold" onclick="changeText(this)">Recruit Driver</a>
                                 </div>
                             </div>
                         </div>
@@ -254,6 +263,10 @@
         // When the user clicks on <span> (x), close the modal
         span.onclick = function() { 
           modal.style.display = "none";
+        }
+
+        function changeText(id) {
+            id.innerHTML = "Recruited";
         }
         </script>
 

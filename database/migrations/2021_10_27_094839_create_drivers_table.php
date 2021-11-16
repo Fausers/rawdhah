@@ -30,6 +30,8 @@ class CreateDriversTable extends Migration
             $table->string('passport');
             $table->string('nida');
             $table->string('licence');
+            $table->string('employment_letter');
+
         });
     }
 

@@ -51,8 +51,9 @@
                     <th title="Field #3">Destination Zip</th>
 
                     <th >Sector</th>
+                    <th >Company</th>
                     <th >Total Weight</th>
-                    <th >Number of packages</th>
+                    <th >Phone Number</th>
                     <th >Email</th>
                    
                 </tr>
@@ -66,9 +67,10 @@
                         </td>
 
                         
-                        <td>{{$post->sector}}</td>
+                        <td>{{$post->sector}}</td> 
+                        <td>{{$post->company_name}}</td>
                         <td class="text-right">{{$post->total_weight}}Kg</td>
-                        <td class="text-right">{{$post->number_packages}}</td>
+                        <td class="text-right">{{$post->phone_number}}</td>
                         <td>{{$post->email}}</td>
                         
                     </tr>

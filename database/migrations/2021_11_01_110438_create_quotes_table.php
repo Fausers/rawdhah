@@ -20,8 +20,9 @@ class CreateQuotesTable extends Migration
             $table->text('loading_point');
             $table->text('destination_zip');
             $table->text('sector');
+            $table->text('company_name');
             $table->decimal('total_weight', 5,2 );
-            $table->integer('number_packages');
+            $table->integer('phone_number');
             $table->text('email');
 
         });

@@ -2699,7 +2699,7 @@ blockquote{
 .header-style01 + .master-slider{
     margin-top: -185px !important;
     width: 100%;
-    height: 100%;
+    height: 789px !important;
 }
 
 .master-slider .pi-caption01{
@@ -2718,7 +2718,7 @@ blockquote{
 .master-slider{
     margin-bottom: 100% !important;
     width: 100%;
-    height: 100%;
+    height: 789px !important;
 }
 
 .master-slider.mb-0{

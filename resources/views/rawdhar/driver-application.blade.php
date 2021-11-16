@@ -99,19 +99,23 @@
                             <fieldset>
                                 <label><span class="required">*</span> Passport:</label>
                                 <input type="file" accept=".pdf" class="wpcf7-text" id="fileId" 
-                                placeholder="mm/dd/yy" name="passport" required>
+                             name="passport" required>
                             </fieldset> 
                             <fieldset>
                                 <label><span class="required">*</span> NIDA:</label>
 
-                                <input type="file" accept=".pdf" class="wpcf7-text" id="fileId" placeholder="mm/dd/yy" name="nida" required>
+                                <input type="file" accept=".pdf" class="wpcf7-text" id="fileId" " name="nida" required>
                             </fieldset> 
                             <fieldset>
                                 <label><span class="required">*</span> Driver licence:</label>
 
-                                <input type="file" accept=".pdf" class="wpcf7-text" id="fileId" placeholder="mm/dd/yy" name="licence" required>
+                                <input type="file" accept=".pdf" class="wpcf7-text" id="fileId"  name="licence" required>
                             </fieldset>
 
+                            <fieldset>
+                                <label><span class="required">*</span> Last Employment letter:</label>
+                                <input type="file" accept=".pdf" class="wpcf7-text" id="fileId" name="employment_letter" required>
+                            </fieldset> 
 
                              <fieldset>
                                 <label><span class="required">*</span> Driver date of birth:</label>
@@ -158,7 +162,7 @@
 
                             </fieldset>
                             
-                            <input type="submit" class="wpcf7-submit" value="apply now" style="background-color: #B8AC08">
+                            <input onclick="myFunction()" type="submit" class="wpcf7-submit" value="apply now" style="background-color: #B8AC08">
                         </form><!-- .wpcf7 end -->
                     </div><!-- .col-md-9 end -->
                 </div><!-- .row end -->
@@ -181,6 +185,12 @@
                 this.value = '';
             }
             };
+
+            function myFunction() {
+                
+            }
+
+
         </script>
 
 

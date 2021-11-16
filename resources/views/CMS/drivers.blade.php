@@ -37,7 +37,7 @@
                                     <label class="mr-3 mb-0 d-none d-md-block">Status:</label>
                                     <select class="form-control" id="kt_datatable_search_status">
                                         <option value="">All</option>
-                                        <option value="1">Pending</option>
+                                        <option value="1">Recruited</option>
                                         <option value="2">Delivered</option>
                                         <option value="3">Canceled</option>
                                         <option value="4">Success</option>
@@ -46,16 +46,7 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="col-md-4 my-2 my-md-0">
-                                <div class="d-flex align-items-center">
-                                    <label class="mr-3 mb-0 d-none d-md-block">Type:</label>
-                                    <select class="form-control" id="kt_datatable_search_type">
-                                        <option value="">All</option>
-                                        <option value="A">Main Category</option>
-                                        <option value="D">Sub Category</option>
-                                    </select>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                     <div class="col-lg-3 col-xl-4 mt-5 mt-lg-0">

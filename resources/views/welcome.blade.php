@@ -3,13 +3,13 @@
 
     <body>
 
-        <div id="masterslider" class="master-slider ms-skin-default" style="height:100%">
+        <div id="masterslider" class="master-slider ms-skin-default" style="overflow: auto;">
             <!-- first slide -->
-            <div class="ms-slide">
+            <div class="ms-slide" style="height: 798px">
                 <!-- slide background -->
                 <img src="{{url('/')}}/img/truck/imgtruck.jpeg" data-src="{{url('/')}}/img/truck/fronttruck1.jpeg" alt="Video slider"/>
-                
-                
+
+
 
                 <video data-autopause="false" data-mute="false" data-loop="true" data-fill-mode="fill" class="ms-slide-bgvideo"
                        muted="muted" style="left: 0; top:0;">
@@ -57,7 +57,7 @@
                 <img src="{{url('/')}}/masterslider/blank.gif"
                      data-src="{{url('/')}}/img/truck/fronttruck1.jpeg" alt="Worldwide freight services" style="height: 100%"/>
 
-                     
+
                 <h2 class="ms-layer pi-caption01"
                     style="left: 258px; top: 420px; color:rgb(184,172,8);"
                     data-type="text"
@@ -96,7 +96,7 @@
                 <img src="{{url('/')}}/masterslider/blank.gif"
                      data-src="{{url('/')}}/img/truck/fronttruck2.jpeg" alt="Worldwide freight services" style="height: 100%"/>
 
-                     
+
                 <h2 class="ms-layer pi-caption01"
                     style="left: 258px; top: 420px; color:rgb(184,172,8);"
                     data-type="text"
@@ -217,7 +217,7 @@
                                 <i class="fa fa-map-marker"></i>
                             </span>
                         </a>
-                    </div><!-- .col-md-4 end --> 
+                    </div><!-- .col-md-4 end -->
 
                     <div class="col-md-4 col-sm-12">
                         <div class="custom-heading">
@@ -256,13 +256,19 @@
                             </fieldset>
 
                             <fieldset>
+                                <label>Company name</label>
+                                <input type="text" id="tracking-weight" class="wpcf7-text" name="company_name">
+                            </fieldset>
+
+                            <fieldset>
                                 <label>Total weight:</label>
                                 <input type="text" id="tracking-weight" class="wpcf7-text" name="total_weight">
                             </fieldset>
 
+
                             <fieldset>
-                                <label>No. of packages:</label>
-                                <input type="text" id="tracking-packages" class="wpcf7-text" name="number_packages">
+                                <label>Phone number</label>
+                                <input type="text" id="tracking-packages" class="wpcf7-text" name="phone_number">
                             </fieldset>
 
                             <fieldset>
@@ -308,11 +314,11 @@
                                     <h3>End-to-end solution available</h3>
 
                                     <p>
-                                    
+
                                         We are now offering end-to-end solutions
-                                        using ground transportation means from the loading point 
+                                        using ground transportation means from the loading point
                                         to the destination point through trusted routes.
-                    
+
                                     </p>
                                 </div><!-- .li-content end -->
                             </li>
@@ -342,7 +348,7 @@
                     </div><!-- .col-md-7 end -->
                 </div><!-- .row end -->
 
-                
+
             </div><!-- .container end -->
         </div><!-- .page-content end -->
 
@@ -441,9 +447,9 @@
         </div><!-- .page-content.parallax end -->
         @include('rawdhar.partials.ourclients')
 
-        
 
-   
+
+
     </body>
 
 

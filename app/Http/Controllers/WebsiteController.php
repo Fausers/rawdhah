@@ -24,6 +24,9 @@ class WebsiteController extends Controller
        
         if($request->hasFile('passport')){
             $destination_path = 'public/images/passport';
+            if(!file_exists($destination_path))
+                    mkdir($destination_path, 0777,true);
+                    
             $image =$request->file('passport');
             $image_name =$image->getClientOriginalName();
             $passport_path = $request->file('passport')->storeAs($destination_path,$image_name);
@@ -35,6 +38,9 @@ class WebsiteController extends Controller
        
         if($request->hasFile('nida')){
             $destination_path = 'public/images/nida';
+            if(!file_exists($destination_path))
+                    mkdir($destination_path, 0777,true);
+
             $image =$request->file('nida');
             $image_name =$image->getClientOriginalName();
             $nida_path = $request->file('nida')->storeAs($destination_path,$image_name);
@@ -46,12 +52,28 @@ class WebsiteController extends Controller
 
         if($request->hasFile('licence')){
             $destination_path = 'public/images/licences';
+            if(!file_exists($destination_path))
+                    mkdir($destination_path, 0777,true);
+
             $image =$request->file('licence');
             $image_name =$image->getClientOriginalName();
             $licence_path = $request->file('licence')->storeAs($destination_path,$image_name);
 
             $input['licence']=$image_name;
         }
+
+        if($request->hasFile('employment_letter')){
+            $destination_path = 'public/images/letters';
+            if(!file_exists($destination_path))
+                    mkdir($destination_path, 0777,true);
+
+            $image =$request->file('employment_letter');
+            $image_name =$image->getClientOriginalName();
+            $employment_path = $request->file('employment_letter')->storeAs($destination_path,$image_name);
+
+            $input['employment_letter']=$image_name;
+        }
+
 
        // $drive = Driver::create($request->all());
         $drive =new Driver();
@@ -67,11 +89,12 @@ class WebsiteController extends Controller
         $drive->passport = $passport_path;
         $drive->nida = $nida_path;
         $drive->licence = $licence_path;
+        $drive->employment_letter = $employment_path;
         $drive->save();
 
         
 
-        return $drive;
+        return view('welcome');
 
     }
 
@@ -84,7 +107,7 @@ class WebsiteController extends Controller
     {
         $contact_info = Contact::create($request->all());
 
-        return $contact_info;
+        return view('rawdhar.contact');
        
     }
 

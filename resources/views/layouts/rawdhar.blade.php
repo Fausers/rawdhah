@@ -31,10 +31,23 @@
         <link rel="stylesheet" href="{{url('/')}}/icon-fonts/font-awesome-4.3.0/css/font-awesome.min.css"/><!-- Fontawesome icons css -->
 
         <link rel="stylesheet" href="{{url('/')}}/style-switcher/styleSwitcher.css"/><!-- styleswitcher -->
+
+        <style>
+
+        p, li{
+            color: black;
+            font-size: 15px;
+            line-height: 29px;
+        }
+
+        a{
+            font-size: 16px;
+        }
+    </style>
     </head>
 
         <div id="main_content">
-        
+
         <!--=========================-->
         <!--=        Navbar         =-->
         <!--=========================-->
@@ -59,7 +72,7 @@
         <script src="{{url('/')}}/style-switcher/styleSwitcher.js"></script><!-- styleswitcher script -->
         <script src="{{url('/')}}/js/include.js"></script><!-- custom js functions -->
 
-        
+
 
         <script>
             /* <![CDATA[ */

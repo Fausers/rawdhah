@@ -19,6 +19,8 @@ class Quote extends Model
         'total_weight',
         'number_packages',
         'email',
+        'company_name',
+        'phone_number',
     ];
     
 }
