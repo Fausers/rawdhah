@@ -115,7 +115,7 @@
                                 <img src="img/pics/truckimg01.jpg" alt="Trucking"/>
 
                                 <a href="{{route('ground')}}" class="read-more02">
-                                    <span style="color: F8E910">
+                                    <span style="color: #F8E910">
                                          Read more
                                         <i class="fa fa-chevron-right"></i>
 

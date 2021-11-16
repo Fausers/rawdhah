@@ -58,42 +58,17 @@
                                     to do before handling a service to a company.
                                 </p>
 
-                                <p>
-                                    These cases are perfectly simple and easy to
-                                    distinguish. In a free hour, when our power
-                                    of choice is untrammelled and when nothing
-                                    prevents our being able to do what we like
-                                    best, every pleasure is to be welcomed and
-                                    every pain avoided. But in certain
-                                    circumstances and owing to the claims of
-                                    duty or the obligations of business it will
-                                    frequently occur that pleasures have to be
-                                    repudiated and annoyances accepted. The wise
-                                    man therefore always holds in these matters
-                                    to this principle of selection: he rejects
-                                    pleasures to secure other greater pleasures,
-                                    or else he endures pains to avoid worse
-                                    pains.
-                                </p>
+                            
                             </div><!-- .col-md-5 end -->
                         </div><!-- .row end -->
 
                         <div class="row">
                             <div class="col-md-5">
-                                <h3>Efficient supply chain</h3>
+                                <img src="img/pics/img26.jpg" alt=""/>
+                            </div><!-- .col-md-6 end -->
 
-                                <p>
-                                    A wonderful serenity has taken possession
-                                    of my entire soul, like these sweet mornings
-                                    of spring which I enjoy with my whole heart.
-                                    "But I must explain to you how all this
-                                    mistaken idea of denouncing pleasure and
-                                    praising pain was born and I will give you
-                                    a complete account of the system, and
-                                    expound the actual teachings of the great
-                                    explorer of the truth, the master-builder
-                                    of human happiness.
-                                </p>
+                            <div class="col-md-7">
+                                <h3>Your benefits</h3>
 
                                 <ul class="fa-ul">
                                     <li>
@@ -115,51 +90,20 @@
                                         <i class="fa fa-li fa-long-arrow-right"></i>
                                         Safety as top priority in assuring safe work procedures
                                     </li>
-                                </ul><!-- .fa-ul end -->
-                            </div><!-- .col-md-4 end -->
 
-                            <div class="col-md-7 custom-bkg bkg-light-blue">
-                                <div class="custom-heading">
-                                    <h3>your benefits</h3>
-                                </div><!-- .custom-heading end -->
-
-                                <p>
-                                    But in certain circumstances and owing to the
-                                    claims of duty or the obligations of business it
-                                    will frequently occur that pleasures have to be
-                                    repudiated and annoyances accepted. The wise man
-                                    therefore always holds in these matters to this
-                                    principle of selection: he rejects pleasures to
-                                    secure other greater pleasures, or else he endures
-                                    pains to avoid worse pains.
-                                </p>
-
-                                <ul class="fa-ul">
                                     <li>
                                         <i class="fa fa-li fa-long-arrow-right"></i>
-                                        Higher quality service by optimizing transport
-                                        routes, means of transportation and reducing costs
+                                        Investing in technology to provide fast, acurate and cost-effective service
                                     </li>
 
                                     <li>
                                         <i class="fa fa-li fa-long-arrow-right"></i>
-                                        Strong optimized supply chain infrastructure
-                                        that will make a competitive advantage to your business
-                                    </li>
-
-                                    <li>
-                                        <i class="fa fa-li fa-long-arrow-right"></i>
-                                        Synchronized demand and supply which will enable
-                                        easier and more accurate predictions of your
-                                        clients needs
-                                    </li>
-
-                                    <li>
-                                        <i class="fa fa-li fa-long-arrow-right"></i>
-                                        Effective quality measurement and monitoring
-                                        will enable you to reduce costs and optimize your business.
+                                        Living up to highest industry standards
                                     </li>
                                 </ul><!-- .fa-ul end -->
+                                <br />
+
+                                
                             </div><!-- .col-md-6 end -->
                         </div><!-- .row end -->
                 </div><!-- .row end -->
