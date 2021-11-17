@@ -1,6 +1,88 @@
 @extends('layouts.rawdhar')
 @section('content')
 
+
+<style>
+    #myImg {
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    
+    #myImg:hover {opacity: 0.8;}
+    
+    /* The Modal (background) */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 300px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    }
+    
+    /* Modal Content (image) */
+    .modal-content {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 700px;
+    }
+    
+    /* Caption of Modal Image */
+    #caption {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 700px;
+      text-align: center;
+      color: #ccc;
+      padding: 10px 0;
+      height: 150px;
+    }
+    
+    /* Add Animation */
+    .modal-content, #caption {  
+      animation-name: zoom;
+      animation-duration: 0.6s;
+    }
+    
+    @keyframes zoom {
+      from {transform: scale(0.1)} 
+      to {transform: scale(1)}
+    }
+    
+    /* The Close Button */
+    .close {
+      position: absolute;
+      top: 100px;
+      right: 35px;
+      color: #f1f1f1;
+      font-size: 40px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: #bbb;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    /* 100% Image Width on Smaller Screens */
+    @media only screen and (max-width: 700px){
+      .modal-content {
+        width: 100%;
+      }
+    }
+    </style>
+
         <!-- .page-title start -->
         <div class="page-title-style01 page-title-negative-top pt-bkg04">
             <div class="container">
@@ -46,14 +128,15 @@
                         <li class="col-md-3">
                             <figure class="gallery-item-container">                               
                                 <div class="gallery-item">
-                                    <img src="img/pics/img46.jpg" alt=""/>
+                                    <img class="myImages" id="myImg" src="img/pics/img46.jpg" alt=""/>
 
-                                    <div class="hover-mask-container">
-                                        <div class="hover-mask"></div>
-                                        <div class="hover-zoom">
-                                            <a href="img/pics/img46.jpg" class="triggerZoom fa fa-search"></a>
-                                        </div><!-- .hover-details end -->
-                                    </div><!-- .hover-mask-container end -->
+                                   <!-- The Modal -->
+                                <div id="myModal" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img01">
+                                    <div id="caption"></div>
+                                </div>
+  
                                 </div><!-- .service-item end -->
 
                                 <figcaption>
@@ -65,14 +148,17 @@
                         <li class="col-md-3">
                             <figure class="gallery-item-container">                               
                                 <div class="gallery-item">
-                                    <img src="img/pics/img47.jpg" alt=""/>
+                                    <img class="myImages" id="myImg" src="img/pics/img47.jpg" alt=""/>
 
-                                    <div class="hover-mask-container">
-                                        <div class="hover-mask"></div>
-                                        <div class="hover-zoom">
-                                            <a href="img/pics/img47.jpg" class="triggerZoom fa fa-search"></a>
-                                        </div><!-- .hover-details end -->
-                                    </div><!-- .hover-mask-container end -->
+                                    
+                                    <!-- The Modal -->
+                                        
+                                    <div id="myModal" class="modal">
+                                        <span class="close">&times;</span>
+                                        <img class="modal-content" id="img01">
+                                        <div id="caption"></div>
+                                    </div>
+                                    
                                 </div><!-- .service-item end -->
 
                                 <figcaption>
@@ -84,14 +170,15 @@
                         <li class="col-md-3">
                             <figure class="gallery-item-container">                               
                                 <div class="gallery-item">
-                                    <img src="img/pics/img501.jpg" alt=""/>
+                                    <img class="myImages" id="myImg" src="img/pics/img501.jpg" alt=""/>
 
-                                    <div class="hover-mask-container">
-                                        <div class="hover-mask"></div>
-                                        <div class="hover-zoom">
-                                            <a href="img/pics/img501.jpg" class="triggerZoom fa fa-search"></a>
-                                        </div><!-- .hover-details end -->
-                                    </div><!-- .hover-mask-container end -->
+                                   <!-- The Modal -->
+                                        
+                                   <div id="myModal" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img01">
+                                    <div id="caption"></div>
+                                </div>
                                 </div><!-- .service-item end -->
 
                                 <figcaption>
@@ -103,14 +190,14 @@
                         <li class="col-md-3">
                             <figure class="gallery-item-container">                               
                                 <div class="gallery-item">
-                                    <img src="img/pics/img49.jpg" alt=""/>
+                                    <img class="myImages" id="myImg" src="img/pics/img49.jpg" alt=""/>
 
-                                    <div class="hover-mask-container">
-                                        <div class="hover-mask"></div>
-                                        <div class="hover-zoom">
-                                            <a href="img/pics/img49.jpg" class="triggerZoom fa fa-search"></a>
-                                        </div><!-- .hover-details end -->
-                                    </div><!-- .hover-mask-container end -->
+                                    <!-- The Modal -->
+                                        
+                                   <div id="myModal" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img01">
+                                    <div id="caption"></div>
                                 </div><!-- .service-item end -->
 
                                 <figcaption>
@@ -122,14 +209,14 @@
                         <li class="col-md-3">
                             <figure class="gallery-item-container">                               
                                 <div class="gallery-item">
-                                    <img src="img/pics/img52.jpg" alt=""/>
+                                    <img class="myImages" id="myImg" src="img/pics/img52.jpg" alt=""/>
 
-                                    <div class="hover-mask-container">
-                                        <div class="hover-mask"></div>
-                                        <div class="hover-zoom">
-                                            <a href="img/pics/img07.jpg" class="triggerZoom fa fa-search"></a>
-                                        </div><!-- .hover-details end -->
-                                    </div><!-- .hover-mask-container end -->
+                                     <!-- The Modal -->
+                                        
+                                   <div id="myModal" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img01">
+                                    <div id="caption"></div>
                                 </div><!-- .service-item end -->
 
                                 <figcaption>
@@ -141,14 +228,14 @@
                         <li class="col-md-3">
                             <figure class="gallery-item-container">                               
                                 <div class="gallery-item">
-                                    <img src="img/pics/img53.jpg" alt=""/>
+                                    <img class="myImages" id="myImg" src="img/pics/img53.jpg" alt=""/>
 
-                                    <div class="hover-mask-container">
-                                        <div class="hover-mask"></div>
-                                        <div class="hover-zoom">
-                                            <a href="img/pics/img19.jpg" class="triggerZoom fa fa-search"></a>
-                                        </div><!-- .hover-details end -->
-                                    </div><!-- .hover-mask-container end -->
+                                     <!-- The Modal -->
+                                        
+                                   <div id="myModal" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img01">
+                                    <div id="caption"></div>
                                 </div><!-- .service-item end -->
 
                                 <figcaption>
@@ -160,14 +247,14 @@
                         <li class="col-md-3">
                             <figure class="gallery-item-container">                               
                                 <div class="gallery-item">
-                                    <img src="img/pics/img18.jpg" alt=""/>
+                                    <img class="myImages" id="myImg" src="img/pics/img18.jpg" alt=""/>
 
-                                    <div class="hover-mask-container">
-                                        <div class="hover-mask"></div>
-                                        <div class="hover-zoom">
-                                            <a href="img/pics/img18.jpg" class="triggerZoom fa fa-search"></a>
-                                        </div><!-- .hover-details end -->
-                                    </div><!-- .hover-mask-container end -->
+                                     <!-- The Modal -->
+                                        
+                                   <div id="myModal" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img01">
+                                    <div id="caption"></div>
                                 </div><!-- .service-item end -->
 
                                 <figcaption>
@@ -179,14 +266,14 @@
                         <li class="col-md-3">
                             <figure class="gallery-item-container">                               
                                 <div class="gallery-item">
-                                    <img src="img/pics/img20.jpg" alt=""/>
+                                    <img class="myImages" id="myImg" src="img/pics/img20.jpg" alt=""/>
 
-                                    <div class="hover-mask-container">
-                                        <div class="hover-mask"></div>
-                                        <div class="hover-zoom">
-                                            <a href="img/pics/img20.jpg" class="triggerZoom fa fa-search"></a>
-                                        </div><!-- .hover-details end -->
-                                    </div><!-- .hover-mask-container end -->
+                                     <!-- The Modal -->
+                                        
+                                   <div id="myModal" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img01">
+                                    <div id="caption"></div>
                                 </div><!-- .service-item end -->
 
                                 <figcaption>
@@ -198,14 +285,14 @@
                         <li class="col-md-3">
                             <figure class="gallery-item-container">                               
                                 <div class="gallery-item">
-                                    <img src="img/pics/img21.jpg" alt=""/>
+                                    <img class="myImages" id="myImg" src="img/pics/img21.jpg" alt=""/>
 
-                                    <div class="hover-mask-container">
-                                        <div class="hover-mask"></div>
-                                        <div class="hover-zoom">
-                                            <a href="img/pics/img21.jpg" class="triggerZoom fa fa-search"></a>
-                                        </div><!-- .hover-details end -->
-                                    </div><!-- .hover-mask-container end -->
+                                     <!-- The Modal -->
+                                        
+                                   <div id="myModal" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img01">
+                                    <div id="caption"></div>
                                 </div><!-- .service-item end -->
 
                                 <figcaption>
@@ -217,14 +304,14 @@
                         <li class="col-md-3">
                             <figure class="gallery-item-container">                               
                                 <div class="gallery-item">
-                                    <img src="img/pics/img42.jpg" alt=""/>
+                                    <img class="myImages" id="myImg" src="img/pics/img42.jpg" alt=""/>
 
-                                    <div class="hover-mask-container">
-                                        <div class="hover-mask"></div>
-                                        <div class="hover-zoom">
-                                            <a href="img/pics/img42.jpg" class="triggerZoom fa fa-search"></a>
-                                        </div><!-- .hover-details end -->
-                                    </div><!-- .hover-mask-container end -->
+                                     <!-- The Modal -->
+                                        
+                                   <div id="myModal" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img01">
+                                    <div id="caption"></div>
                                 </div><!-- .service-item end -->
 
                                 <figcaption>
@@ -267,6 +354,37 @@
             </div><!-- .container end -->
         </div><!-- .page-content.parallax end -->
 
+        <script>
+           // create references to the modal...
+            var modal = document.getElementById('myModal');
+
+            // to all images -- note I'm using a class!
+            var images = document.getElementsByClassName('myImages');
+
+            // the image in the modal
+            var modalImg = document.getElementById("img01");
+
+            // and the caption in the modal
+            var captionText = document.getElementById("caption");
+
+            // Go through all of the images with our custom class
+            for (var i = 0; i < images.length; i++) {
+            var img = images[i];
+            // and attach our click listener for this image.
+            img.onclick = function(evt) {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            }
+            }
+
+            var span = document.getElementsByClassName("close")[0];
+
+            span.onclick = function() {
+            modal.style.display = "none";
+            }
+        </script>
+            
 
         <script src="js/jquery-2.1.4.min.js"></script><!-- jQuery library -->
         <script src="js/bootstrap.min.js"></script><!-- .bootstrap script -->

@@ -3,7 +3,7 @@
 
     <body>
 
-        <div id="masterslider" class="master-slider ms-skin-default" style="overflow: auto;">
+        <div id="masterslider" class="master-slider ms-skin-default">
             <!-- first slide -->
             <div class="ms-slide" style="height: 798px">
                 <!-- slide background -->
