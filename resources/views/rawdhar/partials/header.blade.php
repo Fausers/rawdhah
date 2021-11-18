@@ -54,12 +54,12 @@
                                         </div><!-- #dl-menu end -->
 
                                         <!-- #search start -->
-                                        <div id="search">
+                                        <!--<div id="search">
                                             <form action="#" method="get">
                                                 <input class="search-submit" type="submit" />
                                                 <input id="m_search" name="s" type="text" placeholder="Type and hit enter..." />
                                             </form>
-                                        </div><!-- #search end -->
+                                        </div>--><!-- #search end -->
                                     </div><!-- MAIN NAVIGATION END -->
                                 </nav><!-- .navbar.navbar-default end -->
                             </div><!-- .col-md-12 end -->
