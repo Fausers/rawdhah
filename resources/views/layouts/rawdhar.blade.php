@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 
+
 <head>
         <title>{{config('app.name')}}</title>
         <meta name="description" content="Trucking is transportation and Logistics website template">
@@ -20,7 +21,7 @@
         <link rel="stylesheet" href="{{url('/')}}/css/retina.css"/><!-- retina ready styles -->
         <link rel="stylesheet" href="{{url('/')}}/css/responsive.css"/><!-- responsive styles -->
 
-       <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
         <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
         <!-- Google Web fonts -->
@@ -81,8 +82,8 @@
                 // MASTER SLIDER START
                 var slider = new MasterSlider();
                 slider.setup('masterslider', {
-                    width: 1140, // slider standard width
-                    height: 854, // slider standard height
+                    width: 1240, // slider standard width
+                    height: 1076, // slider standard height
                     space: 0,
                     speed: 50,
                     layout: "fullwidth",

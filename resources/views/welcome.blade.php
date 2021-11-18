@@ -3,9 +3,10 @@
 
     <body>
 
-        <div id="masterslider" class="master-slider ms-skin-default">
+        <div id="masterslider" class="master-slider ms-skin-default
+        ">
             <!-- first slide -->
-            <div class="ms-slide" style="height: 798px">
+            <div class="ms-slide">
                 <!-- slide background -->
                 <img src="{{url('/')}}/img/truck/imgtruck.jpeg" data-src="{{url('/')}}/img/truck/fronttruck1.jpeg" alt="Video slider"/>
 
@@ -94,10 +95,10 @@
              <div class="ms-slide">
                 <!-- slide background -->
                 <img src="{{url('/')}}/masterslider/blank.gif"
-                     data-src="{{url('/')}}/img/truck/fronttruck2.jpeg" alt="Worldwide freight services" style="height: 100%"/>
+                     data-src="{{url('/')}}/img/truck/fronttruck2.jpeg" alt="Worldwide freight services"/>
 
 
-                <h2 class="ms-layer pi-caption01"
+                <h2 class="ms-layer pi-caption01 center"
                     style="left: 258px; top: 420px; color:rgb(184,172,8);"
                     data-type="text"
                     data-effect="top(short)"
@@ -131,7 +132,7 @@
         </div><!-- #masterslider end -->
 
         <div class="page-content">
-            <div class="container">
+            <div class="container mt-0">
                 <div class="row">
                     <div class="col-md-4 col-sm-6">
                         <div class="custom-heading">
