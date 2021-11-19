@@ -32,20 +32,7 @@
                                     </span>
                                 </div>
                             </div>
-                            <div class="col-md-4 my-2 my-md-0">
-                                <div class="d-flex align-items-center">
-                                    <label class="mr-3 mb-0 d-none d-md-block">Status:</label>
-                                    <select class="form-control" id="kt_datatable_search_status">
-                                        <option value="">All</option>
-                                        <option value="1">Recruited</option>
-                                        <option value="2">Delivered</option>
-                                        <option value="3">Canceled</option>
-                                        <option value="4">Success</option>
-                                        <option value="5">Info</option>
-                                        <option value="6">Danger</option>
-                                    </select>
-                                </div>
-                            </div>
+                            
                             
                         </div>
                     </div>
@@ -84,9 +71,7 @@
                             <a href="{{route('view_driver',[$driver->id])}}" class="btn btn-success btn-xs" >
                                 <i class="fa fa-eye"></i>
                             </a>
-                            <a href="#" class="btn btn-danger btn-xs">
-                                <i class="fa fa-trash"></i>
-                            </a>
+                            
                         </td>
                     </tr>
                 @endforeach

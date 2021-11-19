@@ -53,7 +53,7 @@ class WebsiteController extends Controller
         if($request->hasFile('licence')){
             $destination_path = 'public/images/licences';
             if(!file_exists($destination_path))
-                    mkdir($destination_path, 0777,true);
+                    mkdir($destination_path,true);
 
             $image =$request->file('licence');
             $image_name =$image->getClientOriginalName();
@@ -126,7 +126,7 @@ class WebsiteController extends Controller
     {
         $quote_info = Quote::create($request->all());
 
-        return $quote_info;
+        return view('welcome');
     }
 
     //about company controllers

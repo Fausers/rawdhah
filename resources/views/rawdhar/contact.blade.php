@@ -204,24 +204,7 @@
 
                 google.maps.event.addDomListener(window, 'load', initialize);
 
-                // CONTACT FORM AJAX SUBMIT START
-                $('.wpcf7 .wpcf7-submit').on('click', function (event) {
-                    event.preventDefault();
-                    var inquiry = $('#contact-inquiry option:selected').text();
-                    var name = $('#contact-name').val();
-                    var lastname = $('#contact-last-name').val();
-                    var email = $('#contact-email').val();
-                    var contact_message = $('#contact-message').val();
-                    var form_data = new Array({'inquiry': inquiry, 'name': name, 'last_name': lastname, 'email': email, 'message': contact_message});
-                    $.ajax({
-                        type: 'POST',
-                        url: "contact.php",
-                        data: ({'action': 'contact', 'form_data': form_data})
-                    }).done(function (data) {
-                        alert(data);
-                    });
-                }); // CONTACT FORM AJAX SUBMIT END
-
+                
             });
             /* ]]> */
         </script>
