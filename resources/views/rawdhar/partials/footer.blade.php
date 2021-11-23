@@ -77,8 +77,8 @@
                                 <a href="mailto:rawdharhaulages@gmail.com">rawdharhaulages@gmail.com</a>
                                 <br />
                                 <ul class="footer-social-icons">
-                                    <li><a href="{{url('/')}}/#" class="fa fa-facebook"></a></li>
-                                    <li><a href="https://www.instagram.com/mourajerry/" class="fa fa-instagram"></a></li>
+                                    <li><a target="blank" href="https://www.facebook.com/profile.php?id=100075181208508" class="fa fa-facebook"></a></li>
+                                    <li><a href="https://www.instagram.com/rawdhar_haulages/" class="fa fa-instagram"></a></li>
                                     <li><a href="{{url('/')}}/#" class="fa fa-twitter"></a></li>
                                     <li><a href="{{url('/')}}/#" class="fa fa-google-plus"></a></li>
                                 </ul><!-- .footer-social-icons end -->
