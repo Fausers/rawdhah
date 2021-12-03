@@ -41,7 +41,7 @@ Route::post('/quoteinfo', [WebsiteController::class,'quoteinfo'])->name('quotein
 
 //about company views
 Route::get('/company_events', [WebsiteController::class,'events'])->name('events');
-Route::get('/company_history', [WebsiteController::class,'history'])->name('history');
+Route::get('/company_locations', [WebsiteController::class,'location'])->name('location');
 Route::get('/company_clients', [WebsiteController::class,'clients'])->name('clients');
 
 

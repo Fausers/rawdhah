@@ -212,7 +212,7 @@
                             Rawdhar Haulages,covers East and Southeastern Africa countries.
                         </p>
 
-                        <a class="read-more" href="locations.html">
+                        <a class="read-more" href="{{route('location')}}">
                             <span>
                                 view all locations
                                 <i class="fa fa-map-marker"></i>

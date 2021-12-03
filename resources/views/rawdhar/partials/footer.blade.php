@@ -78,9 +78,9 @@
                                 <br />
                                 <ul class="footer-social-icons">
                                     <li><a target="blank" href="https://www.facebook.com/profile.php?id=100075181208508" class="fa fa-facebook"></a></li>
-                                    <li><a href="https://www.instagram.com/rawdhar_haulages/" class="fa fa-instagram"></a></li>
-                                    <li><a href="{{url('/')}}/#" class="fa fa-twitter"></a></li>
-                                    <li><a href="{{url('/')}}/#" class="fa fa-google-plus"></a></li>
+                                    <li><a target="blank" href="https://www.instagram.com/rawdhar_haulages/" class="fa fa-instagram"></a></li>
+                                    <li><a target="blank" href="https://www.twitter.com/RHaulages" class="fa fa-twitter"></a></li>
+                                    
                                 </ul><!-- .footer-social-icons end -->
                             </li><!-- .widget.widget-text end -->
                         </ul><!-- .col-md-3.footer-widget-container end -->
@@ -92,7 +92,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <p>TRUCKING 2015. All RIGHTS RESERVED.</p>
+                            <p>RAWDHAR HAULAGES 2019. All RIGHTS RESERVED.</p>
                         </div><!-- .col-md-6 end -->
 
                         <div class="col-md-6">

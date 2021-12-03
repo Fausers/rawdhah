@@ -147,9 +147,9 @@ class WebsiteController extends Controller
     }
 
 
-    public function history()
+    public function location()
     {
-        return view('rawdhar.history');
+        return view('rawdhar.locations');
     }
 
     //services controllers
