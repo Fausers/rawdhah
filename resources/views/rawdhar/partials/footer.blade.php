@@ -64,17 +64,17 @@
                                 </div>
 
                                 <address>
-                                   NHC HOUSE SAMORA AVENUE, <br />
+                                   TABATA, KINYEREZI<br />
                                    P.O.BOX 4872, <br />
                                    Dar es Salaam, Tanzania
                                 </address>
 
                                 <span class="text-big">
-                                    +255 623 696 105
+                                    +255 656 699 886
                                 </span>
                                 <br />
 
-                                <a href="mailto:rawdharhaulages@gmail.com">rawdharhaulages@gmail.com</a>
+                                <a href="mailto:info@rawdhar.com">info@rawdhar.com</a>
                                 <br />
                                 <ul class="footer-social-icons">
                                     <li><a target="blank" href="https://www.facebook.com/profile.php?id=100075181208508" class="fa fa-facebook"></a></li>
