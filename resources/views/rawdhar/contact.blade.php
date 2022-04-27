@@ -112,8 +112,8 @@
                             Dar es Salaam, Tanzania
                         </address>
 
-                        <span class="text-big colored">
-                            +255 763 926 891
+                        <span >
+                            <a class="text-big colored" href="tel: +255763926891">+255 763 926 891</a>
                         </span>
                         <br />
 
