@@ -33,7 +33,7 @@
 
                         <p>
                             Do you want to improve your overland transport operations? Contact us and we will find the perfect solutions to your overland transport needs!
-                            Want t work with us and know the price of our services. 
+                            Want t work with us and know the price of our services.
                             Please fill the form below for more information.
                             We work 24/7 in a week.
 
@@ -100,7 +100,7 @@
                         </div><!-- .custom-heading end -->
 
                         <div id="map"></div>
-                        
+
 
                         <div class="custom-heading">
                             <h4>company information</h4>
@@ -113,7 +113,7 @@
                         </address>
 
                         <span class="text-big colored">
-                            +255 623 696 105
+                            +255 763 926 891
                         </span>
                         <br />
 
@@ -125,7 +125,7 @@
 
         <script src="{{url('/')}}/js/jquery-2.1.4.min.js"></script><!-- jQuery library -->
         <script src="{{url('/')}}/js/bootstrap.min.js"></script><!-- .bootstrap script -->
-        <script src="{{url('/')}}/js/jquery.srcipts.min.js"></script><!-- modernizr, retina, stellar for parallax -->  
+        <script src="{{url('/')}}/js/jquery.srcipts.min.js"></script><!-- modernizr, retina, stellar for parallax -->
         <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script> <!-- google maps -->
         <script src="{{url('/')}}/js/jquery.ui.map.full.min.js"></script><!-- google maps -->
         <script src="{{url('/')}}/js/jquery.dlmenu.min.js"></script><!-- for responsive menu -->
@@ -204,7 +204,7 @@
 
                 google.maps.event.addDomListener(window, 'load', initialize);
 
-                
+
             });
             /* ]]> */
         </script>
