@@ -126,7 +126,7 @@
         <script src="{{url('/')}}/js/jquery-2.1.4.min.js"></script><!-- jQuery library -->
         <script src="{{url('/')}}/js/bootstrap.min.js"></script><!-- .bootstrap script -->
         <script src="{{url('/')}}/js/jquery.srcipts.min.js"></script><!-- modernizr, retina, stellar for parallax -->
-        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script> <!-- google maps -->
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false&key=AIzaSyAmyi8IIAUbw83uJbivHtqtf29cASvkpq4"></script> <!-- google maps -->
         <script src="{{url('/')}}/js/jquery.ui.map.full.min.js"></script><!-- google maps -->
         <script src="{{url('/')}}/js/jquery.dlmenu.min.js"></script><!-- for responsive menu -->
         <script src="{{url('/')}}/style-switcher/styleSwitcher.js"></script><!-- styleswitcher script -->
@@ -143,7 +143,7 @@
                 function initialize() {
                     var map;
 
-                    var nottingham = new google.maps.LatLng(-6.808338, 39.27533);
+                    var nottingham = new google.maps.LatLng(-6.818687, 39.287025);
 
                     var style = [
                         {"featureType": "road",
@@ -167,7 +167,7 @@
                         center: nottingham,
                         // SET THE MAP STYLE & ZOOM LEVEL
                         mapTypeId: google.maps.MapTypeId.ROADMAP,
-                        zoom: 9,
+                        zoom: 15,
                         // SET THE BACKGROUND COLOUR
                         backgroundColor: "#eeeeee",
                         // REMOVE ALL THE CONTROLS EXCEPT ZOOM
@@ -198,7 +198,7 @@
                         position: nottingham,
                         map: map,
                         icon: pinIcon,
-                        title: 'Trucking Headquarters, Nothingham'
+                        title: 'Rawdhar Haulages'
                     });
                 }
 
