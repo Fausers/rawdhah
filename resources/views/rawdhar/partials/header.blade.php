@@ -16,9 +16,9 @@
                                     <div class="navbar-header">
                                         <div class="logo">
                                             <a href="{{url('/')}}">
-                                                <img style="height: 90px"
-                                                src="{{url('/')}}/img/LOGO RAMIZ.png" 
-                                                alt=""/>
+                                                <img style="height: 70px; padding-bottom: 7px"
+                                                src="{{url('/')}}/img/LOGO RAMIZ.png"
+                                                alt="Rawdhar Logo"/>
                                             </a>
                                         </div><!-- .logo end -->
                                     </div><!-- .navbar-header start -->

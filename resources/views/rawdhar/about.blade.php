@@ -51,18 +51,18 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 style="color: rgb(184,172,8);">Trucking - Global Logistics Solutions</h1>
+                        <h1 style="color: gold;">Trucking - Global Logistics Solutions</h1>
 
                         <div class="breadcrumb-container">
                             <ul class="breadcrumb clearfix">
-                                <li style="color: rgb(184,172,8);">You are here:</li>
+                                <li style="color: gold;">You are here:</li>
 
                                 <li>
-                                    <a href="{{url('/')}}" style="color: rgb(184,172,8);">Home</a>
+                                    <a href="{{url('/')}}" style="color: gold;">Home</a>
                                 </li>
 
                                 <li>
-                                    <a href="{{route('about')}}" style="color: rgb(184,172,8);">About</a>
+                                    <a href="{{route('about')}}" style="color: gold;">About</a>
                                 </li>
 
                             </ul><!-- .breadcrumb end -->
@@ -94,7 +94,7 @@
                         world. We perfectly understand every unique logistic need of
                         different clients and make sure that perfect service is delivered to
                         you.
-                            
+
                         </p>
                     </div><!-- .col-md-6 end -->
 
@@ -112,7 +112,7 @@
 
                     <div class="col-md-12">
                         <div class="custom-heading centered">
-                          <h2 style="color: rgb(184,172,8);">our mission</h2>
+                          <h2 style="color: gold;">our mission</h2>
                         </div><!-- .custom-heading end -->
                         <div class="col-md-push-12 text-center">
                             <p>
@@ -151,7 +151,7 @@
                             <h4>Fast Movement</h4>
 
                             <p>
-                                Cargo deliver at time with insured safety and security. 
+                                Cargo deliver at time with insured safety and security.
                             </p>
                         </div><!-- .service-icon-center end -->
                     </div><!-- .col-md-3 end -->
@@ -179,7 +179,7 @@
                             <h4>Safety & Quality</h4>
 
                             <p>
-                            We ensure safety to your Cargo through use of quality equipments and 
+                            We ensure safety to your Cargo through use of quality equipments and
                                 with skilled drivers.
                             </p>
                         </div><!-- .service-icon-center end -->
@@ -211,30 +211,30 @@
                         <div class="call-to-action clearfix">
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                 <div class="employees">
-                                    <i class='fas fa-globe-africa' style='font-size:48px;color:rgb(184,172,8)'></i>
+                                    <i class='fas fa-globe-africa' style='font-size:48px;color:gold'></i>
                                     <p class="counter-count">14</p>
                                     <p class="employee-p">OFFICES</p>
                                 </div>
                             </div>
-                
+
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                 <div class="customer">
-                                    <i class='fas fa-truck-loading' style='font-size:48px;color:rgb(184,172,8)'></i>                                    <p class="counter-count">954</p>
+                                    <i class='fas fa-truck-loading' style='font-size:48px;color:gold'></i>                                    <p class="counter-count">954</p>
                                     <p class="customer-p">TONS OF CARGO PER YEAR</p>
                                 </div>
                             </div>
-                
+
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                 <div class="design">
-                                    <i class='fas fa-map-marked-alt' style='font-size:48px;color:rgb(184,172,8)'></i>
+                                    <i class='fas fa-map-marked-alt' style='font-size:48px;color:gold'></i>
                                     <p class="counter-count">7</p>
                                     <p class="design-p">COUNTRIES</p>
                                 </div>
                             </div>
-                
-                            
+
+
                         </div>
-                        
+
                     </div>
                 </div>
             </div>

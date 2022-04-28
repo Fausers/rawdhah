@@ -7,17 +7,17 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1  style="color: rgb(184,172,8)">Trucking - Specialized Transportation Services</h1>
+                        <h1  style="color: gold">Trucking - Specialized Transportation Services</h1>
 
                         <div class="breadcrumb-container">
                             <ul class="breadcrumb clearfix">
 
-                                <li  style="color: rgb(184,172,8)" >You are here:</li>
+                                <li  style="color: gold" >You are here:</li>
                                 <li>
-                                <a href="{{url('/')}}" style="color: rgb(184,172,8)">Home</a>
+                                <a href="{{url('/')}}" style="color: gold">Home</a>
                                 </li>
                                 <li>
-                                <a href="{{route('services')}}" style="color: rgb(184,172,8)">Services</a>
+                                <a href="{{route('services')}}" style="color: gold">Services</a>
                                 </li>
                             </ul><!-- .breadcrumb end -->
                         </div><!-- .breadcrumb-container end -->
@@ -34,23 +34,23 @@
                             <h2>INTERNATIONAL LOGISTICS & TRANSPORTATION</h2>
                         </div><!-- .custom-heading end -->
                         <p>
-                            
+
                             Observing the future with Rawdhar, as an International
-                            Logistics company we continuing to make significant 
-                            investments in upgrading their technological platforms, 
+                            Logistics company we continuing to make significant
+                            investments in upgrading their technological platforms,
                             by matching the needs of shippers with specialized
-                            capabilities of carriers. The major motivations 
+                            capabilities of carriers. The major motivations
                             for the adoption of new technologies continue to
-                            be a need to increase efficiency and lower costs 
+                            be a need to increase efficiency and lower costs
                             despite the growing demands of customers for higher
-                            levels of customer service.  
+                            levels of customer service.
                         </p>
 
                         <p>
-                            We move goods of all kinds from Health products, 
+                            We move goods of all kinds from Health products,
                             Automotive, Chemicals, Electronics, Building Materials,
                             Consumer good, Foods, Beverages, Industrial Equipment’s,
-                            Retails, Metals and Coals. 
+                            Retails, Metals and Coals.
                         </p>
 
                         <ul class="fa-ul">
@@ -89,14 +89,14 @@
 
                     </div><!-- .col-md-8 end -->
 
-                   
+
                 </div><!-- .row end -->
             </div><!-- .container end -->
         </div><!-- .page-content end -->
 
-        
 
-        
+
+
        <div class="page-content custom-bkg bkg-grey">
             <div class="container">
                 <div class="row">

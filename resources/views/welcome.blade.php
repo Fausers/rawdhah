@@ -20,7 +20,7 @@
                 </video>
 
                 <h2 class="ms-layer pi-caption01"
-                    style="left: 58px; top: 420px; color:rgb(184,172,8);"
+                    style="left: 58px; top: 420px; color:gold;"
                     data-type="text"
                     data-effect="top(short)"
                     data-duration="300"
@@ -41,7 +41,7 @@
                      />
 
                 <p class="ms-layer pi-text"
-                   style="left: 395px; top: 500px; color:rgb(184,172,8);"
+                   style="left: 395px; top: 500px; color:gold;"
                    data-type="text"
                    data-effect="top(short)"
                    data-duration="300"
@@ -60,7 +60,7 @@
 
 
                 <h2 class="ms-layer pi-caption01"
-                    style="left: 258px; top: 420px; color:rgb(184,172,8);"
+                    style="left: 258px; top: 420px; color:gold;"
                     data-type="text"
                     data-effect="top(short)"
                     data-duration="300"
@@ -80,7 +80,7 @@
                      />
 
                 <p class="ms-layer pi-text"
-                   style="left: 278px; top: 500px; color: rgb(184,172,8);"
+                   style="left: 278px; top: 500px; color: gold;"
                    data-type="text"
                    data-effect="top(short)"
                    data-duration="300"
@@ -99,7 +99,7 @@
 
 
                 <h2 class="ms-layer pi-caption01 center"
-                    style="left: 258px; top: 420px; color:rgb(184,172,8);"
+                    style="left: 258px; top: 420px; color:gold;"
                     data-type="text"
                     data-effect="top(short)"
                     data-duration="300"
@@ -119,7 +119,7 @@
                      />
 
                 <p class="ms-layer pi-text"
-                   style="left: 278px; top: 500px; color: rgb(184,172,8);"
+                   style="left: 278px; top: 500px; color: gold;"
                    data-type="text"
                    data-effect="top(short)"
                    data-duration="300"

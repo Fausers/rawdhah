@@ -70,7 +70,7 @@
                                 </address>
 
                                 <span class="text-big">
-                                    +255 656 699 886
+                                    <a class="text-big colored" href="tel: +255763926891">+255 763 926 891</a>
                                 </span>
                                 <br />
 
@@ -80,7 +80,7 @@
                                     <li><a target="blank" href="https://www.facebook.com/profile.php?id=100075181208508" class="fa fa-facebook"></a></li>
                                     <li><a target="blank" href="https://www.instagram.com/rawdhar_haulages/" class="fa fa-instagram"></a></li>
                                     <li><a target="blank" href="https://www.twitter.com/RHaulages" class="fa fa-twitter"></a></li>
-                                    
+
                                 </ul><!-- .footer-social-icons end -->
                             </li><!-- .widget.widget-text end -->
                         </ul><!-- .col-md-3.footer-widget-container end -->
