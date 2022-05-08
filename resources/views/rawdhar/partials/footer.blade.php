@@ -64,7 +64,7 @@
                                 </div>
 
                                 <address>
-                                   TABATA, KINYEREZI<br />
+                                   TABATA, RELINI<br />
                                    P.O.BOX 4872, <br />
                                    Dar es Salaam, Tanzania
                                 </address>

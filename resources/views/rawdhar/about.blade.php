@@ -212,14 +212,14 @@
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                 <div class="employees">
                                     <i class='fas fa-globe-africa' style='font-size:48px;color:gold'></i>
-                                    <p class="counter-count">14</p>
+                                    <p class="counter-count">2</p>
                                     <p class="employee-p">OFFICES</p>
                                 </div>
                             </div>
 
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                 <div class="customer">
-                                    <i class='fas fa-truck-loading' style='font-size:48px;color:gold'></i>                                    <p class="counter-count">954</p>
+                                    <i class='fas fa-truck-loading' style='font-size:48px;color:gold'></i>                                    <p class="counter-count">10000</p>
                                     <p class="customer-p">TONS OF CARGO PER YEAR</p>
                                 </div>
                             </div>

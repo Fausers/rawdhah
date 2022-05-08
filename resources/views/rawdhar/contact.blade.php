@@ -107,6 +107,7 @@
                         </div><!-- .custom-heading end -->
 
                         <address>
+                            <strong> HEAD OFFICE </br> </strong>
                             NHC HOUSE SAMORA AVENUE,<br/>
                             P.O.BOX 4872,<br/>
                             Dar es Salaam, Tanzania
